@@ -1,0 +1,17 @@
+{% capture html %}
+<div class="strategy-subnavigation row row-80" style="margin-top: 50px;">
+    {% assign entries = site.pages %}
+    {% for entry in entries %}
+      {% capture slug %}{{ entry.url | split: "/" | last }}{% endcapture %}
+      {% capture current %}{{ entry.url | remove: slug | remove: "//" | append: "/" }}{% endcapture %}
+      {% if current == include.context and entry.url != page.url %}
+      <div class="col-sm-4">
+        <a href="{{ site.baseurl }}{{ entry.url }}" class="indexing-button">
+          <div class="justify-content-center"><span class="title">{{ entry.title | capitalize }}</span></div>
+        </a>
+      </div>
+      {% endif %}
+    {% endfor %}
+</div>
+{% endcapture %}
+{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}

@@ -1,0 +1,118 @@
+
+{% capture search-tags %}
+
+{% if page.tags %}
+  {% assign tags = page.tags %}
+{% elsif section.tags %}
+  {% assign tags = section.tags %}
+{% elsif document.tags %}
+  {% assign tags = document.tags %}
+{% elsif item.tags %}
+  {% assign tags = item.tags %}
+{% endif %}
+
+
+{% if page.tags %}
+  {% assign tags = page.tags %}
+<ul class="search-tags">
+{% assign tags_list = tags %}
+  {% if tags_list.first[0] == null %}
+    {% for tag in tags_list %}
+      <li class="">{{ tag }} <span>{{ tags[tag].size }}</span></li>
+    {% endfor %}
+  {% else %}
+    {% for tag in tags_list %}
+    <li class="">{{ tag }} <span>{{ tags[tag].size }}</span></li>
+    {% endfor %}
+  {% endif %}
+{% assign tags_list = nil %}
+</ul>
+{% endif %}
+
+
+
+{% if section.tags %}
+{% assign tags = section.tags %}
+<p class="section-tags">
+  {{ tags | add: ", " }}
+</p>
+{% endif %}
+
+
+{% if section.tags %}
+{% assign tags = section.tags %}
+{% elsif page.tags %}
+{% assign tags = page.tags %}
+{% endif %}
+{% if tags %}
+<p class="section-tags nav nav-tabs">
+  {{ tags | array_to_sentence_string }}
+</p>
+{% endif %}
+
+{% if section.theme %}
+{% assign themes = section.theme %}
+{% elsif page.theme %}
+{% assign themes = page.theme %}
+{% endif %}
+{% if themes %}
+<p class="section-themes nav nav-tabs">
+  {{ themes | array_to_sentence_string }}
+</p>
+{% endif %}
+
+
+
+if document tags add meta on document
+
+if item tags add meta on item - generic
+
+
+
+
+
+<h3 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h3>
+  <ul class="inline">
+  {% assign pages_list = tag[1] %}
+  {% for post in pages_list %}
+    {% if post.title != null %}
+    {% if group == null or group == post.group %}
+    <li><a href="{{ site.url }}{{ post.url }}" >{{ post.title }}</a>&nbsp;&nbsp;&nbsp;<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></li>
+    {% endif %}
+    {% endif %}
+  {% endfor %}
+  {% assign pages_list = nil %}
+  {% assign group = nil %}
+  </ul>
+
+
+
+
+{% if page.theme %}
+  {% assign theme = page.theme %}
+{% elsif section.theme %}
+  {% assign theme = section.theme %}
+{% elsif document.theme %}
+  {% assign theme = document.theme %}
+{% elsif item.theme %}
+  {% assign theme = item.theme %}
+{% endif %}
+
+
+{% if theme %}
+<ul class="content-theme">
+{% assign theme_list = theme %}
+  {% if theme_list.first[0] == null %}
+    {% for theme in theme_list %}
+      <li class="">{{ theme }} <span>{{ theme[tag].size }}</span></li>
+    {% endfor %}
+  {% else %}
+    {% for theme in theme_list %}
+    <li class="">{{ theme }} <span>{{ theme[tag].size }}</span></li>
+    {% endfor %}
+  {% endif %}
+{% assign theme_list = nil %}
+</ul>
+{% endif %}
+
+{% endcapture %}{{ search-tags | strip_newlines }}

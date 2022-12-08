@@ -1,0 +1,10 @@
+<div id="principle-grid" class="row">
+  {% for item in site.data.guiding-principles %}
+    <div class="principle-box container box{{ item.number }} col-md-4 col-lg-3 {% if item.classes %}{{item.classes}}{% endif %}" {% if item.image %} style="background: url('/{{ item.image }}') no-repeat center center; background-size: cover;"{% endif %}>
+    {% if item.number %}
+      <p class="principle-number">{{ item.number }}</p>
+      <p class="principle-text">{{ item.description }}</p>
+    {% endif %}
+    </div>
+  {% endfor %}
+</div>

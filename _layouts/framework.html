@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+{% if site.draft %}
+{% include draft-banner.html %}
+{% endif %}
+<body id="landing">
+  {% include flash.html %}
+  {% include header.html %}
+  <div id="content" class="{{ page.layout }} contained">
+    <section class="page-header page-header orange">
+      <div class=" d-flex align-items-center justify-content-center container-fluid">
+        <div class="setion-header">
+          <h1 id="framework-title" class="title">Plan Framework</h1>
+        </div>
+        <div class="content section-content">
+          {% include breadcrumb.html context = page.url %}
+        </div>
+      </div>
+    </section>
+
+    {% include coming-soon-framework.html %}
+    
+    <section class="container">
+      <div class="container-fluid">
+        {% include framework-tab-nav.html %}
+
+        <div id="{{page.image-id}}"  class="interactive-section">
+          {% if page.subtitle %}
+          <h2>{{page.subtitle}}</h2>
+          {% endif %}
+          {% if state == 'coming soon' %}
+          <div id="coming-soon" class="coming-soon text-left">
+              <div class="container-fluid p-0">
+              <div class="section-header">
+                <h3 class="title mt-4"><em>Details Coming Soon</em></h3>
+              </div>
+              <div class="content section-content" >
+              </div>
+              </div>
+            </div>
+            
+            <style>
+            #coming-soon, #coming-soon h1, #coming-soon p, #coming-soon h2, #coming-soon h3, #coming-soon h4, #coming-soon h5, #coming-soon i, #coming-soon .row, #coming-soon p {color: inherit;}
+            </style>
+        {% else %}<!-- //coming soon -->
+          {% if page.introduction_content %}
+          {{ page.introduction_content }}
+          {% endif %}
+          {% if page.map_url_path %}
+          <div class="interactive-container">
+            {% if page.hotspots %}
+            {% assign hotspots = page.hotspots %}
+            {% for hotspot in hotspots %}
+            <a tabindex="0"  style="top: {{hotspot.y-pos}}%; left: {{ hotspot.x-pos }}%" class="btn hotspot spot{{forloop.index}}" role="button" data-placement="right" data-toggle="popover" data-trigger="click" title="{{hotspot.title}} <button type='button' id='close' class='close' onclick='$(&quot;.spot{{forloop.index}}&quot;).popover(&quot;hide&quot;);'>&times;</button>" {% if hotspot.content %}data-content="<p>{{ hotspot.content }}</p><br>{% if hotspot.link-text %}<a href='/plan-framework/focus-area/#area-{{forloop.index}}'>{{hotspot.link-text}}</a>{% endif %}"{% endif %}><span class="fa fa-bullseye"></span></a>
+            {% endfor %}
+            {% endif %}
+            {% if page.konveio_embed %}
+            <div class="konveio">
+              {{ page.konveio_embed }}
+            </div>
+            {% else %}
+            <div class="text-center">
+              <img class="mt-4" data-src="{{page.map_url_path}}" alt="image {{ site.subarea-name }}">
+            </div>
+            {% endif %}
+            {% if page.map_highres_path %}
+            <div class="framework-buttons mt-4">
+              <!-- <a href="{{page.map_highres_path}}" class="btn btn-secondary btn-sm" target="_blank">View Full Size</a> -->
+              <a href="{{page.map_highres_path}}" class="btn btn-secondary btn-sm" download ><i class="fa fa-download "></i>Download Map</a>
+            </div>
+            {% endif %}
+          </div>
+          {% endif %}
+        </div>
+
+
+        <div class="framework-docs-container">
+          {% if page.document_path %}
+          <p>
+            &nbsp;
+          </p>
+          <div class="">
+            <h3>View and Download {{ page.title }} PDF</h3>
+          </div>
+          <div id="documents" class="row mt-1">
+            <div class="col-sm-6 mt-4">
+              {% if page.document_thumb_path != blank %}
+              <div class="doc-image" style="padding-right: 30px;">
+                {% if page.document_path != blank %}
+                <a href="{{ page.document_path }}" target="_blank">
+                {% endif %}
+                <img style="max-height:300px;" src="{{ page.document_thumb_path }}"/>
+                {% if page.document_path != blank %}
+                </a>
+                {% endif %}
+              </div>
+              {% else %}
+              <div class="doc-icons" style="padding-right: 30px;">
+                {% if page.document_path != blank %}
+                <a href="{{ page.document_path }}" target="_blank">
+                {% endif %}
+                <img src="/img/icons/doc-icon.png"/>
+                {% if page.document_path != blank %}
+                </a>
+                {% endif %}
+              </div>
+              {% endif %}
+              <div>
+              <h4>
+              <strong>
+                {% if page.document_title != blank %}<a href="{{page.document_path}}" target="_blank">{{ page.document_title }}</a>{% endif %}
+              </strong>
+              </h4>
+                <p class="small">
+                    <a href="{{ page.document_path }}" target="_blank" >
+                      <i class="fa fa-download"></i>Download</a>
+                </p>
+                </div>
+            </div>
+            <div class="col-sm-6 mt-4">
+              {% if page.espanol_document_path %}
+                {% if page.espanol_document_thumb_path %}
+                <div class="doc-image" style="padding-right: 30px;">
+                  {% if page.espanol_document_path != blank %}
+                  <a href="{{ page.espanol_document_path }}" target="_blank">
+                  {% endif %}
+                  <img style="max-height:300px;" src="{{ page.espanol_document_thumb_path }}"/>
+                  {% if page.espanol_document_path != blank %}
+                  </a>
+                  {% endif %}
+                </div>
+                {% else %}
+                <div class="doc-icons" style="padding-right: 30px;">
+                  {% if page.espanol_document_path != blank %}
+                  <a href="{{ page.espanol_document_path }}" target="_blank">
+                  {% endif %}
+                  <img src="/img/icons/doc-icon.png"/>
+                  {% if page.espanol_document_path != blank %}
+                  </a>
+                  {% endif %}
+                </div>
+                {% endif %}
+                <div>
+                  <h4>
+                    <strong>
+                      {% if page.espanol_document_title != blank %}<a href="{{page.espanol_document_path}}" target="_blank">{{ page.espanol_document_title }}</a>{% endif %}
+                    </strong>
+                  </h4>
+                    <p class="small">
+                      {% if page.espanol_document_path %}
+                        <a href="{{ page.espanol_document_path }}" target="_blank" >
+                          <i class="fa fa-download"></i>Descargar</a>
+                      {% endif %}
+                    </p>
+                  </div>
+              {% endif %}
+            </div>
+          {% endif %}
+          {% if page.content %}
+          <div class="page-content">
+            {{ page.content }}
+          </div>
+          {% endif %}
+      </div>
+      {% endif %} <!-- //coming soon -->
+    </section>
+
+
+    <section id="frameworkfeedback{{page.order}}" class="edge--top full-width dark">
+      {% include feedback-form.html %}
+    </section>
+  </div>
+  {% include scroll-top-btn.html %}
+  {% include scroll-down-indicator.html %}
+</body>
+{% include footer.html %}
+{% include tracking.html %}
+<script>window.__theme = 'bs4';</script>
+</html>

@@ -1,0 +1,58 @@
+#vision-section{
+  padding-top: 0 !important;
+}
+.vision-tab{
+  .intro{
+    p{
+      text-align: left;
+    }
+    h3{
+      margin-top: 15px;
+      text-align: center !important;
+    }
+  }
+}
+.vision-tab.image-box{
+  height: auto;
+  overflow: hidden;
+}
+.vision-tab{
+  opacity: .5;
+  border-radius: 0 !important;
+}
+.vision-tab.active, .vision-tab:hover {
+  opacity: 1;
+}
+.vision-tab:nth-child(2).active{
+  -webkit-box-shadow: 6px 0px 12px -1px rgba(127,127,127,1);
+  -moz-box-shadow: 6px 0px 12px -1px rgba(127,127,127,1);
+  box-shadow: 6px 0px 12px -1px rgba(127,127,127,1);
+}
+.vision-tab:first-child.active{
+  -webkit-box-shadow: 6px 0px 12px -1px rgba(127,127,127,1);
+  -moz-box-shadow: 6px 0px 12px -1px rgba(127,127,127,1);
+  box-shadow: 6px 0px 12px -1px rgba(127,127,127,1);
+}
+.vision-tab:not(:last-child){
+  -webkit-box-shadow: 6px 0px 12px -1px rgba(127,127,127,1);
+  -moz-box-shadow: 6px 0px 12px -1px rgba(127,127,127,1);
+  box-shadow: 6px 0px 12px -1px rgba(127,127,127,1);
+}
+
+
+#glossTabs {
+  .nav-link {
+    h3 {
+      color: $lightblue !important;
+      text-align: center;
+      padding: 10px;
+      margin: 0;
+    }
+    &.active, &:hover {
+      h3{
+        color: $blue !important;
+      }
+    }
+  }
+
+}

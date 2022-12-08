@@ -1,0 +1,26 @@
+{% capture html %}
+<ul class="plan-element-subnavigation">
+    {% if include.context == "/" %}
+        <li class="{% if page.url == "/" %}active{% endif %}">
+            <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+        </li>
+    {% endif %}
+    {% assign entries = site.pages | sort: 'order' %}
+    {% for entry in entries %}
+        {% capture slug %}{{ entry.url | split: "/" | last }}{% endcapture %}
+        {% capture current %}{{ entry.url | remove: slug | remove: "//" | append: "/" }}{% endcapture %}
+        {% if current == include.context %}
+            <a href="{{ site.baseurl }}{{ entry.url }}">
+              <li class="{% if page.url contains entry.url %}active{% endif %} row align-items-center">
+                <div class="col-3">
+                  <span class="chapter-number">{{ entry.order }}</span>
+                </div>
+                <div class="col-9 justify-content-center"><span class="title">{{ entry.title | capitalize }}</span>{% if entry.subtitle %}<span class="subtitle">{{ entry.subtitle }}</span>{% endif %}</div>
+                {% include plan-element-subnavigation.html context=entry.url %}
+            </li>
+            </a>
+        {% endif %}
+    {% endfor %}
+</ul>
+{% endcapture %}
+{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}

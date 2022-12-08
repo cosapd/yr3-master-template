@@ -1,0 +1,56 @@
+{% if include.transition == 'fade' %}{% assign carousel-transition = 'carousel-fade'  %}{% endif %}
+{% if include.height %}{% assign carousel-height = include.height  %}{% endif %}
+{% if include.timing %}{% assign carousel-timing = include.timing  %}{% endif %}
+{% assign items = ''| split: '' %}
+{% for slide in site.opportunities-slides %}
+{% unless slide.type contains 'copy' %}
+{% assign items = items | push: slide %}
+{% endunless %}
+{% endfor %}
+{% assign texts = ''| split: '' %}
+{% for slide in site.opportunities-slides %}
+{% if slide.type contains 'copy' %}
+{% assign texts = texts | push: slide %}
+{% endif %}
+{% endfor %}
+<div class="container">
+  <h2 style="margin: 1em 0;">Opportunities</h2>
+<div class="row">
+  <div class="col-12 col-lg-6">
+    {{ texts.first.content }}
+  </div>
+  <div class="col-12 col-lg-6">
+    <div id="customSlider3" data-ride="carousel" class="carousel slide" data-interval="{{site.carousel-speed}}">
+      <!-- slider indicator -->
+      <ol class="carousel-indicators">
+        {% for item in items %}
+          <li data-target="#customSlider3" data-slide-to="{{ forloop.index0 }}" {% if forloop.first == true %}class="active"{% endif %}></li>
+        {% endfor %}
+      </ol>
+    <!-- slides -->
+        <div class="carousel-inner" role="listbox">
+          {% for item in items %}
+          <div class="carousel-item {% if forloop.first == true %}active{% endif %}" style="{% if carousel-height %}height:{{ carousel-height }}{% endif %}" role="option">
+            <!-- slider background -->
+              <img class="h-100" {% if forloop.first %}src="{{item.background.url_path}}"{% else %}data-src="{{item.background.url_path}}"{% endif %}  alt="opportunities slide" style="margin: 0 auto; max-width:100%;">
+          </div>
+          {% endfor %}
+        </div>
+        <!-- Controls -->
+        <a class="carousel-control-prev" href="#customSlider3" role="button" data-slide="prev">
+          <span class="fa fa-angle-left"></span>
+        </a>
+        <a class="carousel-control-next" href="#customSlider3" role="button" data-slide="next">
+          <span class="fa fa-angle-right"></span>
+        </a>
+    </div>
+    <div id="slider_captions3">
+    {% for item in items %}
+      <div id="caption3-{{forloop.index0}}" class="carousel-caption3 text-center">
+        <p class="body image-caption">{{item.copy_body}}</p>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</div>
+</div>

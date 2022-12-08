@@ -1,0 +1,94 @@
+
+{% assign sections = site.sections | where: "location", include.location  %}
+
+{% include coming-soon.html location=include.location %}
+
+{% if state == 'coming soon' %}
+  <section id="coming-soon" class="coming-soon page-header grey text-center">
+      <a name="{{section.style.id}}"></a>
+      <div {% if section.style.header == true %} class="d-flex align-items-center justify-content-center container-fluid" {% else %}  class="container-fluid" {% endif %}>
+      <div class="section-header">
+        <!-- <div class="img-wrapper">
+          <img class="logo img-responsive img" alt="Logo" src=""></img>
+        </div> -->
+        <h1 class="title">Coming Soon</h1>
+        <!-- <h2 class="subtitle">{{ section.head.subtitle }}</h2> -->    
+      </div>
+      <div class="content section-content" >
+      </div>
+        <!-- <div class="cta text-center">
+          <h3>{{ section.cta.headline }}</h3>
+          <a href="{{section.cta.btnLink}}">
+            <button class="btn {{ section.cta.btnType }}">{{ section.cta.btnText }}</button>
+          </a>
+        </div> -->
+      </div>
+    </section>
+    
+    <style>
+    #coming-soon, #coming-soon h1, #coming-soon p, #coming-soon h2, #coming-soon h3, #coming-soon h4, #coming-soon h5, #coming-soon i, #coming-soon .row, #coming-soon p {color:#fff;}
+    </style>
+{% else %}
+{% for section in sections %}
+<section {% if section.style.id %}id="{{section.style.id}}"{% endif %} class="{{ section.style.class }}" >
+  {% include section-background.html %}
+  <a name="{{section.style.id}}"></a>
+  <div {% if section.style.header == true %} class="d-flex align-items-center justify-content-center container-fluid" {% else %}  class="container-fluid" {% endif %}>
+  
+  {% include seo-section-tags.html %}
+
+  {% if section.head.title %}
+  <div class="section-header">
+
+  {% if section.head.img_path %}
+    <div class="img-wrapper">
+      <img class="logo img-responsive img" alt="Logo" src="{{section.head.img_path}}"></img>
+    </div>
+  {% endif %}
+
+  {% if section.head.title %}
+    {% if forloop.first == true %}
+    <h1 class="title">{{ section.head.title }}</h1>
+    {% else %}
+    <h2 class="title">{{ section.head.title }}</h2>
+    {% endif %}
+  {% endif %}
+  {% if section.head.subtitle %}
+    {% if forloop.first == true %}
+    <h2 class="subtitle">{{ section.head.subtitle }}</h2>
+    {% else %}
+    <h3 class="subtitle">{{ section.head.subtitle }}</h3>
+    {% endif %}
+  {% endif %}
+
+  </div>
+  {% endif %}
+  <div class="content section-content" >
+      {{ section.content }}
+  </div>
+  {% if section.cta %}
+    <div class="cta text-center">
+    {% if section.cta.headline %}
+      <h3>{{ section.cta.headline }}</h3>
+    {% endif %}
+    {% if section.cta.btnLink %}
+      <a href="{{section.cta.btnLink}}">
+        <button class="btn {{ section.cta.btnType }}">{{ section.cta.btnText }}</button>
+      </a>
+    {% endif %}
+    {% if section.cta.subtext %}
+      <h4>{{ section.cta.subtext }}</h4>
+    {% endif %}
+    </div>
+  {% endif %}
+  </div>
+</section>
+
+{% if section.style.font_color %}
+<style>
+#{{section.style.id}}, #{{section.style.id}} h1, #{{section.style.id}} p, #{{section.style.id}} h2, #{{section.style.id}} h3, #{{section.style.id}} h4, #{{section.style.id}} h5, #{{section.style.id}} i, #{{section.style.id}} .row, #{{section.style.id}} p {color:{{section.style.font_color}};}
+</style>
+{% endif %}
+
+{% endfor %}
+{% endif %}

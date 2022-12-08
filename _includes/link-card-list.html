@@ -1,0 +1,49 @@
+{% assign documents = site.en-espanol-link-and-doc-cards %}
+{% assign category = meh %}
+<ul class="nav nav-tabs row link-list-tabs" role="tablist" id="myTabs">
+  {% for item in documents %}
+    {% if item.category != category %}
+    {% assign category = item.category | lowercase %}
+    <a data-toggle="tab" id="{{category | slugify }}-controller" href="#{{category | slugify }}tab" class="nav-item nav-link {% if forloop.first %}active{% endif %}" role="tab"><div class="tab-content"><p>{{category}} <span class="menu-divider">|</span></p></div></a>
+    {% endif %}
+  {% endfor %}
+  <a data-toggle="tab" href="#alltab" class="nav-item nav-link" role="tab"><div class="tab-content"><p>
+    Todos<span class="menu-divider">|</span></p></div></a>
+</ul>
+
+{% assign category = null %}
+{% assign documents = null %}
+<div class="tab-content">
+  {% assign documents = site.en-espanol-link-and-doc-cards | sort: "category" %}
+  {% for post in documents %}
+  {% if post.category != category %}
+  {% assign category = post.category | lowercase %}
+  {% assign docs = site.en-espanol-link-and-doc-cards | where: "category", category %}
+  <div id="{{category | slugify }}tab" class="tab-pane fade in {% if forloop.first%}active show{% endif %}">
+    <div class="row">
+      {% for item in docs %}
+        {% include link-card.html %}
+      {% endfor %}
+    </div><!--end outside row -->
+  </div>
+  {% endif %}
+  {% endfor %}
+  {% assign category = null %}
+  {% assign documents = null %}
+  {% assign documents = site.en-espanol-link-and-doc-cards | sort: "title" %}
+  <div id="alltab" class="tab-pane fade in ">
+    <div class="row">
+      {% for item in documents %}
+        {% include link-card.html %}
+      {% endfor %}
+    </div><!--end outside row -->
+  </div>
+</div>
+
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    var a = window.location.href;
+    $("#" + a.split('?active=')[1]).click();
+  });
+</script>

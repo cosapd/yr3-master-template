@@ -1,0 +1,10 @@
+{% assign goals = site.data.goals | sort: 'goal-number' %}
+<h3>{{ page.element }} Goals</h3>
+  <ul class="indicator-goal-list">
+    {% for goal in goals %}
+    {% if goal.plan-element-abbreviation == page.abbreviation %}
+      <li><span class="goal-card-secondary">{{ goal.title }}</span><p>{{ goal.description }}</p></li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+{% assign goals = null %}

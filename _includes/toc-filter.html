@@ -1,0 +1,32 @@
+{% assign pages = site.pages %}
+{% assign header = '' %}
+
+<div class="row row-90 toc">
+  {% for page in pages %}
+  {% capture pageName %}{{ page.url | remove: "index.html" | replace: "-", " " | replace_first: "/", " " | replace: "/", " - " | append: "$" | remove: " - $" | remove: "$" }}{% endcapture%}
+
+  {% capture sectionName %}{{ pageName | split, " - " | first }}{%endcapture%}
+
+    {% unless page.sitemap.exclude == "yes" %}
+
+    {% if header != sectionName %}
+    {% assign header = sectionName %}
+
+    <div class="col-12 text-left">
+      <h3 class="text-blue">{{sectionName | group_by: pageName }}</h3>
+    </div>
+    {% endif %}
+
+    <div class="toc-item col-lg-3 col-md-4 col-sm-6">
+      <a href="{% if page.permalink %}{{ page.permalink }}{% else %}{{ page.url }}{% endif %}">
+        {% unless pageName == sectionName %}
+        <p>{{ pageName | replace_first: "-", " " | remove: sectionName }}</p>
+        {% else %}
+        <p>{{ pageName | replace_first: "-", " " }}</p>
+        {% endunless %}
+      </a>
+    </div>
+
+    {% endunless %}
+  {% endfor %}
+</div>

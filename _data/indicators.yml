@@ -1,0 +1,593 @@
+-
+ name: gcf
+ abbreviation: "GCF 1"
+ description: "Number of Developments with LEED Certification (Commercial and Multifamily)"
+-
+ name: gcf
+ abbreviation: "GCF 2"
+ description: "Number of Residential and Commercial BSAG-certified projects"
+-
+ name: gcf
+ abbreviation: "GCF 3"
+ description: "Percent of New Developments Using the Conservation Subdivision Requirements in the Unified Development Code (UDC)"
+-
+ name: gcf
+ abbreviation: "GCF 4"
+ description: "Acres of Brownfield (Re)developed"
+-
+ name: gcf
+ abbreviation: "GCF 5"
+ description: "Acres of Redevelopment on Underutilized and Infill Sites"
+-
+ name: gcf
+ abbreviation: "GCF 6"
+ description: "Square Feet of Mixed-use Development"
+-
+ name: gcf
+ abbreviation: "GCF 7"
+ description: "Number of New Developments that Include Parks, Open Spaces, and Greenways"
+-
+ name: gcf
+ abbreviation: "GCF 8"
+ description: "Intersection Density in Neighborhood Development"
+-
+ name: gcf
+ abbreviation: "GCF 9"
+ description: "Number of Households within 1/2-Mile of a High Frequency Transit Stop"
+-
+ name: gcf
+ abbreviation: "GCF 10"
+ description: "Linear Feet of New Sidewalks within 1/2-Mile of Schools"
+-
+ name: gcf
+ abbreviation: "GCF 11"
+ description: "Number of new linear feet in the Trail System"
+-
+ name: gcf
+ abbreviation: "GCF 12"
+ description: "Quality of Life Satisfaction in Regional Centers"
+-
+ name: gcf
+ abbreviation: "GCF 13"
+ description: "Housing to Job Ratio in Regional Centers"
+-
+ name: gcf
+ abbreviation: "GCF 14"
+ description: "Number of Housing Units in Regional Centers"
+-
+ name: gcf
+ abbreviation: "GCF 15"
+ description: "Number of Households Per Developed Acre in Regional Centers"
+-
+ name: tc
+ abbreviation: "TC 1"
+ description: "Miles of Complete Streets"
+-
+ name: tc
+ abbreviation: "TC 2"
+ description: "Number of Public Transit Facilities and Buses with Bicycle Racks and Storage Facilities"
+-
+ name: tc
+ abbreviation: "TC 3"
+ description: "Number of Dollars Spent on Multimodal Transportation Infrastructure"
+-
+ name: tc
+ abbreviation: "TC 4"
+ description: "Bus Service Hours of Frequent Routes"
+-
+ name: tc
+ abbreviation: "TC 5"
+ description: "Travel Time Index (TTI)"
+-
+ name: tc
+ abbreviation: "TC 6"
+ description: "Commuters using modes other than Single Occupancy Vehicle (SOV)"
+-
+ name: tc
+ abbreviation: "TC 7"
+ description: "WalkScore"
+-
+ name: tc
+ abbreviation: "TC 8"
+ description: "BikeScore"
+-
+ name: tc
+ abbreviation: "TC 9"
+ description: "Average Commute Time"
+-
+ name: tc
+ abbreviation: "TC 10"
+ description: "Diversity of transit ridership (race, ethnicity, income level, etc.)"
+-
+ name: tc
+ abbreviation: "TC 11"
+ description: "Percent of Households that Live within 1/2-Mile of a Protected Bike Facility"
+-
+ name: tc
+ abbreviation: "TC 12"
+ description: "Number of Car Sharing Vehicles Active in San Antonio"
+-
+ name: tc
+ abbreviation: "TC 13"
+ description: "Number of Bike Sharing bikes and stations in San Antonio"
+-
+ name: tc
+ abbreviation: "TC 14"
+ description: "Per Capita Vehicle Miles Traveled (VMT)"
+-
+ name: tc
+ abbreviation: "TC 15"
+ description: "Pavement Condition Index (PCI)"
+-
+ name: tc
+ abbreviation: "TC 16"
+ description: "Percentage of Population within Walking Distance of Frequent Transit Service"
+-
+ name: tc
+ abbreviation: "TC 17"
+ description: "Electric and Hybrid Vehicles as a Percent of Overall Vehicle Ownership in San Antonio"
+-
+ name: tc
+ abbreviation: "TC 18"
+ description: "Number of Automobile Accidents"
+-
+ name: tc
+ abbreviation: "TC 19"
+ description: "Number and rate/rations of Automobile and Bicycle Crashes Involving Pedestrians"
+-
+ name: tc
+ abbreviation: "TC 20"
+ description: "Connectivity Index"
+-
+ name: tc
+ abbreviation: "TC 21"
+ description: "Number of Residents within 1/4-Mile of a Transit Stop"
+-
+ name: tc
+ abbreviation: "TC 22"
+ description: "Percent of Jobs located within 1-Mile of a Dedicated and/or Protected Bike Facility"
+-
+ name: h
+ abbreviation: "H 1"
+ description: "Housing and Transportation Index (H+T) Costs"
+-
+ name: h
+ abbreviation: "H 2"
+ description: "Number of Existing and Planned Affordable Housing Units within 1/2-Mile Walkshed of a Transit Station or Stop with Frequent Service"
+-
+ name: h
+ abbreviation: "H 3"
+ description: "Percent of Cost Burdened Households (Households Paying 30% or more of Gross Income on Housing)"
+-
+ name: h
+ abbreviation: "H 4"
+ description: "Percent of Long-term Affordable Units"
+-
+ name: h
+ abbreviation: "H 5"
+ description: "Quality of Schools in Priority Growth Areas"
+-
+ name: h
+ abbreviation: "H 6"
+ description: "Income Segregation"
+-
+ name: h
+ abbreviation: "H 7"
+ description: "Number of Permanently Affordable Units for Seniors"
+-
+ name: h
+ abbreviation: "H 8"
+ description: "Ratio of Multifamily and Attached Units to Single Family Units"
+-
+ name: h
+ abbreviation: "H 9"
+ description: "Number of Walkable Neighborhoods (WalkScore over 50)"
+-
+ name: h
+ abbreviation: "H 10"
+ description: "Availability of Units in Walkable Neighborhoods"
+-
+ name: h
+ abbreviation: "H 11"
+ description: "Number/proportion of more affordable housing unit types (ADUs, QUADS, MICRO-UNITS, etc.)"
+-
+ name: h
+ abbreviation: "H 12"
+ description: "Percent of Occupied Households with Severe Physical Deficiencies as Defined by Housing and Urban Development (HUD)"
+-
+ name: jec
+ abbreviation: "JEC 1"
+ description: "Per Capita Income"
+-
+ name: jec
+ abbreviation: "JEC 2"
+ description: "Employment in Target Industries"
+-
+ name: jec
+ abbreviation: "JEC 3"
+ description: "Rate of Unemployment and Under-Employment"
+-
+ name: jec
+ abbreviation: "JEC 4"
+ description: "Median Wage"
+-
+ name: jec
+ abbreviation: "JEC 5"
+ description: "Enrollment in STEM and STEAM Programs"
+-
+ name: jec
+ abbreviation: "JEC 6"
+ description: "Enrollment Figures of education and business supportive groups (including cafécollege, the Texas Technology Transfer Development Center (T3DC), UTSA’s Center for Innovation, Technology and Entrepreneurship (CITE), Geekdom, TechBloc, the Southwest Research Institute (SwRI))"
+-
+ name: jec
+ abbreviation: "JEC 7"
+ description: "Percent of Adults with a Post-High School Degree"
+-
+ name: jec
+ abbreviation: "JEC 8"
+ description: "Percent of Adults without a GED"
+-
+ name: jec
+ abbreviation: "JEC 9"
+ description: "Ratio of Available Skilled Workers vs. Jobs in Target Industries"
+-
+ name: jec
+ abbreviation: "JEC 10"
+ description: "Number of Job Training Programs or Enrollment in Programs"
+-
+ name: jec
+ abbreviation: "JEC 11"
+ description: "Number of Net New Businesses Created Annually"
+-
+ name: jec
+ abbreviation: "JEC 12"
+ description: "Number of Minority, Women and Emerging Small Business and Veteran-Owned Business Contracts within the City of San Antonio"
+-
+ name: jec
+ abbreviation: "JEC 13"
+ description: "Kauffman Index (Measures Entrepreneurship and New Businesses)"
+-
+ name: jec
+ abbreviation: "JEC 14"
+ description: "Number of New Patents Obtained by San Antonio Businesses or Institutions"
+-
+ name: jec
+ abbreviation: "JEC 15"
+ description: "Number of New Jobs Created Within Regional Centers"
+-
+ name: jec
+ abbreviation: "JEC 16"
+ description: "Number of Jobs Within 1/2-mile of High Frequency Transit Stops"
+-
+ name: jec
+ abbreviation: "JEC 17"
+ description: "Value of San Antonio Exports"
+-
+ name: jec
+ abbreviation: "JEC 18"
+ description: "Dollars of Foreign Direct Investment in San Antonio"
+-
+ name: jec
+ abbreviation: "JEC 19"
+ description: "Lost Work Hours Due to Health Outcomes"
+-
+ name: jec
+ abbreviation: "JEC 20"
+ description: "Number of Trained Robotics Workers"
+-
+ name: chw
+ abbreviation: "CHW 1"
+ description: "Obesity Rate"
+-
+ name: chw
+ abbreviation: "CHW 2"
+ description: "Number of Households within a 1/2-Mile of a source of Healthy, Affordable Foods"
+-
+ name: chw
+ abbreviation: "CHW 3"
+ description: "Number of people participating in enough aerobic and muscle strengthening activity to meet guidelines"
+-
+ name: chw
+ abbreviation: "CHW 4"
+ description: "Measures of academic success (including High School Graduation Rate and STARR results)"
+-
+ name: chw
+ abbreviation: "CHW 5"
+ description: "Chronic Disease Rate (Diabetes rate and Obesity Rate)"
+-
+ name: chw
+ abbreviation: "CHW 6"
+ description: "Miles of trails and sidewalk Facilities within 1/2-Mile of Transit Stations and Stops"
+-
+ name: chw
+ abbreviation: "CHW 7"
+ description: "Linear Feet of New Sidewalks in Pedestrian-Oriented Areas (Schools, Parks, Transit Stations and Stops within 1/2-Mile"
+-
+ name: chw
+ abbreviation: "CHW 8"
+ description: "Miles of Bike Facilities within 1-Mile of Transit Stops"
+-
+ name: chw
+ abbreviation: "CHW 9"
+ description: "Percent of Households Who Walk, Bike or Ride Public Transit to School, Work, or Grocery Stores"
+-
+ name: chw
+ abbreviation: "CHW 10"
+ description: "Teen Pregnancy Rate (ages 15-19)"
+-
+ name: chw
+ abbreviation: "CHW 11"
+ description: "Percent of Population with Health Insurance Coverage"
+-
+ name: chw
+ abbreviation: "CHW 12"
+ description: "Percent of Households Located Within a 10-Minute walk of a Park"
+-
+ name: chw
+ abbreviation: "CHW 13"
+ description: "Number or Percent of Schools that Open Tracks, Courts, Fields and Playgrounds to the Public (Joint Use Agreements)"
+-
+ name: chw
+ abbreviation: "CHW 14"
+ description: "Water Quality Index"
+-
+ name: chw
+ abbreviation: "CHW 15"
+ description: "Asthma Rates"
+-
+ name: chw
+ abbreviation: "CHW 16"
+ description: "Percent of Budget or Dollars Spent on Health Education and Literacy"
+-
+ name: chw
+ abbreviation: "CHW 17"
+ description: "Percent of Parks Facilities with Outdoor Fitness Equipment (including strength and stretch bars, leg presses, self-weighted equipment)"
+-
+ name: chw
+ abbreviation: "CHW 18"
+ description: "Average Household Water Cost"
+-
+ name: pfcs
+ abbreviation: "PFCS 1"
+ description: "Emergency Response Times"
+-
+ name: pfcs
+ abbreviation: "PFCS 2"
+ description: "Satisfaction Scores for San Antonio's Fire, Emergency Medical Services and Police Department"
+-
+ name: pfcs
+ abbreviation: "PFCS 3"
+ description: "Dollars Spent or Percent of Budget Allocated for New Street Lighting and Existing Street Light Maintenance"
+-
+ name: pfcs
+ abbreviation: "PFCS 4"
+ description: "Attendance at Community Safety Trainings"
+-
+ name: pfcs
+ abbreviation: "PFCS 5"
+ description: "Crime Rate Index per 100,000 people"
+-
+ name: pfcs
+ abbreviation: "PFCS 6"
+ description: "Recidivism Rates"
+-
+ name: pfcs
+ abbreviation: "PFCS 7"
+ description: "Incidents of Domestic Violence"
+-
+ name: pfcs
+ abbreviation: "PFCS 8"
+ description: "Incidents of Child Abuse and Neglect"
+-
+ name: pfcs
+ abbreviation: "PFCS 9"
+ description: "Number of Students Involved in School-Sponsored After-School and Extra Curricular Programs"
+-
+ name: pfcs
+ abbreviation: "PFCS 10"
+ description: "Number of Students Who Have Access to a Computer Outside of School"
+-
+ name: pfcs
+ abbreviation: "PFCS 11"
+ description: "Number of Facilities Utilizing Active Parking Management Principles in Downtown and in Other Regional Centers"
+-
+ name: pfcs
+ abbreviation: "PFCS 12"
+ description: "Number of Electric Vehicle Charging Stations"
+-
+ name: pfcs
+ abbreviation: "PFCS 13"
+ description: "Visits to Library Facilities"
+-
+ name: nres
+ abbreviation: "NRES 1"
+ description: "Percent of New Developments Using the Conservation Subdivision Requirements in the Unified Development Code (UDC)"
+-
+ name: nres
+ abbreviation: "NRES 2"
+ description: "Usage of SEP-HCP (Southern Edwards Plateau Habitat Conservation Plan) in Bexar County"
+-
+ name: nres
+ abbreviation: "NRES 3"
+ description: "Square Feet of Green Roof Coverage in the City"
+-
+ name: nres
+ abbreviation: "NRES 4"
+ description: "Amount of Low Impact Development (LID)/ Miles of Green Streets or Square Feet of Green Infrastructure"
+-
+ name: nres
+ abbreviation: "NRES 5"
+ description: "Amount of Land Preserved through Conservation Easements"
+-
+ name: nres
+ abbreviation: "NRES 6"
+ description: "Quality of Reclaim Systems That Capture Non-Potable Supplies"
+-
+ name: nres
+ abbreviation: "NRES 7"
+ description: "Per Capita Water Use"
+-
+ name: nres
+ abbreviation: "NRES 8"
+ description: "Number of People Engaged per Year in Water Conservation Programs"
+-
+ name: nres
+ abbreviation: "NRES 9"
+ description: "Number of commercial customers involved in water efficiency projects"
+-
+ name: nres
+ abbreviation: "NRES 10"
+ description: "Number or Percent of New Landscapes That Get Local Certification for being a Water Saver Landscape"
+-
+ name: nres
+ abbreviation: "NRES 11"
+ description: "Number of Participants Involved in SAWS Water Management Plan"
+-
+ name: nres
+ abbreviation: "NRES 12"
+ description: "Per Capita Energy Use"
+-
+ name: nres
+ abbreviation: "NRES 13"
+ description: "Energy Use by Public Facilities by square feet"
+-
+ name: nres
+ abbreviation: "NRES 14"
+ description: "Renewable Energy Generated by Public Facilities"
+-
+ name: nres
+ abbreviation: "NRES 15"
+ description: "Renewable Energy Generated by Commercial Facilities"
+-
+ name: nres
+ abbreviation: "NRES 16"
+ description: "Renewable Energy Generated by Households"
+-
+ name: nres
+ abbreviation: "NRES 17"
+ description: "Residential Recycling and Composting Rates"
+-
+ name: nres
+ abbreviation: "NRES 18"
+ description: "Public Facility Recycling and Composting Rates"
+-
+ name: nres
+ abbreviation: "NRES 19"
+ description: "Commercial Recycling and Composting Rates"
+-
+ name: nres
+ abbreviation: "NRES 20"
+ description: "Air Quality Index as Measured by Ground-Level Ozone, Particulate Matter, Carbon Monoxide, Sulfur Dioxide, and Nitrogen Dioxide"
+-
+ name: nres
+ abbreviation: "NRES 21"
+ description: "Number of People and Organizations Engaged in Air Quality Education and Programs"
+-
+ name: nres
+ abbreviation: "NRES 22"
+ description: "Heat Island Index Measurement"
+-
+ name: nres
+ abbreviation: "NRES 23"
+ description: "Acres of Open Space preservation Owner or Managed by Public Entities"
+-
+ name: hpch
+ abbreviation: "HPCH 1"
+ description: "Percent of Historic Landmarks and Cultural Buildings Designated Per Year"
+-
+ name: hpch
+ abbreviation: "HPCH 2"
+ description: "Number of Policies and Programs Addressing San Antonio's Character and Sense of Identity, including Historic Preservation Plans"
+-
+ name: hpch
+ abbreviation: "HPCH 3"
+ description: "Number of Historic Properties Rehabilitated with Incentives"
+-
+ name: hpch
+ abbreviation: "HPCH 4"
+ description: "Number of Exceptions and Variances Granted by Board of Adjustment and Planning Commission"
+-
+ name: hpch
+ abbreviation: "HPCH 5"
+ description: "Number of Demolition Requests for Existing and Potential Historic Properties"
+-
+ name: hpch
+ abbreviation: "HPCH 6"
+ description: "Number of Events Sponsored in Collaboration with the Office of Historic Preservation (OHP)- Including OHP Youth Program and Con Safo"
+-
+ name: hpch
+ abbreviation: "HPCH 7"
+ description: "Number of Workshops Sponsored by OHP for Developers, City Commissioners, Realtors, Staff, Elected Officials and Residents"
+-
+ name: hpch
+ abbreviation: "HPCH 8"
+ description: "Number of Festivals and Events Celebrating San Antonio’s History and Culture"
+-
+ name: hpch
+ abbreviation: "HPCH 9"
+ description: "Property Value for Structures within Historic Districts as Compared to Property Value of Structures in Non-Historic Districts"
+-
+ name: hpch
+ abbreviation: "HPCH 10"
+ description: "Number of Projects that Receive the Federal Rehabilitation Tax Credit"
+-
+ name: hpch
+ abbreviation: "HPCH 11"
+ description: "Number of Projects that Receive the State Tax Credits for Historic Preservation"
+-
+ name: hpch
+ abbreviation: "HPCH 12"
+ description: "Percent of Maintenance Budget Allocated to World Heritage Buffer Zone"
+-
+ name: hpch
+ abbreviation: "HPCH 13"
+ description: "Number of Projects that Receive Local Rehabilitation and Historic Preservation Credits"
+-
+ name: m
+ abbreviation: "M 1"
+ description: "Percent of Compatible Development within 5 Miles of a Base or Military Installation"
+-
+ name: m
+ abbreviation: "M 2"
+ description: "Improve Sky Quality Index (Night Pollution)"
+-
+ name: m
+ abbreviation: "M 3"
+ description: "Ratio of San Antonio Troops to Overall Domestic Number of Troops"
+-
+ name: m
+ abbreviation: "M 4"
+ description: "Number of New Missions within Joint Base San Antonio (JBSA)"
+-
+ name: m
+ abbreviation: "M 5"
+ description: "Military Dollars Spent in JBSA installations"
+-
+ name: m
+ abbreviation: "M 6"
+ description: "Veteran Unemployment Rates"
+-
+ name: m
+ abbreviation: "M 7"
+ description: "Ratio of Military Service Population to Health Care Resources"
+-
+ name: m
+ abbreviation: "M 8"
+ description: "Gross Regional Product (GRP) Generated in the Region due to Defense-Related Spending"
+-
+ name: m
+ abbreviation: "M 9"
+ description: "Number of Jobs Generated by Military Spending"
+-
+ name: m
+ abbreviation: "M 10"
+ description: "Number or Ratio of Department of Defense (DOD) Retirees"
+-
+ name: m
+ abbreviation: "M 11"
+ description: "Number of Military and Technology Related Patents"
+-
+ name: m
+ abbreviation: "M 12"
+ description: "Number of Military and Dependents who Attend College in the San Antonio Area"
+-

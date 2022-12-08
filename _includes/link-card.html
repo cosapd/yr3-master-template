@@ -1,0 +1,47 @@
+<div class="col-12 col-md-6" style="margin-bottom: 20px">
+  <div class="card card-list-item">
+    <div class="row">
+      <div class="col-12 d-flex {% if item.optional_date %}justify-content-between{% else %}justify-content-end{% endif %}">
+        {% if item.optional_date %}
+        <p style="margin-bottom: 0px">{{ item.optional_date }}</p>
+        {% endif %}
+        <p>{{item.category}}</p>
+      </div>
+      
+      {% if item.title %}
+      <div class="col-12">
+        <h3 class="text-center" style="margin-top:10px">{{ item.title }}</h3>
+      </div>
+      {% endif %}
+      {% if item.type == 'document' %}
+      <div class="doc-icons col-3">
+        <!-- doc icons -->
+          {% if item.document_path %}<a href="{{ item.document_path }}">{% endif %}
+            <img style="max-width: 80px; margin: 0 auto;" src="/img/icons/doc-icon.png"/>
+          {% if item.document_path %}</a>{% endif %}
+      </div>
+      {% endif %}
+      <div class="{% if item.type == 'document' %}col-9 text-left{% else %}text-center col-12{% endif %}">
+        <!-- doc summaries and links -->
+        {% if item.text_content %}<p class="text-left" style="text-align: left !important;">{{ item.text_content }}</p>{% endif %}
+        {% if item.document_title %}
+        <h4 style="margin-bottom: 0px">{{ item.document_title }}</h4>
+        {% endif %}
+        {% if item.link_url %}
+          <a href="{{item.link_url}}" target="_blank">
+          {% if item.type == 'link' %}
+            <button class="btn btn-success" type="submit">
+            {% else %}
+            <i class="fa fa-download"></i>
+          {% endif %}
+              {{ item.link_text }}
+          {% if item.type == 'link' %}
+            </button>
+          {% endif %}
+          </a>
+        {% endif %}
+
+      </div>
+    </div><!--end inside row -->
+  </div>
+</div><!--end columns row -->

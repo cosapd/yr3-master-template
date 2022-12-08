@@ -1,0 +1,29 @@
+
+<nav id="nav" class="nav navbar navbar-toggleable-md affix navbar-default" role="navigation">
+  <div class="container" id="bs-container">
+  <button class="navbar-toggler navbar-toggler-right btn-transparent collapsed print-hide" role="button" data-toggle="collapse" data-target="#collapseBar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="fa fa-bars fa-lg"></span> Menu
+  </button>
+    <div class="navbar-left navbar-inner slanted">
+      <a class="site-title navbar-brand" href="/"><img data-src="{{site.header-logo}}" alt=""></a>
+    </div>
+    <div id="search-box" class="print-hide">
+      <a href="https://www.sanantonio.gov/planning"><img src="/img/PLNG_Seal.png" style="height: 32px; margin: 0 5px;" alt="PLNG seal logo"/></a>
+      <form id="header-search" class="search">
+        <input id="search-box-input" type="text" action="/search-results/" placeholder="SEARCH"><span id="header-search-button" class="fa fa-search"></span>
+      </form>
+    </div>
+    <div class="collapse navbar-collapse print-hide" id="collapseBar">
+      {% if site.plan_template_version == 1 %}
+        {% include nav1.html %}
+      {% elsif site.plan_template_version == 2 %}
+        {% include nav2.html %}
+      {% elsif site.plan_template_version == 3 %}
+        {% include nav3.html %}
+      {% elsif site.plan_template_version == 0 %}
+        {% include nav4.html %}
+      {% endif %}
+    </div>
+  </div>
+</nav>

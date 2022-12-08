@@ -1,0 +1,42 @@
+.interactive-section {
+  padding-top: 40px !important;
+  .interactive-container{
+    position: relative;
+  }
+  .interactive-container>.hotspot{
+    z-index: 2;
+    position: absolute;
+    background-color: transparent;
+    border:none !important;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    -webkit-animation: pulsate 1.4s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    span{
+      font-size: 34pt;
+      color: white;
+    }
+  .interactive-container> .btn:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    outline-width: 0;
+  }
+  .interactive-container>img{
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .interactive-container>.hotspot{
+    transform: translateX(-80%);
+    span{
+      font-size: 20pt;
+    }
+  }
+}
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.2;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.5, 1.5); opacity: 0.0;}
+}
+}

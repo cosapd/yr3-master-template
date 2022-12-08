@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% assign centers = site.regional-centers %}
+{% for center in centers %}
+<div class="page-header text-center">
+  {% include breadcrumb.html context= page.url %}
+  <h5>{{ center.type }}</h5>
+  <h2 class="text-center">{{ center.title }}</h2>
+</div>
+<h3 class="text-orange">{{center.title}} Regional Profile</h3>
+<div class="row" style="height: auto;">
+  <div class="col-9">
+    <img src="/img/{{ center.feature-map }}" alt="{{ center.img-alt }}">
+  </div>
+  <div class="col-3">
+    <p>{{ center.content }}</p>
+    <div class="caption-image">
+      <img src="/img/{{ center.caption-image.image }}" alt="">
+      <p style='font-size: 8pt;'>{{ center.caption-image.caption }}</p>
+    </div>
+  </div>
+</div>
+{% endfor %}

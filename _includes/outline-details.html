@@ -1,0 +1,16 @@
+<div class="outline-details">
+  <div class="intro">
+    <h2 class="text-blue">Sub-Area ePlan Approach</h2>
+    <p>The Sub-Area plans will be thoroughly documented in this website (ePlan).  This ePlan will ultimately contain the entire Sub-Area plan document when the project is completed in the Spring of 2018.  As each phase is completed, the ePlan will be updated and a new tab will become active, illustrating the content created and the community input provided during that phase.  Once the Plan is complete, all tabs will become visible and each element of the entire plan can be viewed at the click of a button.</p>
+  </div>
+
+  {% assign topics = site.data.outline-topics%}
+  {% for topic in topics %}
+
+  <div class="topic-card text-left">
+    {% if topic.link %}<a href="{{topic.link}}"><h3 class="text-blue" style="text-decoration:underline;">{{topic.title}}</h3></a>{% else %}<h3 class="text-blue">{{topic.title}}</h3>{% endif %}
+    <h4 class="description">{{topic.description}}</h4>
+    <p>{{topic.text}}</p>
+  </div>
+  {% endfor %}
+</div>

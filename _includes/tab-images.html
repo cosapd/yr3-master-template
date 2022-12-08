@@ -1,0 +1,82 @@
+
+<div id="image-section">
+  <div class="container-fluid">
+    <ul class="nav nav-tabs row" role="tablist" id="myTabs"  style="max-width: 100%;">
+      <a role="tab" role="tab" class="col-md-2 nav-item nav-link active" href="#plan-atlas" aria-controls="home" data-toggle='tab'>
+        <div class="tab-content">
+          <h3>Existing Conditions Atlas</h3>
+        </div>
+      </a>
+      <a role="tab" role="tab" class="col-md-2 nav-item nav-link" href="#plan-location" aria-controls="home" data-toggle='tab'>
+        <div class="tab-content">
+          <h3>Plan Location</h3>
+        </div>
+      </a>
+      <a role="tab" role="tab" class="col-md-2 nav-item nav-link" href="#study-area" aria-controls="home" data-toggle='tab'>
+        <div class="tab-content">
+          <h3>Study Area</h3>
+        </div>
+      </a>
+      <a role="tab" role="tab" class="col-md-2 nav-item nav-link" href="#assets-tab" aria-controls="home" data-toggle='tab'>
+        <div class="tab-content">
+          <h3>Assets</h3>
+        </div>
+      </a>
+      <a role="tab" role="tab" class="col-md-2 nav-item nav-link" href="#challenges-tab" aria-controls="home" data-toggle='tab'>
+        <div class="tab-content">
+          <h3>Challenges</h3>
+        </div>
+      </a>
+      <a role="tab" role="tab" class="col-md-2 nav-item nav-link" href="#opportunities-tab" aria-controls="home" data-toggle='tab'>
+        <div class="tab-content">
+          <h3>Opportunities</h3>
+        </div>
+      </a>
+    </ul>
+  </div>
+  <div class="tab-content">
+    <div id="plan-atlas"  class="tab-pane fade in  active show" role="tabpanel">
+      <div class="container">
+      <div style="margin:1.5em 0">
+        <a href="{{ page.tab-images.eca_path }}" target="_blank"><img style="border: 1px solid #ededed;box-shadow: 3px 5px 7px rgba(0,0,0,.15);" src="{{ page.tab-images.eca_thumbnail_path }}" alt="Cover sheet for existing conditions atlas."></a>
+      </div>
+     <a href="{{ page.tab-images.eca_path }}" download class="pull-right"><i class="fa fa-download"></i>Download</a>
+      </div>
+    </div>
+    <div id="plan-location"  class="tab-pane fade in" role="tabpanel">
+      <div class="container">
+        <p class="text-center" style="margin: 1em 0;">The map below shows the {{ site.subarea-name }} Regional Center Area in relationship to San Antonio.  The area is highlighted in black.</p>
+        <a style="margin-bottom: 1.5em;" href="{{ page.tab-images.plan_location_path }}" class="btn btn-sm btn-secondary pull-left" target="_blank">View Full Size</a>
+        <div style="margin:1.5em 0">
+          <img class="" src="{{ page.tab-images.plan_location_path }}" alt="Plan location map">
+        </div>
+        <a href="{{ page.tab-images.plan_location_path }}" download class="pull-right"><i class="fa fa-download"></i>Download</a>
+      </div>
+    </div>
+    <div id="assets-tab"  class="tab-pane fade in" role="tabpanel">
+      <div id="slider1" class="container text-left">
+        {% include assets-slider.html %}
+      </div>
+    </div>
+    <div id="challenges-tab"  class="tab-pane fade in" role="tabpanel">
+      <div id="slider2" class="container text-left">
+        {% include challenges-slider.html %}
+      </div>
+    </div>
+    <div id="opportunities-tab"  class="tab-pane fade in" role="tabpanel">
+      <div  id="slider3" class="container text-left">
+        {% include opportunities-slider.html %}
+      </div>
+    </div>
+    <div id="study-area"  class="tab-pane fade in" role="tabpanel">
+      <div class="container">
+      <p class="text-center" style="margin: 1em 0;">The map below shows the {{ site.subarea-name }} Regional Center Area Plan boundary and the connectivity throughout the area and beyond.</p>
+      <a style="margin-bottom: 1.5em;" href="{{ page.tab-images.study_area_path }}" class="btn btn-sm btn-secondary pull-left" target="_blank">View Full Size</a>
+      <div style="margin:1.5em 0">
+        <img class="" src="{{ page.tab-images.study_area_path }}" alt="plan location basemap">
+      </div>
+      <a href="{{ page.tab-images.study_area_path }}" download class="pull-right"><i class="fa fa-download "></i>Download</a>
+      </div>
+    </div>
+  </div>
+</div>

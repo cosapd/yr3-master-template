@@ -1,0 +1,48 @@
+
+{% if include.context contains "glossary" %}
+ <ol class="breadcrumb outside">
+   <li><a href="/">Home</a></li>
+   <li><a href="/glossary/">Glossary</a></li>
+ </ol>
+{% elsif include.context contains "documents" %}
+ <ol class="breadcrumb outside">
+   <li><a href="/">Home</a></li>
+   <li><a href="/documents/">Documents Library</a></li>
+ </ol>
+{% elsif include.context contains "about" %}
+<ol class="breadcrumb outside">
+  <li><a href="/">Home</a></li>
+  <li><a href="/existing-conditions/">Existing Conditions</a></li>
+</ol>
+{% elsif include.context contains "framework" %}
+<ol class="breadcrumb outside">
+  <li><a href="/">Home</a></li>
+  <li><a href="/plan-framework/">Plan Framework</a></li>
+  <li><a href="{{page.permalink}}">{{page.title}}</a></li>
+</ol>
+{% elsif include.context contains "process" %}
+ <ol class="breadcrumb outside">
+   <li><a href="/">Home</a></li>
+   <li><a href="/process/">Process</a></li>
+ </ol>
+{% elsif include.context contains "calendar" %}
+<ol class="breadcrumb outside">
+  <li><a href="/">Home</a></li>
+  <li><a href="/get-involved/">Get Involved</a></li>
+</ol>
+{% elsif include.context contains "plan-outline" %}
+ <ol class="breadcrumb outside">
+   <li><a href="/">Home</a></li>
+   <li><a href="/plan-outline/">Plan Outline</a></li>
+ </ol>
+{% elsif include.context contains "planning-team" %}
+<ol class="breadcrumb outside">
+  <li><a href="/">Home</a></li>
+  <li><a href="/planning-team/">Planning Team</a></li>
+</ol>
+{% elsif include.context contains "implementation" %}
+ <ol class="breadcrumb outside">
+   <li><a href="/">Home</a></li>
+   <li><a href="/implementation/">Implementation</a></li>
+ </ol>
+{% endif %}

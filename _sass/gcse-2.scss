@@ -1,0 +1,21 @@
+#large-search{
+  width: 400px;
+  margin: 3em auto 0;
+}
+
+.gsc-table-result{
+
+}
+table.gsc-resultsHeader{
+  display: none !important;
+}
+table.gsc-table-result{
+    border: none !important;
+    table td, table th {
+        padding: 6px 13px;
+        border: none !important;
+    }
+}
+div.gsc-webResult.gsc-result{
+  border: none !important;
+}

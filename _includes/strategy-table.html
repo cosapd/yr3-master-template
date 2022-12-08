@@ -1,0 +1,27 @@
+{% assign actions = site.data.actions %}
+
+  <table class="action-table">
+    <tr class="action-table-head">
+      <th>Action</th>
+      <th>Description</th>
+      <th>Air Quality</th>
+      <th>Economic Vitality</th>
+      <th>Equity</th>
+      <th>Resilience</th>
+      <th>Water Resources</th>
+    </tr>
+  {% for action in actions  %}
+    {% if action.plan-element-abbreviation == page.abbreviation %}
+    <tr class="action-table-body">
+      <td class="cell-grey">{{action.abbreviation}}</td>
+      <td class="text-left">{{action.description}}</td>
+      <td class="cell-dark">{% if action.attributes.air-quality == true %}<i class="fa fa-check fa-2x" aria-hidden="true"></i>{% endif %}</td>
+      <td>{% if action.attributes.economic-vitality == true %}<i class="fa fa-check fa-2x" aria-hidden="true"></i>{% endif %}</td>
+      <td class="cell-dark">{% if action.attributes.equity == true %}<i class="fa fa-check fa-2x" aria-hidden="true"></i>{% endif %}</td>
+      <td>{% if action.attributes.resilience == true %}<i class="fa fa-check fa-2x" aria-hidden="true "></i>{% endif %}</td>
+      <td class="cell-dark">{% if action.attributes.water-resources == true %}<i class="fa fa-check fa-2x" aria-hidden="true"></i>{% endif %}</td>
+    </tr>
+    {% endif %}
+  {% endfor %}
+  </table>
+{% assign actions = null %}

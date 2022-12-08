@@ -1,0 +1,44 @@
+
+<div class="container">
+  {% assign process = site.process %}
+  <div class="row">
+    <div class="col-md-12">
+      <ul class="timeline">
+        {% for item in process %}
+        {% capture li_cycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+        {% if li_cycle == 'odd'%}
+        <li class="animateEntryLeft" style="margin-left: -500vw;">
+          <div class="timeline-image">
+
+        {% else %}
+        <li class="timeline-inverted animateEntryRight" style="margin-right: -500vw;">
+          <div class="timeline-image alt">
+
+        {% endif %}
+
+            {% if item.img_path %}
+            <img class="img-circle img-responsive" src="{{item.img_path}}" alt="" />
+            {% elsif item.icon-code %}
+            <i class="icon {{item.icon-code}}"></i>
+            {% elsif item.numeral %}
+            <h1 class="numeral"> {{item.numeral}}</h1>
+            {% endif %}
+          </div>
+
+          <div class="timeline-panel" >
+            <div class="timeline-heading">
+              <h3 {% if li_cycle == 'odd' %}style="text-align:right !important;"{% else %}style="text-align:left !important;"{% endif %}>{{item.title}}</h3>
+              <h4 {% if li_cycle == 'odd' %}style="text-align:right !important;"{% else %}style="text-align:left !important;"{% endif %}>{{item.duration}}</h4>
+              <h4 {% if li_cycle == 'odd' %}style="text-align:right !important;"{% else %}style="text-align:left !important;"{% endif %}>{{item.subtitle}}</h4>
+            </div>
+            <div class="timeline-body">
+              <p {% if li_cycle == 'odd' %}style="text-align:right !important;"{% else %}style="text-align:left !important;"{% endif %}>{{item.content}}</p>
+            </div>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+  </div><!--endrow-->
+  </div>
+  <div><a href="/about/"><h3 class="text-center">Learn more about the plan!</h3></a></div>
+</div>

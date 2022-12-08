@@ -1,0 +1,55 @@
+{% if page.recommendations %}
+{% assign recommendations = page.recommendations %}
+<div {% unless page.url contains "catalytic" %}class="container-fluid"{% endunless %}   id="{{page.title}}" style="">
+  <div class="panel-group policy-accordian accordian">
+    {% for recommendation in recommendations %}
+    {% if recommendation.title %}
+      <div class="panel panel-default policy-panel" style="width: 100%;">
+        <a class="collapsed" data-toggle="collapse" data-parent=".accordion" href="#{{recommendation.title | remove: "," | slugify }}">
+          <div class="panel-title">
+              <h4 class="no-margin">Recommendation #{{forloop.index}}</h4>{{ recommendation.title }}<i class="fa fa-caret-down fa-2" aria-hidden="true"></i>
+          </div>
+        </a>
+        <div id="{{recommendation.title | remove: "," | slugify }}" class="panel-collapse collapse">
+          <div class="panel-body text-left"  style="padding: .5em .5em .5em 1em;">
+                {% if recommendation.strategies %}
+                {% for strategy in recommendation.strategies %}
+                <h4>Strategy #{{forloop.index}}</h4>
+                <div class="row d-flex align-items-center">
+                  <div class="col-lg-8" >
+                  {{ strategy.content }}
+                  </div>
+                  <div class="offset-md-3 col-md-6 offset-lg-0 col-lg-4 border" style="padding: 1em;">
+                    <ul style="list-style:none;">
+                      <li><h4>Regulation + Policy<span class="pull-right"><i style="font-size: 1.25em; color: #cc5431;" class="fa {% if strategy.custom_categories.regulations == true %}fa-check-square {% else %} fa-square{% endif %}"></i></span></h4></li>
+                      <li><h4>Partnerships<span class="pull-right"><i style="font-size: 1.25em; color: #cc5431;" class="fa {% if strategy.custom_categories.partnerships == true %}fa-check-square {% else %} fa-square{% endif %}"></i></span></h4></li>
+                      <li><h4>Investments<span class="pull-right"><i style="font-size: 1.25em; color: #cc5431;" class="fa {% if strategy.custom_categories.investments == true %}fa-check-square {% else %} fa-square{% endif %}"></i></span></h4></li>
+                    </ul>
+                  </div>
+                </div>
+                {% endfor %}
+                {% else %}
+                {{ recommendation.content }}
+                {% endif %}
+              {% if recommendation.image-2 %}
+              <div class="row" style='margin:.5em'>
+                <div class="col-md-6">
+                  <a href="{{recommendation.img_path}}"><img src="{{ recommendation.image }}" alt=""></a>
+                </div>
+                <div class="col-md-6">
+                  <a href="{{recommendation.secondary_img_path}}"><img src="{{ recommendation.image-2 }}" alt=""></a>
+                </div>
+              </div>
+              {% elsif recommendation.image %}
+              <div class="col-md-12"  style='margin-top:1em'>
+                <a href="{{recommendation.image}}"><img src="{{ recommendation.image }}" alt=""></a>
+              </div>
+              {% endif %}
+            </div>
+          </div>
+      </div>
+      {% endif %}
+    {% endfor %}
+    </div>
+  </div>
+  {% endif %}

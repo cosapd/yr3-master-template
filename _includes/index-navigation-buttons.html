@@ -1,0 +1,30 @@
+{% capture the_collection %}{{page.collection}}{% endcapture %}
+  {% if page.collection %}
+    {% assign  document = (site[the_collection]  | sort: "title") %}
+  {% endif %}
+{% for links in document  %}
+  {% if links.title == page.title %}
+    {% unless forloop.first %}
+      {% assign prevurl = prev.url %}
+    {% endunless %}
+    {% unless forloop.last %}
+      {% assign next = document[forloop.index] %}
+      {% assign nexturl = next.url %}
+    {% endunless %}
+  {% endif %}
+  {% assign prev = links %}
+{% endfor %}
+<script>
+document.body.onkeyup = function(e){
+if (e.keyCode == '37') { window.location = '{{prevurl}}'; }
+if (e.keyCode == '39') { window.location = '{{nexturl}}'; }
+};
+</script>
+<div class="row">
+  <div class="col-6 text-right">
+    {% if prevurl %}<a href="{{prevurl}}" class="prev indexing-button">Previous</a>{% endif %}<br />
+  </div>
+  <div class="col-6 text-left">
+    {% if nexturl %}<a href="{{nexturl}}" class="nxt indexing-button">Next</a>{% endif %}
+  </div>
+</div>

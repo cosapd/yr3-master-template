@@ -1,0 +1,57 @@
+#principle-grid{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  .principle-box{
+    position: relative;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .5em solid white;
+    padding: 0;
+    overflow: hidden;
+    .principle-number{
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      font-size: 340px;
+      line-height: 330px;
+      opacity: 0.175;
+      z-index: 0 !important;
+      color: #fff !important;
+      margin-bottom: 0 !important;
+      font-family: $heading-font !important;
+    }
+    .principle-text{
+      background: transparent;
+      font-size: 12pt;
+      z-index: 10 !important;
+      text-align: left;
+      margin: 0 .5em;
+      color: #fff !important;
+      width: 90%;
+      left: 10px;
+      align-self: center;
+      font-weight: bold !important;
+    }
+    img{
+      width: 100%;
+
+    }
+  }
+  .box1, .box5, .box9{
+    background-color: $orange;
+  }
+  .box2,.box6{
+    background-color: $green;
+  }
+  .box3, .box7{
+    background-color: $sidebar-green;
+  }
+  .box4, .box8{
+    background-color: $yellow;
+  }
+}

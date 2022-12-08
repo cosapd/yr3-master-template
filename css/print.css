@@ -1,0 +1,199 @@
+/**
+* Print Stylesheet for SA Tomorrow
+* Built by bowite.io with Nick Arrasate
+* @version         1.0
+* @lastmodified    08.06.2017
+*/
+
+@media print {
+
+body{
+
+}
+#nav {
+  display:none;
+}
+ p, #content, section{
+width: 100%;
+float: none;
+padding: 0;
+color: #000 !important;
+page-break-inside: avoid;
+}
+p {
+  color: black;
+}
+.topic-card{
+  page-break-inside: avoid;
+}
+.panel {
+  page-break-inside: avoid;
+}
+.carousel-hide{
+  display: none;
+}
+body {
+font: 13pt Georgia, "Times New Roman", Times, serif;
+line-height: 1.3;
+background: #fff !important;
+color: #000;
+}
+
+h1 {
+font-size: 20pt !important;
+}
+
+h2, h3, h4 {
+font-size: 14pt !important;
+margin-top: 25px;
+}
+.row{
+  clear: both;
+}
+a, img{
+  page-break-inside:avoid;
+  text-decoration: none !important;
+}
+blockquote {
+  page-break-inside: avoid;
+  border: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #000 !important;
+  /* page-break-after:avoid; */
+  page-break-inside:avoid;
+  text-decoration: none;
+}
+table, pre { page-break-inside:avoid }
+ul, ol, dl  { page-break-before:avoid }
+
+
+a:link, a:visited, a {
+background: transparent;
+color: #111;
+font-weight: bold;
+text-decoration: underline;
+text-align: left;
+}
+
+a {
+  color: #000;
+  page-break-inside:avoid
+}
+.navbar-left{
+  width: 150px;
+}
+.sidebar, #collapseBar
+{
+display: none;
+}
+#documents{
+  width: 30%;
+  float: left;
+}
+.site-header:after {
+background-image: url('/img/logo.png');
+height: 100px;
+width: 200px;
+margin: 0 auto;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+padding-top: 10px;
+}
+#header:before {
+color: #777 !important;
+font-size: 1em;
+padding-top: 30px;
+text-align: center !important;
+}
+
+p, address, li, dt, dd, blockquote {
+font-size: 100%
+}
+
+code, pre { font-family: "Courier New", Courier, mono}
+
+ul, ol {
+list-style: square; margin-left: 18pt;
+margin-bottom: 20pt;
+}
+
+li {
+line-height: 1.6em;
+}
+.sidebar{
+  clear: both;
+}
+.print-hide, #subfooter-container, #subnav-container, #element-icon-section, #header-search, .breadcrumb, .hero-search, .indexing-button, .footer-social, #subplan-links, #subplan-logos, .footer-print-links, .city-logo {
+  display: none !important;
+}
+.action-table{
+  display: block;
+  page-break-inside:avoid
+}
+.feature-icon{
+  display: none;
+  /* width: 25%;
+  margin-right: 1cm;
+  float: left !important;
+  page-break-inside: avoid; */
+}
+/*Footer Print Rules ************************/
+#footer{
+  page-break-inside:avoid
+
+}
+.footer-logo{
+  width: 100px;
+  float: left;
+}
+.footer-info{
+display: table;
+}
+.subplan-legal{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 8pt;
+  margin-bottom: 1em;
+  max-height: 40px;
+  max-width: 100px;
+  float: left;
+}
+.section-tags, .section-themes {
+  font-size: .8em;
+  color: #ddd;
+}
+.section-themes:before{
+  content: "Themes: "
+}
+.section-tags:before{
+  content: "Tags: "
+}
+.section-tags.nav.nav-tabs, .section-themes.nav.nav-tabs {
+  border: none;
+  border-bottom: none;
+}
+.item-tags, .item-themes {
+  display: none;
+}
+.item-tags.nav.nav-tabs, .item-themes.nav.nav-tabs {
+  border: none;
+  border-bottom: none;
+}
+.sidebar, .image-sidebar{
+  max-width: 33%;
+  float: right;
+  padding:10px;
+  border: 1px solid grey;
+  margin: 10px;
+  page-break-inside: avoid;
+}
+.goal-card-secondary, .policy-list-item>p>b{
+  font-weight: normal;
+  border: 1px solid grey;
+  padding: 5px;
+  margin: 5px;
+}
+}

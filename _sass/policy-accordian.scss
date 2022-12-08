@@ -1,0 +1,62 @@
+.panel-group.policy-accordian{
+  display: block;
+  position: relative;
+  clear: both;
+  margin-top: 60px;
+}
+.policy-panel{
+  padding: 1em;
+  i{
+    margin-left: 1em;
+  }
+}
+.policy-panel>.panel-heading>a.collapsed{
+  i{
+    transform: rotate(-90deg);
+  }
+}
+.panel-title{
+  a{
+    margin: auto 0;
+  }
+}
+.policy-list{
+  list-style: none;
+  li{
+    margin: 10px 0;
+  }
+}
+//Styles for pla element actions table
+.action-table {
+  .action-table-head{
+    background-color: #dbb065;
+    color: #fff;
+    border: 1px solid #000;
+
+    th{
+      text-align: center;
+      border: none !important;
+    }
+  }
+  .action-table-body{
+    text-align: center;
+    color: black;
+    td{
+      border: 1px solid #000;
+    }
+    .cell-grey{
+      background-color: #555659;
+      color: #fff;
+      white-space: nowrap;
+    }
+    .cell-dark{
+      background-color: #f5ead7;
+    }
+  }
+}
+.indicator-goal-list{
+  list-style: none;
+  li{
+    margin: 1em 0;
+  }
+}

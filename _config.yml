@@ -1,0 +1,211 @@
+# Site settings
+title: Master Template
+description:
+
+encoding: utf-8
+
+# Theme additions - please update the default values if you intend to use these variables
+url: https://template.sacompplan.com
+sa-tomorrow-link: https://satomorrow.com/
+sa-tomorrow-comp-link: https://sacompplan.com
+subarea-name: 'MASTER TEMPLATE'
+header-logo: /img/TEMPLATE.png
+tags:
+  - San Antonio Tomorrow
+  - San Antonio, TX
+topicaltheme: # Economic Vitality, Air Quality, Water Resources, Equity, Resilience
+  #- SA Tomorrow
+draft: true
+draft-plan-link: 'EXAMPLE@sanantonio.gov'
+draft-plan-link2: #example.pdf
+draft-link-text: #"The public draft of the Eastside Community Area Plan is available for review and comment. Comments are due by Sunday, October 16, 2022. Please submit comments directly through the website by filling out the form at the bottom of the webpage, or by emailing Channary Gould, Project Manager for the Eastside Community Area Plan at:"
+
+plan_template_version: 0
+
+formspree_endpoint: https://formspree.io/f/mnqwlnyp
+
+team-lead:
+  name: 'EXAMPLE NAME'
+  name-es: 'Plan del Área Comunitaria South'
+  title: 'EXAMPLE TITLE, San Antonio Planning Department'
+  email: 'EXAMPLE@sanantonio.gov'
+  phone: 'EXAMPLE'
+
+# MAILCHIMP IS DEPRECATED IN FAVOR OF CONSTANT CONTACT
+# mailchimp_username: sanantonio
+# mailchimp_server: us16
+# mailchimp_apikey: 1c958532fb93aa43acd8dffc3
+# mailchimp_listid: 3ee36d3858
+
+# CONSTANT CONTACT IS DEPRECATED IN FAVOR OF MS FORMS
+constant_contact_form: #716efd08-43c3-43f8-a2f1-c7d7b0529962 
+
+contact:
+  email: SATomorrow@sanantonio.gov
+  org-name: City of San Antonio
+  dept-name: Planning Department
+  address1: 100 West Houston Street, City Tower, 18th Floor
+  address-mailing: "P.O. Box 839966 | San Antonio, Texas 78283-3966"
+  city: San Antonio
+  state: TX
+  zip: 78205
+  zip-mailing: 78283
+  phone: (210) 207-0147
+
+
+contact-es:
+  email: SATomorrow@sanantonio.gov
+  org-name: Ciudad de San Antonio
+  dept-name: Departamento de Planificación
+  address1: 100 West Houston Street, City Tower, piso 18th
+  address-mailing: "P.O. Box 839966 | San Antonio, Texas 78283-3966"
+  city: San Antonio
+  state: TX
+  zip: 78205
+  zip-mailing: 78283
+  phone: (210) 207-0147
+
+
+social:
+  facebook: https://www.facebook.com/SATomorrow2040/
+  twitter: https://twitter.com/SATomorrow2040?lang=en
+  instagram: https://www.instagram.com/satomorrow2040/
+  youtube: https://youtube.com/user/COSAGOV
+  nextdoor: https://nextdoor.com/agency-post/tx/san-antonio/city-of-san-antonio-department-of-planning-community-development/
+  image: /img/san-antonio-tomorrow-social-img.jpg
+
+logourl: '/img/SA_Tomorrow_All_RGB.png' # Your logo or avatar
+
+author: bowtie.io
+
+author_thumbnail: /img/user1.png # default author avatar
+
+google_analytics_id:  # Your google analytics ID (e.g. 'UA-XXXXXXXX-X')
+
+google_api_key: '' # Your Google API key for Maps
+
+# Configuration of the Google Calendar. ################
+# These two variables are needed by the events api. ####
+google_cal_id: 'bowtieagency.com_38n45hh9r46r52ibs9emnt3k0c@group.calendar.google.com'
+google_cal_key: 'AIzaSyAkMDdee0EvjPg97w8l5olksYIn27cYQGQ'
+# This variable is needed by the emedded monthly calendar.
+google_cal_url: '/calendar/_/scs/calendar-static/_/js/k=calendar.embed.en.zFmE3uPwE6A.O/m=embed/rt=j/d=1/rs=ANwU0p75QNIFdONwl-vfXXOTnP6cwYyR4Q'
+
+# Permalinks
+permalink:           /:categories/:title/
+relative_permalinks: false
+
+markdown:    kramdown
+
+plugins_dir: [jekyll-livereload]
+
+# Server Config options
+livereload: false     # You no longer need to include --livereload
+reload_port: 5000    # If you don't want to use the default port
+
+carousel-speed: 7500 #set speed for all image sliders
+# Pagination config
+# paginate: 5
+# paginate_path: /page/:num
+
+# Jekyll build/resource locations
+
+# source:  .
+# destination: ./_site
+# plugins_dir: null
+# layouts_dir: ./_layouts
+# data_dir:    ./_data
+# includes_dir: ./_includes
+
+# Jekyll Handling Reading
+include:    [] # Specify files to be included in build that may be otherwise ignored (e.g. '[.htaccess]')
+
+keep_files: [] # Files/Folders located inside the ./_site folder to be retained on build (e.g.'[.git, .svn]')
+
+# Files/Folders to be excluded from generated '_site' folder
+exclude:
+  - .gitignore
+  - .sass-cache
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+defaults:
+  -
+    scope:
+      type: "plan-framework"
+    values:
+      layout: "framework"
+  # -
+  #   scope:
+  #     type: "regional-centers"
+  #   values:
+  #     layout: "regional-center-detail"
+  # -
+  #   scope:
+  #     type: "place-types"
+  #   values:
+  #     layout: "place-type-detail"
+  -
+    scope:
+      type: "interactive-maps"
+    values:
+      layout: "interactive-map"
+
+# define collection objects
+collections:
+  team:
+    output: false
+  team-es:
+    output: false
+  planning-team:
+    output: false
+  planning-team-es:
+    output: false
+  sections:
+    output: false
+  documents:
+    output: false
+  process:
+    output: false
+  home-slides:
+    output: false
+  home-slides-es:
+    output: false
+  assets-slides:
+    output: false
+  challenges-slides:
+    output: false
+  opportunities-slides:
+    output: false
+  assets-slides-es:
+    output: false
+  challenges-slides-es:
+    output: false
+  opportunities-slides-es:
+    output: false
+  hero-slides:
+    output: false
+  event-materials:
+    output: false
+  events:
+    output: false
+  footer-docs:
+    output: false
+  plan-framework:
+    output: true
+  exercises:
+    output: false
+  exercises-es:
+    output: false
+  neighborhood-profiles:
+    output: false
+  neighborhood-profiles-es:
+    output: false
+  en-espanol-link-and-doc-cards:
+    output: false
+  banners:
+    output: false
+
+search-cx: '014401161238184792979:nm7ezv2n6dw'

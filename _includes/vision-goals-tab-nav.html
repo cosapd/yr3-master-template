@@ -1,0 +1,28 @@
+<div class="" style="margin-top: 1.5em;">
+  <p>A Vision describes an ideal snapshot of how an area might evolve in the future. A certain degree of change is inevitable over time and a vision can guide and shape that change for the benefit of the community. 
+  </p><p>
+    During the first three Planning Team meetings, and two community meetings, community members articulated important values and identified the Eastside Community Area’s strengths, challenges to overcome, and opportunities. This feedback became the basis for the emerging Eastside vision and goals described below. Once reviewed and refined, the vision and goals are intended to guide planning, future development, and investment decisions in the Eastside Community Area.
+    </p>
+</div>
+  <div class="container-fluid" style="margin-top: 2em;">
+    <ul class="nav nav-tabs row" role="tablist" id="myTabs">
+      <a role="tab" class="vision-tab col-md nav-item nav-link active" href="#vision-tab" aria-controls="home" data-toggle='tab'>
+        <div class="tab-content intro">
+          <h3 class="text-blue">Vision for {{ site.subarea-name }}</h3>
+        </div>
+      </a>
+      <a role="tab" class="vision-tab col-md nav-item nav-link" href="#goals-tab" aria-controls="home" data-toggle='tab'>
+        <div class="tab-content intro">
+          <h3 class="text-blue">Goals for {{ site.subarea-name }}</h3>
+        </div>
+      </a>
+    </ul>
+  </div>
+  <div class="tab-content">
+    <div id="vision-tab"  class="tab-pane fade in active show">
+      {% include section.html location="vision" %}
+    </div>
+    <div id="goals-tab"  class="tab-pane fade in">
+      {% include section.html location="goals" %}
+    </div>
+  </div>

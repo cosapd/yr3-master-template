@@ -1,0 +1,1849 @@
+-
+  name: "gcf"
+  heading: "Priority Growth Areas"
+  abbreviation: "P1"
+  description: "Incentivize the development of housing and employment uses in the city’s priority growth areas."
+-
+  name: "gcf"
+  heading: "Priority Growth Areas"
+  abbreviation: "P2"
+  description: "Identify and support catalyst projects which include a mix of housing types for a range of income levels and which attract additional employment."
+-
+  name: "gcf"
+  heading: "Priority Growth Areas"
+  abbreviation: "P3"
+  description: "Invest in neighborhood amenities and infrastructure (including green infrastructure) that will attract new residents to priority growth areas."
+-
+  name: "gcf"
+  heading: "Priority Growth Areas"
+  abbreviation: "P4"
+  description: "Create subarea/corridor plans for the city's regional centers, major arterials, and transit corridors to ensure maximum coordination of land use, transportation and other infrastructure in support of higher-density development."
+-
+  name: "gcf"
+  heading: "Priority Growth Areas"
+  abbreviation: "P5"
+  description: "Invest in needed amenities and infrastructure that will facilitate higher-density development in the city’s priority growth areas."
+-
+  name: "gcf"
+  heading: "Priority Growth Areas"
+  abbreviation: "P6"
+  description: "Align land uses and infrastructure improvements in regional centers with employment uses and jobs best suited for each center’s unique assets."
+-
+  name: "gcf"
+  heading: "Priority Growth Areas"
+  abbreviation: "P7"
+  description: "Ensure employment centers provide a variety of land uses and infrastructure that will allow the city to remain economically competitive."
+-
+  name: "gcf"
+  heading: "Infill and Revitalization"
+  abbreviation: "P8"
+  description: "Continue to focus on the revitalization of neighborhoods adjacent to downtown and extend these efforts to regional centers, urban centers and transit corridors."
+-
+  name: "gcf"
+  heading: "Infill and Revitalization"
+  abbreviation: "P9"
+  description: "Allow higher-density and mixed uses in portions of, or adjacent to, single-family residential areas to encourage shopping, services and entertainment amenities in closer proximity to housing and where appropriate."
+-
+  name: "gcf"
+  heading: "Infill and Revitalization"
+  abbreviation: "P10"
+  description: "Develop a plan to preserve and maintain affordable housing within revitalizing neighborhoods and along transit corridors."
+-
+  name: "gcf"
+  heading: "Infill and Revitalization"
+  abbreviation: "P11"
+  description: "Continue and bolster incentive programs for infill development in priority growth areas."
+-
+  name: "gcf"
+  heading: "Infill and Revitalization"
+  abbreviation: "P12"
+  description: "Develop programs to encourage and incentivize adaptive reuse."
+-
+  name: "gcf"
+  heading: "Infill and Revitalization"
+  abbreviation: "P13"
+  description: "Evaluate commercial and industrial land use and zoning designations in the core of the city, regional centers, urban centers and primary transit corridors to determine areas that could be converted to residential or mixed-use."
+-
+  name: "gcf"
+  heading: "Infill and Revitalization"
+  abbreviation: "P14"
+  description: "Establish appropriate buffers and transitions (land use, form and/or landscaping) between residential neighborhoods and surrounding higher-density development."
+-
+  name: "gcf"
+  heading: "Annexation"
+  abbreviation: "P15"
+  description: "Work with AACOG (Alamo Area Council of Governments), AAMPO, and other regional partners to determine a consistent approach for forecasting growth in the region and develop a strategic, proactive approach to annexation that is consistent with the adopted growth forecast."
+-
+  name: "gcf"
+  heading: "Annexation"
+  abbreviation: "P16"
+  description: "Ensure the City’s annexation policy supports desired city form."
+-
+  name: "gcf"
+  heading: "Annexation"
+  abbreviation: "P17"
+  description: "Ensure that newly annexed residents of the city receive the same level of service as current residents."
+-
+  name: "gcf"
+  heading: "Annexation"
+  abbreviation: "P18"
+  description: "Ensure that annexation decisions do not create an undue fiscal burden on the City or utilities providers, SAWS and CPS."
+-
+  name: "gcf"
+  heading: "Annexation"
+  abbreviation: "P19"
+  description: "Ensure that the City's growth and annexation plan provides guidance for growth plans and policy decisions made by the major utility providers, SAWS and CPS."
+-
+  name: "gcf"
+  heading: "Transit"
+  abbreviation: "P20"
+  description: "Work with VIA Metropolitan Transit to develop a long-term transit plan that increases transit connectivity to employment centers."
+-
+  name: "gcf"
+  heading: "Transit"
+  abbreviation: "P21"
+  description: "Work with VIA Metropolitan Transit to develop a long-term transit plan that facilitates transit-supportive development."
+-
+  name: "gcf"
+  heading: "Natural Resources and Environmental Sustainability"
+  abbreviation: "P22"
+  description: "Encourage development types and designs that promote and support water conservation practices."
+-
+  name: "gcf"
+  heading: "Natural Resources and Environmental Sustainability"
+  abbreviation: "P23"
+  description: "Implement stormwater infrastructure management best practices that balance well-developed and well-maintained regional and site-specific stormwater infrastructure (i.e., gray and green infrastructure). (See also NRES P17 and PFCS P13)"
+-
+  name: "gcf"
+  heading: "Natural Resources and Environmental Sustainability"
+  abbreviation: "P24"
+  description: "Incentivize developments in or near the recharge and contributing zones and in areas identified by the watershed master plans of the Bexar Regional Watershed Management Consortium to use low impact development techniques, to meet minimum standards for pervious area and to develop natural resources mitigation plans."
+-
+  name: "gcf"
+  heading: "Natural Resources and Environmental Sustainability"
+  abbreviation: "P25"
+  description: "Explore incentive and enforcement programs for Low Impact Development (LID)."
+-
+  name: "gcf"
+  heading: "Natural Resources and Environmental Sustainability"
+  abbreviation: "P26"
+  description: "Encourage land intensive development patterns to locate outside of the Edwards Aquifer recharge and contributing zones and along preservation reaches of rivers and creeks. (See also CHW P36 and NRES P11)"
+-
+  name: "gcf"
+  heading: "Natural Resources and Environmental Sustainability"
+  abbreviation: "P27"
+  description: "Purchase undeveloped land within the Edwards Aquifer recharge and contributing zones and along river and creek corridors for public open space."
+-
+  name: "gcf"
+  heading: "Natural Resources and Environmental Sustainability"
+  abbreviation: "P28"
+  description: "Incentivize development that is consistent with recommendations within the watershed master plans of the Bexar Regional Watershed Management Consortium."
+-
+  name: "gcf"
+  heading: "Natural Resources and Environmental Sustainability"
+  abbreviation: "P29"
+  description: "Develop and promote incentives and other tools to facilitate development types and designs that promote and support water conservation practices."
+-
+  name: "gcf"
+  heading: "Natural Resources and Environmental Sustainability"
+  abbreviation: "P30"
+  description: "Develop and promote incentives and other tools to facilitate development types and designs that protect natural resources, water quality, surface waterways and air quality."
+-
+  name: "gcf"
+  heading: "Natural Resources and Environmental Sustainability"
+  abbreviation: "P31"
+  description: "Promote development that leverages and protects the public’s investment in major green infrastructure and natural resources projects (e.g., the San Antonio River Improvements Project and other creek and trail restoration projects). (See also PFCS P9)"
+-
+  name: "gcf"
+  heading: "Natural Resources and Environmental Sustainability"
+  abbreviation: "P32"
+  description: "Support the efforts of and collaborate with appropriate governmental entities to monitor, protect and ensure water quality within the Edwards Aquifer. (See also NRES P17 and CHW P41)"
+-
+  name: "gcf"
+  heading: "Schools and Education"
+  abbreviation: "P33"
+  description: "Support and invest in existing schools and their neighborhoods."
+-
+  name: "gcf"
+  heading: "Schools and Education"
+  abbreviation: "P34"
+  description: "Promote innovative educational opportunities within priority growth areas of the city to drive market demand for housing."
+-
+  name: "gcf"
+  heading: "Schools and Education"
+  abbreviation: "P35"
+  description: "Help provide land, facilities, and/or entitlements that can be used to establish schools that attract a broader spectrum of families with children."
+-
+  name: "gcf"
+  heading: "Schools and Education"
+  abbreviation: "P36"
+  description: "Collaborate with and provide support to underperforming independent school districts to enhance access and improve performance."
+-
+  name: "gcf"
+  heading: "Schools and Education"
+  abbreviation: "P37"
+  description: "Increase funding and support for early childhood education programs in underperforming school districts."
+-
+  name: "tc"
+  heading: "Planning and Investment"
+  abbreviation: "P1"
+  description: "Prioritize transportation projects that manage congestion based on objective criteria to evaluate long-term cost effectiveness and value."
+-
+  name: "tc"
+  heading: "Planning and Investment"
+  abbreviation: "P2"
+  description: "Prioritize transportation projects and investments based on the ability to reduce emissions and vehicle miles travelled (VMT)."
+-
+  name: "tc"
+  heading: "Planning and Investment"
+  abbreviation: "P3"
+  description: "Implement policies and programs based on objective criteria to consider full life cycle costs (including capital construction and maintenance as well as the full range of benefits (mobility, safety, economic development, quality of life, etc.)) in cost-benefit analysis of transportation projects."
+-
+  name: "tc"
+  heading: "Planning and Investment"
+  abbreviation: "P4"
+  description: "Provide funding to maintain and expand a multimodal transportation system in a cost-effective, equitable, accessible and efficient manner."
+-
+  name: "tc"
+  heading: "Planning and Investment"
+  abbreviation: "P5"
+  description: "Increase cost effectiveness and efficiency through coordinated project timing with other projects, other agencies and private development, thus avoiding costs of deferred maintenance."
+-
+  name: "tc"
+  heading: "Planning and Investment"
+  abbreviation: "P6"
+  description: "Develop procedures to incorporate multimodal improvements during the maintenance phase of roadways."
+-
+  name: "tc"
+  heading: "Multimodal Transportation"
+  abbreviation: "P7"
+  description: "Expand safe pedestrian and bicycle networks and transit options/access to encourage non-automobile travel alternatives. (See also NRES P40)"
+-
+  name: "tc"
+  heading: "Multimodal Transportation"
+  abbreviation: "P8"
+  description: "Prioritize transportation improvements that will incorporate multiple modes of travel and will provide connections between those modes."
+-
+  name: "tc"
+  heading: "Multimodal Transportation"
+  abbreviation: "P9"
+  description: "Continue to encourage and implement programs and projects that make the City’s bicycle network more accessible, direct and continuous in order to increase bicycling safety and opportunities for daily bicycle travel for riders of all levels and abilities. (See also CHW P24)"
+-
+  name: "tc"
+  heading: "Multimodal Transportation"
+  abbreviation: "P10"
+  description: "Invest in furthering the momentum of the City’s current river and trail investments for multi-use paths and multimodal connectivity."
+-
+  name: "tc"
+  heading: "Multimodal Transportation"
+  abbreviation: "P11"
+  description: "Develop a safe and convenient pedestrian travel network with sidewalks and trails integrated into the transportation system and activity areas such as schools, libraries, shopping and neighborhood centers. (See also CHW P28)"
+-
+  name: "tc"
+  heading: "Multimodal Transportation"
+  abbreviation: "P12"
+  description: "Prioritize safe accommodation and alternative routes for people walking, bicycling and at transit stops during street reconstruction."
+-
+  name: "tc"
+  heading: "Multimodal Transportation"
+  abbreviation: "P13"
+  description: "Develop and implement specific maintenance procedures for pedestrian and bicycle facilities."
+-
+  name: "tc"
+  heading: "Multimodal Transportation"
+  abbreviation: "P14"
+  description: "Incorporate multimodal opportunities to ensure access and use of transportation facilities."
+-
+  name: "tc"
+  heading: "Multimodal Transportation"
+  abbreviation: "P15"
+  description: "Identify and prioritize bicycle infrastructure improvements in areas where increased bicycle trip rates can best address congestion problems and provide options for commuting to places of employment."
+-
+  name: "tc"
+  heading: "Safety and Comfort"
+  abbreviation: "P16"
+  description: "Ensure the engineering and design of transportation facilities provides for the safety of all users."
+-
+  name: "tc"
+  heading: "Safety and Comfort"
+  abbreviation: "P17"
+  description: "Identify and implement regulations to improve the safety of people walking and bicycling."
+-
+  name: "tc"
+  heading: "Safety and Comfort"
+  abbreviation: "P18"
+  description: "Prioritize and maintain safe pedestrian crossings and continue supporting and implementing Safe Routes to School and Safe Routes to Transit programs."
+-
+  name: "tc"
+  heading: "Safety and Comfort"
+  abbreviation: "P19"
+  description: "Invest in infrastructure and amenities that provide shade and increase the comfort of pedestrians and waiting transit riders."
+-
+  name: "tc"
+  heading: "Safety and Comfort"
+  abbreviation: "P20"
+  description: "Accommodate the specific mobility and wayfinding needs of disabled individuals in all transportation modes."
+-
+  name: "tc"
+  heading: "Safety and Comfort"
+  abbreviation: "P21"
+  description: "Increase parking facility safety with design that minimizes conflicts between vehicles and people walking and bicycling."
+-
+  name: "tc"
+  heading: "Safety and Comfort"
+  abbreviation: "P22"
+  description: "Prioritize safety improvements and enhancements that effectively reduce crash and fatality rates and provide protection of the most vulnerable users (including children, seniors, persons with disabilities) and people walking and bicycling."
+-
+  name: "tc"
+  heading: "Safety and Comfort"
+  abbreviation: "P23"
+  description: "Develop performance and safety criteria for periodic evaluation of roadways and right-of-way."
+-
+  name: "tc"
+  heading: "Land Use and Transit Supportive Development"
+  abbreviation: "P24"
+  description: "Incentivize transit supportive development opportunities and incorporate transit supportive infrastructure improvements to promote transit use."
+-
+  name: "tc"
+  heading: "Land Use and Transit Supportive Development"
+  abbreviation: "P25"
+  description: "Develop incentives and zoning regulations to encourage transit-supportive development."
+-
+  name: "tc"
+  heading: "Land Use and Transit Supportive Development"
+  abbreviation: "P26"
+  description: "Encourage and invest in pedestrian-scaled streetscapes that promote placemaking and encourage walking and bicycling."
+-
+  name: "tc"
+  heading: "Land Use and Transit Supportive Development"
+  abbreviation: "P27"
+  description: "Encourage and invest in transportation infrastructure investments that also serve to strengthen social networks."
+-
+  name: "tc"
+  heading: "Land Use and Transit Supportive Development"
+  abbreviation: "P28"
+  description: "Assess and implement placemaking opportunities when developing transportation projects."
+-
+  name: "tc"
+  heading: "Land Use and Transit Supportive Development"
+  abbreviation: "P29"
+  description: "Prioritize construction and maintenance of sidewalks, crosswalks, and pedestrian lighting in neighborhoods, retail and employment areas within a half mile of major transit stops and stations."
+-
+  name: "tc"
+  heading: "Land Use and Transit Supportive Development"
+  abbreviation: "P30"
+  description: "Design commercial, residential, educational, cultural, and recreational facilities that support and provide access to and all transportation modes."
+-
+  name: "tc"
+  heading: "Land Use and Transit Supportive Development"
+  abbreviation: "P31"
+  description: "Encourage and invest in transportation network improvements that support economic development."
+-
+  name: "tc"
+  heading: "Land Use and Transit Supportive Development"
+  abbreviation: "P32"
+  description: "Leverage multimodal transportation improvements in San Antonio as attractors of businesses and talent."
+-
+  name: "tc"
+  heading: "Regional Transportation"
+  abbreviation: "P33"
+  description: "Work with other regional transportation agencies to improve San Antonio’s overall transportation network to enhance connectivity and efficiency."
+-
+  name: "tc"
+  heading: "Regional Transportation"
+  abbreviation: "P34"
+  description: "Partner with and support the Lone Star Rail District to pursue regional rail between San Antonio and Austin is implemented."
+-
+  name: "tc"
+  heading: "Technology and Innovation"
+  abbreviation: "P35"
+  description: "Continuously identify, investigate and incorporate new and emerging transportation technology and innovative solutions to improve efficiency."
+-
+  name: "tc"
+  heading: "Technology and Innovation"
+  abbreviation: "P36"
+  description: "Promote Transportation Demand Management (TDM) tools to reduce vehicle miles traveled (VMT) per person and manage peak hour congestion."
+-
+  name: "tc"
+  heading: "Technology and Innovation"
+  abbreviation: "P37"
+  description: "Utilize technology and other innovative solutions for improving and prioritizing transit reliability, especially on major routes and corridors."
+-
+  name: "tc"
+  heading: "Technology and Innovation"
+  abbreviation: "P38"
+  description: "Test and implement options that provide reliable transportation alternatives through pricing and accessibility, such as managed lanes, high occupancy vehicle (HOV)/high occupancy toll (HOT) lanes, ramp metering, etc."
+-
+  name: "tc"
+  heading: "Technology and Innovation"
+  abbreviation: "P39"
+  description: "Optimize intelligent transportation systems (ITS) and traffic signal systems to provide reliable travel times throughout the city."
+-
+  name: "tc"
+  heading: "Technology and Innovation"
+  abbreviation: "P40"
+  description: "Support development of autonomous and connected vehicle systems and plan for implementation in design."
+-
+  name: "tc"
+  heading: "Technology and Innovation"
+  abbreviation: "P41"
+  description: "Utilize managed motorways strategies to address reliability at a system-wide level. Managed Motorways is an innovative solution that provides real-time traffic management of the entire system – freeways, frontage roads and arterials."
+-
+  name: "tc"
+  heading: "Technology and Innovation"
+  abbreviation: "P42"
+  description: "Develop incident management strategies to maintain travel reliability on major roadways."
+-
+  name: "tc"
+  heading: "Technology and Innovation"
+  abbreviation: "P43"
+  description: "Continuously assess and integrate technological and design improvements that will move San Antonio to the forefront of safe, efficient and sustainable transportation systems design and infrastructure."
+-
+  name: "tc"
+  heading: "General Policies"
+  abbreviation: "P44"
+  description: "Protect and enhance the environment through responsible, compatible and sustainable transportation projects."
+-
+  name: "tc"
+  heading: "General Policies"
+  abbreviation: "P45"
+  description: "Improve public health by supporting active transportation technologies and infrastructure that encourage walking and bicycling."
+-
+  name: "tc"
+  heading: "General Policies"
+  abbreviation: "P46"
+  description: "Provide community education to increase awareness of rules, appropriate behavior, and etiquette for drivers, bicyclists, pedestrians and transit riders."
+-
+  name: "tc"
+  heading: "General Policies"
+  abbreviation: "P47"
+  description: "Invest in public education and outreach about the regional benefits of a robust, interconnected transit system."
+-
+  name: "tc"
+  heading: "General Policies"
+  abbreviation: "P48"
+  description: "Support and invest in intermodal transportation facilities that safely, effectively and efficiently provide for the transfer of people and goods between modes."
+-
+  name: "tc"
+  heading: "General Policies"
+  abbreviation: "P49"
+  description: "Ensure resiliency in the transportation network and preparedness for system operations and management during natural or man-made emergencies."
+
+-
+
+  name: "h"
+  heading: "Affordable Housing for Low-Income Residents"
+  abbreviation: "P1"
+  description: "Work with affordable housing partners, such as SAHA and nonprofit housing providers, to develop strategic investment plans for targeted areas."
+-
+  name: "h"
+  heading: "Affordable Housing for Low-Income Residents"
+  abbreviation: "P2"
+  description: "Support nonprofit housing providers through provision of capacity building and technical assistance."
+-
+  name: "h"
+  heading: "Affordable Housing for Low-Income Residents"
+  abbreviation: "P3"
+  description: "Provide fee waivers and/or waived development requirements for affordable housing development and preservation."
+-
+  name: "h"
+  heading: "Affordable Housing for Low-Income Residents"
+  abbreviation: "P4"
+  description: "Develop incentives to reduce costs and attract affordable housing development within target areas."
+-
+  name: "h"
+  heading: "Affordable Housing for Low-Income Residents"
+  abbreviation: "P5"
+  description: "Develop affordable housing initiatives targeting all residents with incomes below 80% of the area median."
+-
+  name: "h"
+  heading: "Affordable Housing for Low-Income Residents"
+  abbreviation: "P6"
+  description: "Work with affordable housing partners and developers to provide affordable housing options for seniors."
+-
+  name: "h"
+  heading: "Affordable Housing for Low-Income Residents"
+  abbreviation: "P7"
+  description: "Identify and incentivize mixed income catalyst projects within underserved areas that include a mix of housing that is affordable to a variety of households."
+-
+  name: "h"
+  heading: "Affordable Housing for Low-Income Residents"
+  abbreviation: "P8"
+  description: "Create opportunities for new mixed-income housing in lower-income neighborhoods through an aggressive land banking initiative."
+-
+  name: "h"
+  heading: "Housing Diversity and Choice"
+  abbreviation: "P9"
+  description: "Develop affordable housing initiatives targeting residents with incomes between 80% and 120% of the area median."
+-
+  name: "h"
+  heading: "Housing Diversity and Choice"
+  abbreviation: "P10"
+  description: "Ensure land use designations and other policies allow for and encourage a mixture of housing types and densities of housing within development projects."
+-
+  name: "h"
+  heading: "Housing Diversity and Choice"
+  abbreviation: "P11"
+  description: "Encourage and incentivize new housing development projects to provide a mixture of housing types, sizes and prices."
+-
+  name: "h"
+  heading: "Housing Diversity and Choice"
+  abbreviation: "P12"
+  description: "Require developments that receive public funding or use public financing tools to provide affordable housing units."
+-
+  name: "h"
+  heading: "Housing Diversity and Choice"
+  abbreviation: "P13"
+  description: "Require developments that receive public funding or use public financing tools from the City, via city grants or through other city sources, to provide a mixture of housing types (e.g., rentals and ownership opportunities, attached and detached single-family units, multifamily units, and housing with a range of sizes and amenities)."
+-
+  name: "h"
+  heading: "Housing Diversity and Choice"
+  abbreviation: "P14"
+  description: "Provide incentives in targeted areas to encourage development of housing types that are in undersupply."
+-
+  name: "h"
+  heading: "Housing Diversity and Choice"
+  abbreviation: "P15"
+  description: "Develop an outreach plan to the local real estate and development community to highlight new housing products that are in demand throughout the country in an effort to attract new development types and/or builders to the city."
+-
+  name: "h"
+  heading: "Housing Diversity and Choice"
+  abbreviation: "P16"
+  description: "Partner with the development community and incentivize the development of mixed housing prototype neighborhoods."
+-
+  name: "h"
+  heading: "Housing Diversity and Choice"
+  abbreviation: "P17"
+  description: "Encourage development projects to have a mixture of uses."
+-
+  name: "h"
+  heading: "Housing Diversity and Choice"
+  abbreviation: "P18"
+  description: "Encourage housing to be built with, near or adjacent to retail uses."
+-
+  name: "h"
+  heading: "Priority Growth Areas"
+  abbreviation: "P19"
+  description: "Develop specific land use and action plans for regional centers and transit corridors that support housing, a mix of uses and higher-density development, and that discourage lower-density uses."
+-
+  name: "h"
+  heading: "Priority Growth Areas"
+  abbreviation: "P20"
+  description: "Incentivize high-density housing in regional centers and along major public transit routes where appropriate."
+-
+  name: "h"
+  heading: "Priority Growth Areas"
+  abbreviation: "P21"
+  description: "Develop transit supportive zoning and infrastructure improvement plans for regional centers and transit corridors."
+-
+  name: "h"
+  heading: "Priority Growth Areas"
+  abbreviation: "P22"
+  description: "Redevelop vacant and underutilized properties on transit corridors into stand alone or mixed-use higher-density housing."
+-
+  name: "h"
+  heading: "Priority Growth Areas"
+  abbreviation: "P23"
+  description: "Work with VIA Metropolitan Transit to develop high-capacity and high-frequency transit options that support higher-density housing."
+-
+  name: "h"
+  heading: "Priority Growth Areas"
+  abbreviation: "P24"
+  description: "Encourage and incentivize the development of a range of affordable housing options in and near regional centers and transit corridors."
+-
+  name: "h"
+  heading: "Priority Growth Areas"
+  abbreviation: "P25"
+  description: "Invest in neighborhood amenities and infrastructure that will benefit existing residents while attracting new residents to underserved areas."
+-
+  name: "h"
+  heading: "Priority Growth Areas"
+  abbreviation: "P26"
+  description: "Attract new employers and retail businesses to regional centers near or adjacent to underserved areas."
+-
+  name: "h"
+  heading: "Priority Growth Areas"
+  abbreviation: "P27"
+  description: "Target a set of neighborhoods for investment of resources for a pre-determined number of years. “Grandfather” in started or planned affordable housing developments in an existing target area when changing to another target area to allow the developments to be completed cost effectively."
+-
+  name: "h"
+  heading: "Infill Development and Existing Neighborhood"
+  abbreviation: "P28"
+  description: "Explore commercial and industrial areas in the core of the city for conversion to residential or mixed-use."
+-
+  name: "h"
+  heading: "Infill Development and Existing Neighborhood"
+  abbreviation: "P29"
+  description: "Continue and expand existing incentive programs for infill development and periodically redefine the areas eligible for incentives based on development feasibility analysis."
+-
+  name: "h"
+  heading: "Infill Development and Existing Neighborhood"
+  abbreviation: "P30"
+  description: "Ensure infill development is compatible with existing neighborhoods."
+-
+  name: "h"
+  heading: "Infill Development and Existing Neighborhood"
+  abbreviation: "P31"
+  description: "Prioritize infrastructure investment within existing neighborhoods."
+-
+  name: "h"
+  heading: "Infill Development and Existing Neighborhood"
+  abbreviation: "P32"
+  description: "Develop a revitalization toolbox available to existing neighborhoods and promote these tools to neighborhoods and developers."
+-
+  name: "h"
+  heading: "Infill Development and Existing Neighborhood"
+  abbreviation: "P33"
+  description: "Provide increased funding and incentives for owner-occupied housing rehabilitation or reconstruction for residents in existing neighborhoods, conservation districts and historic districts."
+-
+  name: "h"
+  heading: "Infill Development and Existing Neighborhood"
+  abbreviation: "P34"
+  description: "Develop and implement a plan to preserve and maintain affordable rental and ownership housing for lower income residents within revitalizing neighborhoods."
+-
+  name: "h"
+  heading: "Infill Development and Existing Neighborhood"
+  abbreviation: "P35"
+  description: "Prioritize the maintenance and renovation of public spaces and amenities in targeted neighborhoods with input from the community."
+-
+  name: "h"
+  heading: "Infill Development and Existing Neighborhood"
+  abbreviation: "P36"
+  description: "Develop a plan to allow seniors to remain in their homes, when feasible, through programs that support reinvestment, retrofitting, repair and maintenance of their homes."
+-
+  name: "h"
+  heading: "Infill Development and Existing Neighborhood"
+  abbreviation: "P37"
+  description: "Support ongoing long-term, comprehensive neighborhood revitalization efforts (such as EastPoint)."
+-
+  name: "h"
+  heading: "Infill Development and Existing Neighborhood"
+  abbreviation: "P38"
+  description: "Initiate new comprehensive neighborhood revitalization efforts, implementing key lessons learned from EastPoint."
+-
+  name: "h"
+  heading: "Walking, Biking and Transit"
+  abbreviation: "P39"
+  description: "Prioritize infrastructure investments to improve walkability and bikeability of existing neighborhoods."
+-
+  name: "h"
+  heading: "Walking, Biking and Transit"
+  abbreviation: "P40"
+  description: "Adopt and implement development standards for new housing developments requiring infrastructure, land use, and design that support direct, comfortable, and safe walking, biking and transit use to surrounding neighborhoods, amenities and major streets."
+-
+  name: "h"
+  heading: "Walking, Biking and Transit"
+  abbreviation: "P41"
+  description: "Encourage the development of amenity-based neighborhoods."
+-
+  name: "h"
+  heading: "Walking, Biking and Transit"
+  abbreviation: "P42"
+  description: "Encourage the development of housing for seniors in walkable areas and near community amenities such as parks, recreation centers and senior centers."
+-
+  name: "h"
+  heading: "Walking, Biking and Transit"
+  abbreviation: "P43"
+  description: "Implement development standards for nonprofit affordable housing developers so they will not be priced out of participating in walkable and bikeable neighborhood initiatives."
+-
+  name: "h"
+  heading: "Walking, Biking and Transit"
+  abbreviation: "P44"
+  description: "Provide incentives and support to employers who create programs to encourage workers to live within a certain distance of work."
+-
+  name: "h"
+  heading: "General Policies"
+  abbreviation: "P45"
+  description: "Implement policy recommendations developed in the City of San Antonio’s Comprehensive Housing Needs Assessment and Strategic Housing Plan."
+-
+  name: "h"
+  heading: "General Policies"
+  abbreviation: "P46"
+  description: "Encourage new City plans and development proposals to consider and address the existing jobs-housing imbalance and the true combined housing and transportation (H+T) costs."
+
+-
+
+  name: "jec"
+  heading: "Economic Diversification and Target Industries"
+  abbreviation: "P1"
+  description: "JEC P1: Target and incent job growth within the city’s target industries, including:
+  Healthcare, biosciences, life sciences and scientific R&D;
+  Information technology and cybersecurity;
+  Advanced manufacturing (Aero, Auto, Heavy Equipment);
+  New Energy (Solar, Battery, Natural Gas); and
+  Cultural and Creative Industries."
+-
+  name: "jec"
+  heading: "Economic Diversification and Target Industries"
+  abbreviation: "P2"
+  description: "Market and promote the city’s assets within target industries nationally and internationally."
+-
+  name: "jec"
+  heading: "Economic Diversification and Target Industries"
+  abbreviation: "P3"
+  description: "Align regional centers and other employment centers with target industries and market these areas to prospective businesses."
+-
+  name: "jec"
+  heading: "Economic Diversification and Target Industries"
+  abbreviation: "P4"
+  description: "Market San Antonio’s competencies and competitive advantages in cloud computing, big data, hosting and cybersecurity."
+-
+  name: "jec"
+  heading: "Economic Diversification and Target Industries"
+  abbreviation: "P5"
+  description: "Invest in the creation, development and redevelopment of employment hubs that allow for the collocating of businesses within target industries."
+-
+  name: "jec"
+  heading: "Economic Diversification and Target Industries"
+  abbreviation: "P6"
+  description: "Identify one or more regional centers to create an innovation district to serve as the center of the innovation economy within San Antonio (e.g., Downtown or Medical Center)."
+-
+  name: "jec"
+  heading: "Education and Training"
+  abbreviation: "P7"
+  description: "Support collective impact initiatives that identify, prioritize and support accountability in the execution of comprehensive workforce development strategies that ensure the entire spectrum of San Antonio citizens have access to the training that can connect them to gainful employments."
+-
+  name: "jec"
+  heading: "Education and Training"
+  abbreviation: "P8"
+  description: "Identify talent gaps that are critical constraints for targeted industry growth and coordinate short and long-term comprehensive solutions to close those talent gaps for both targeted and traditional industries through partnership with high schools, community colleges, universities and other training providers and intermediaries."
+-
+  name: "jec"
+  heading: "Education and Training"
+  abbreviation: "P9"
+  description: "Pursue alignment of P-16 educational institutions and training providers to create clear, connected and continuous career pathways that also provide opportunities for internships, apprenticeships and job training for all students."
+-
+  name: "jec"
+  heading: "Education and Training"
+  abbreviation: "P10"
+  description: "Invest in the alignment of efforts and resources that help connect residents of chronically distressed areas, underserved or underrepresented residents, the formerly incarcerated and other populations secure wrap-around services that can help mitigate challenges securing training and job opportunities."
+-
+  name: "jec"
+  heading: "Business / Economic Climate"
+  abbreviation: "P11"
+  description: "Work with the city’s economic partners to identify opportunities for increasing export activities and foreign direct investment into San Antonio and San Antonio’s businesses."
+-
+  name: "jec"
+  heading: "Business / Economic Climate"
+  abbreviation: "P12"
+  description: "Engage trade groups, target industry representatives and investors on a regular basis in order to educate interested parties on the opportunities and assets that exist in San Antonio."
+-
+  name: "jec"
+  heading: "Business / Economic Climate"
+  abbreviation: "P13"
+  description: "Execute the 2015 Trade and Investment Strategy through support for partners such as the Free Trade Alliance of San Antonio and the San Antonio Economic Development Foundation through regular communication and targeted joint efforts."
+-
+  name: "jec"
+  heading: "Business / Economic Climate"
+  abbreviation: "P14"
+  description: "Work with other communities in the Central/South Texas region to market the area’s strengths and highlight each community’s unique assets."
+-
+  name: "jec"
+  heading: "Business / Economic Climate"
+  abbreviation: "P15"
+  description: "Work to identify common projects with communities along the Austin-San Antonio corridor and begin to plan as a region."
+-
+  name: "jec"
+  heading: "Business / Economic Climate"
+  abbreviation: "P16"
+  description: "Leverage the major assets within San Antonio’s traditional industries to bring attention to other economic opportunities within San Antonio."
+-
+  name: "jec"
+  heading: "Business Attraction and Retention"
+  abbreviation: "P17"
+  description: "Market the strength of San Antonio’s traditional industries to attract additional economic activity."
+-
+  name: "jec"
+  heading: "Business Attraction and Retention"
+  abbreviation: "P18"
+  description: "Partner with the city’s major public and governmental assets, public institutions and major employers to create public-private partnerships that generate economic activity out of public institutions."
+-
+  name: "jec"
+  heading: "Business Attraction and Retention"
+  abbreviation: "P19"
+  description: "Identify ways to reduce barriers to entry for new businesses."
+-
+  name: "jec"
+  heading: "Business Attraction and Retention"
+  abbreviation: "P20"
+  description: "Ensure that the city fosters an innovative business climate that is open to new technologies."
+-
+  name: "jec"
+  heading: "Business Attraction and Retention"
+  abbreviation: "P21"
+  description: "Cluster businesses within similar and compatible industries and public institutions geographically to encourage increased interaction and collaboration."
+-
+  name: "jec"
+  heading: "Business Attraction and Retention"
+  abbreviation: "P22"
+  description: "Partner with the military to identify ways to generate business creation that supports and leverages military activities in the city."
+-
+  name: "jec"
+  heading: "Workforce Attraction"
+  abbreviation: "P23"
+  description: "Attract a skilled and educated workforce by providing a greater diversity of employment opportunities in targeted industries."
+-
+  name: "jec"
+  heading: "Workforce Attraction"
+  abbreviation: "P24"
+  description: "Continue to support San Antonio’s traditional industries as entryways for needed entry-level positions for a growing population."
+-
+  name: "jec"
+  heading: "Workforce Attraction"
+  abbreviation: "P25"
+  description: "Continue efforts to revitalize the urban core and encourage creation of other mixed-use nodes in order to create environments attractive to young professionals and other workers."
+-
+  name: "jec"
+  heading: "Workforce Attraction"
+  abbreviation: "P26"
+  description: "Create the modern workplaces and walkable neighborhoods that will attract young professionals."
+-
+  name: "jec"
+  heading: "Workforce Attraction"
+  abbreviation: "P27"
+  description: "Invest in quality-of-life and livability amenities (i.e. public spaces, civic amenities, parks and trails, public libraries, multimodal transportation options) that are attractive to innovative businesses and their employees."
+-
+  name: "jec"
+  heading: "Workforce Attraction"
+  abbreviation: "P28"
+  description: "Create and support social networks and programs that allow for the interaction of businesses, education institutions and the San Antonio workforce."
+-
+  name: "jec"
+  heading: "Land Use and Connectivity"
+  abbreviation: "P29"
+  description: "Develop master plans for the regional centers to align land use with future development demand and to direct industries to the appropriate regional centers."
+-
+  name: "jec"
+  heading: "Land Use and Connectivity"
+  abbreviation: "P30"
+  description: "Coordinate economic development efforts and land use plans to encourage and incentivize employment growth within regional centers and along transit corridors."
+-
+  name: "jec"
+  heading: "Land Use and Connectivity"
+  abbreviation: "P31"
+  description: "Create gathering places that encourage interactions between people within regional centers and along transit and other transportation corridors."
+-
+  name: "jec"
+  heading: "Land Use and Connectivity"
+  abbreviation: "P32"
+  description: "Enhance and increase connectivity for multiple modes of transportation to and from regional centers and other employment hubs."
+-
+  name: "jec"
+  heading: "Land Use and Connectivity"
+  abbreviation: "P33"
+  description: "Encourage the appropriate mixture of industries and uses within regional centers by identifying each center’s market strengths, and niches and uses that support these strengths."
+-
+  name: "jec"
+  heading: "Land Use and Connectivity"
+  abbreviation: "P34"
+  description: "Provide needed support to the large redevelopment projects to catalyze employment growth (Port San Antonio, Brooks, Texas A&M University-San Antonio, and Hemisfair)."
+-
+  name: "jec"
+  heading: "Infrastructure Investment"
+  abbreviation: "P35"
+  description: "Prioritize and catalyze development with infrastructure investments that facilitate new development in priority growth areas."
+-
+  name: "jec"
+  heading: "Infrastructure Investment"
+  abbreviation: "P36"
+  description: "Identify and invest in opportunities to retrofit existing infrastructure to allow for a mixture of uses and facilitate denser development."
+-
+  name: "jec"
+  heading: "Infrastructure Investment"
+  abbreviation: "P37"
+  description: "Invest in the infrastructure needed to support the growth of San Antonio’s target industries."
+-
+  name: "jec"
+  heading: "Infrastructure Investment"
+  abbreviation: "P38"
+  description: "Prioritize traditional infrastructure investments such as road and rail projects that support the growth of San Antonio’s traditional industries."
+-
+  name: "jec"
+  heading: "Infrastructure Investment"
+  abbreviation: "P39"
+  description: "Invest in and leverage emerging infrastructure investments that provide increased communication and connectivity that support San Antonio’s traditional industries."
+
+-
+
+  name: "chw"
+  heading: "Health and Wellness Coordination and Integration"
+  abbreviation: "P1"
+  description: "Increase coordination, education and awareness of the City’s social, physical and mental health programs and sustainability goals in formats accessible to all residents."
+-
+  name: "chw"
+  heading: "Health and Wellness Coordination and Integration"
+  abbreviation: "P2"
+  description: "Establish information programs for developers to convey the role of the built environment in achieving sustainability and community health goals."
+-
+  name: "chw"
+  heading: "Health and Wellness Coordination and Integration"
+  abbreviation: "P3"
+  description: "Partner with healthcare organizations to promote, support and expand comprehensive public health services and programs, including substance abuse-free lifestyles and substance use prevention programs."
+-
+  name: "chw"
+  heading: "Health and Wellness Coordination and Integration"
+  abbreviation: "P4"
+  description: "Partner with physical and mental healthcare organizations and nonprofits to promote, support and expand the availability and quality of senior services and amenities citywide."
+-
+  name: "chw"
+  heading: "Health and Wellness Coordination and Integration"
+  abbreviation: "P5"
+  description: "Study and promote best practices to identify and address connections between community health and economic development including living wages, the effects of poverty, education and literacy."
+-
+  name: "chw"
+  heading: "Health and Wellness Coordination and Integration"
+  abbreviation: "P6"
+  description: "Consider health impacts (such as conducting health impact assessments (HIA)) when conducting Community, Corridor and Regional Center Plans."
+-
+  name: "chw"
+  heading: "Health and Wellness Coordination and Integration"
+  abbreviation: "P7"
+  description: "Partner with school districts to assess the health and well-being of youth by utilizing the CDC’s Youth Risk Behavior Surveillance System (YRBSS)."
+-
+  name: "chw"
+  heading: "Access"
+  abbreviation: "P8"
+  description: "Identify and address gaps in public transit, pedestrian and bicycle access to parks, open space, recreation sites and healthcare destinations."
+-
+  name: "chw"
+  heading: "Access"
+  abbreviation: "P9"
+  description: "Coordinate with public transit agencies and organizations on public transit network improvements that increase access to healthcare facilities."
+-
+  name: "chw"
+  heading: "Access"
+  abbreviation: "P10"
+  description: "Increase the number and quality of parks and ensure a more equitable distribution of park and recreation opportunities."
+-
+  name: "chw"
+  heading: "Access"
+  abbreviation: "P11"
+  description: "Provide access to and equitable distribution of other green spaces (which can include community gardens, orchards, school grounds, trails, greenways and creekways)."
+-
+  name: "chw"
+  heading: "Healthy Food"
+  abbreviation: "P12"
+  description: "Evaluate and develop a plan to address food desert neighborhoods."
+-
+  name: "chw"
+  heading: "Healthy Food"
+  abbreviation: "P13"
+  description: "Implement policies to increase accessibility and affordability of healthy food options (natural grocery stores, natural and/or organic sections in grocery stores, school programs, farmer’s markets, community gardens and urban agriculture/retail opportunities) within walking distance of all neighborhoods (1/4 to 1/2 mile depending on amenity)."
+-
+  name: "chw"
+  heading: "Healthy Food"
+  abbreviation: "P14"
+  description: "Implement policies to promote education about nutrition and healthy foods and create programs to disincentivize unhealthy, highly processed and “fast” foods and/or incentivize nutritious, healthy, and culturally appropriate foods in new and creative ways."
+-
+  name: "chw"
+  heading: "Healthy Food"
+  abbreviation: "P15"
+  description: "Identify important farm lands for production of healthy foods in the San Antonio vicinity and protect them from development using zoning, subdivision and other regulatory or incentive-based tools."
+-
+  name: "chw"
+  heading: "Healthy Food"
+  abbreviation: "P16"
+  description: "Revise zoning requirements and guidelines for the Urban Agricultural District to allow edible landscapes and supportive produce retail."
+-
+  name: "chw"
+  heading: "Active Living"
+  abbreviation: "P17"
+  description: "Partner with businesses, healthcare providers, senior and childcare centers and residents to promote local physical activity education programs and active living projects."
+-
+  name: "chw"
+  heading: "Active Living"
+  abbreviation: "P18"
+  description: "Provide increased parks and recreation amenities city-wide, with a particular focus on areas of the city considered as under-served based on regularly updated indicators."
+-
+  name: "chw"
+  heading: "Active Living"
+  abbreviation: "P19"
+  description: "Provide access to other green spaces (which can include community gardens, orchards, school grounds, trails, greenways and creekways) city-wide, with a particular focus on areas of San Antonio considered as under-served based on regularly updated indicators."
+-
+  name: "chw"
+  heading: "Active Living"
+  abbreviation: "P20"
+  description: "Partner and coordinate with area school districts through the SPARK program to allow community recreation and gardening options in school activity spaces and facilities."
+-
+  name: "chw"
+  heading: "Active Living"
+  abbreviation: "P21"
+  description: "Study and promote best practices for how zoning code revisions can help address walkability and recreation/play opportunities."
+-
+  name: "chw"
+  heading: "Active Transportation"
+  abbreviation: "P22"
+  description: "Prioritize capital improvements and incentive programs that build, expand, and improve pedestrian, bicycle, and transit-oriented infrastructure."
+-
+  name: "chw"
+  heading: "Active Transportation"
+  abbreviation: "P23"
+  description: "Continue to encourage and implement programs and projects that make the City’s bicycle network more accessible, direct and continuous in order to increase bicycling safety and opportunities for daily bicycle travel for riders of all levels and abilities. (See also TC P9)"
+-
+  name: "chw"
+  heading: "Active Transportation"
+  abbreviation: "P24"
+  description: "Encourage and incentivize development in locations that provide or are in close proximity to many destinations within walking or bicycling distance."
+-
+  name: "chw"
+  heading: "Active Transportation"
+  abbreviation: "P25"
+  description: "Develop a system of safe routes to schools and other public activity areas; create partnerships with businesses, schools and other organizations to establish the system and to promote the program. (See also PFCS P38)"
+-
+  name: "chw"
+  heading: "Active Transportation"
+  abbreviation: "P26"
+  description: "Implement accessibility solutions for issues identified in the City’s ADA Pedestrian Transition Plan, in all public realm improvement projects."
+-
+  name: "chw"
+  heading: "Active Transportation"
+  abbreviation: "P27"
+  description: "Develop a safe and convenient pedestrian travel network with sidewalks and trails integrated into the transportation system and activity areas such as schools, libraries, shopping and neighborhood centers. (See also TC P11)"
+-
+  name: "chw"
+  heading: "Active Transportation"
+  abbreviation: "P28"
+  description: "Continue to promote and implement Vision Zero to ensure the safety of all people in the community."
+-
+  name: "chw"
+  heading: "Air Quality"
+  abbreviation: "P29"
+  description: "Implement policies to achieve air quality levels within the thresholds established by the National Ambient Air Quality Standards (NAAQS), with particular reference to automobile and truck emissions and CPS emissions. (See also NRES P34)"
+-
+  name: "chw"
+  heading: "Air Quality"
+  abbreviation: "P30"
+  description: "Enhance San Antonio’s tree canopy and develop a robust street tree program. (See also NRES P39)"
+-
+  name: "chw"
+  heading: "Air Quality"
+  abbreviation: "P31"
+  description: "Develop new and utilize existing public/private partnership programs with public agencies and a diversity of residents, community groups and organizations to monitor the city’s air quality. (See also NRES P38)"
+-
+  name: "chw"
+  heading: "Air Quality"
+  abbreviation: "P32"
+  description: "Continue to enhance programs and policies (including incentives for electric and hybrid vehicles) to reduce greenhouse gas emissions 25% by 2020 and 50% by 2040. (See also NRES P35)"
+-
+  name: "chw"
+  heading: "Air Quality"
+  abbreviation: "P33"
+  description: "Increase the amount of local renewable energy production, with 30% of energy use from renewable sources by 2025 and 50% by 2040. (See also NRES P27)"
+-
+  name: "chw"
+  heading: "Water"
+  abbreviation: "P34"
+  description: "Develop and implement a management plan for land use activities that includes best management practices, based on a scientific study, which will protect the recharge and contributing zones of the Edwards Aquifer and other area waterways."
+-
+  name: "chw"
+  heading: "Water"
+  abbreviation: "P35"
+  description: "Encourage land intensive development patterns to locate outside of the Edwards Aquifer recharge and contributing zones and preservation reaches of rivers and creeks. (See also GCF P26 and NRES P11)."
+-
+  name: "chw"
+  heading: "Water"
+  abbreviation: "P36"
+  description: "Coordinate with SARA and other agencies to regularly review and update, and as necessary as part of the standard UDC amendment process, plans, standards and regulations for development on or near aquifers, flood zones and stream restoration areas based on best management practices and scientific studies."
+-
+  name: "chw"
+  heading: "Water"
+  abbreviation: "P37"
+  description: "Identify and acquire land in aquifer recharge areas for use as city open space utilizing voter-approved sales tax proceeds."
+-
+  name: "chw"
+  heading: "Water"
+  abbreviation: "P38"
+  description: "Jointly work with SAWS and CPS to determine the impact of utility service area expansion by coordinating  the providers' service areas with the City’s Comprehensive Plan and growth policies. (See also NRES P13)"
+-
+  name: "chw"
+  heading: "Water"
+  abbreviation: "P39"
+  description: "Develop new and utilize existing partnership programs between public agencies and private citizens to monitor the city's water quality. (See also NRES P16)"
+-
+  name: "chw"
+  heading: "Water"
+  abbreviation: "P40"
+  description: "Support the efforts of and collaborate with appropriate governmental entities to monitor, protect and ensure water quality within the Edwards Aquifer. (See also NRES P17 and GCF P32)"
+
+-
+
+  name: "pfcs"
+  heading: "Parks, Libraries and Other Civic Facilities"
+  abbreviation: "P1"
+  description: "Provide a variety of amenities at varying scales in each neighborhood city-wide."
+-
+  name: "pfcs"
+  heading: "Parks, Libraries and Other Civic Facilities"
+  abbreviation: "P2"
+  description: "Orient new neighborhoods and new development around parks, schools and public facilities including libraries."
+-
+  name: "pfcs"
+  heading: "Parks, Libraries and Other Civic Facilities"
+  abbreviation: "P3"
+  description: "Continue to implement recommendations from the Parks and Recreation System Strategic Plan."
+-
+  name: "pfcs"
+  heading: "Parks, Libraries and Other Civic Facilities"
+  abbreviation: "P4"
+  description: "Review and amend current parks dedication requirements in the Unified Development Code (UDC) to ensure they yield the type and size of parks that are identified as needs in the Parks and Recreation Systems Strategic Plan."
+-
+  name: "pfcs"
+  heading: "Parks, Libraries and Other Civic Facilities"
+  abbreviation: "P5"
+  description: "Periodically reevaluate and update park dedication requirements in the UDC to adjust for inflation of acquisition, construction and long-term maintenance costs."
+-
+  name: "pfcs"
+  heading: "Parks, Libraries and Other Civic Facilities"
+  abbreviation: "P6"
+  description: "Develop a long term plan for libraries based on community need."
+-
+  name: "pfcs"
+  heading: "Parks, Libraries and Other Civic Facilities"
+  abbreviation: "P7"
+  description: "Develop public and private partnerships to provide cultural amenities throughout the community."
+-
+  name: "pfcs"
+  heading: "Parks, Libraries and Other Civic Facilities"
+  abbreviation: "P8"
+  description: "Develop a plan for the development of downtown and other regional centers as destinations of choice for major public and private facilities."
+-
+  name: "pfcs"
+  heading: "Infrastructure and Utilities"
+  abbreviation: "P9"
+  description: "Promote development that leverages and protects the public’s investment in major green infrastructure and natural resources projects (such as the San Antonio River Improvements Project and other creek and trail restoration projects). (See also GCF P31)"
+-
+  name: "pfcs"
+  heading: "Infrastructure and Utilities"
+  abbreviation: "P10"
+  description: "Develop and regularly update a comprehensive site and building plan review process to coordinate new development and capital improvements between the City, school districts and developers for new neighborhoods, schools and public facilities including libraries and parks."
+-
+  name: "pfcs"
+  heading: "Infrastructure and Utilities"
+  abbreviation: "P11"
+  description: "Systematically evaluate and identify infrastructure that is at or near the end of its lifespan or that operates at or above recommended capacity."
+-
+  name: "pfcs"
+  heading: "Infrastructure and Utilities"
+  abbreviation: "P12"
+  description: "Plan for the expansion of the water treatment and waste water treatment plants to accommodate projected growth in population."
+-
+  name: "pfcs"
+  heading: "Infrastructure and Utilities"
+  abbreviation: "P13"
+  description: "Implement stormwater infrastructure management best practices that balance well-developed and well-maintained regional and site-specific stormwater infrastructure (i.e., gray and green infrastructure). (See also GCF P23 and NRES P17)"
+-
+  name: "pfcs"
+  heading: "Infrastructure and Utilities"
+  abbreviation: "P14"
+  description: "Continue to manage the capacity and transmission capabilities of the storm drainage network to prevent degradation of natural resources. (See also NRES P19)"
+-
+  name: "pfcs"
+  heading: "Infrastructure and Utilities"
+  abbreviation: "P15"
+  description: "Upgrade existing City infrastructure with green stormwater management solutions. (See also NRES P23)"
+-
+  name: "pfcs"
+  heading: "Infrastructure and Utilities"
+  abbreviation: "P16"
+  description: "Continue partnering with utility providers to regularly update utility planning efforts and review processes to ensure easements and distribution systems are and will continue to be adequate."
+-
+  name: "pfcs"
+  heading: "Infrastructure and Utilities"
+  abbreviation: "P17"
+  description: "Continue to regularly evaluate and require adequate capacity and timing of infrastructure concurrent with private development."
+-
+  name: "pfcs"
+  heading: "Infrastructure and Utilities"
+  abbreviation: "P18"
+  description: "Continue to design and implement emergency response services appropriate for narrower rights-of-way supportive of human-scale, walkable development patterns."
+-
+  name: "pfcs"
+  heading: "Schools and Education"
+  abbreviation: "P19"
+  description: "Coordinate with school districts to identify potential school sites, especially those planned in regional centers and other future growth areas."
+-
+  name: "pfcs"
+  heading: "Schools and Education"
+  abbreviation: "P20"
+  description: "Support and invest in existing schools and their neighborhoods."
+-
+  name: "pfcs"
+  heading: "Schools and Education"
+  abbreviation: "P21"
+  description: "Promote innovative educational opportunities within priority growth areas of the city to drive market demand for housing."
+-
+  name: "pfcs"
+  heading: "Schools and Education"
+  abbreviation: "P22"
+  description: "Encourage innovative educational opportunities throughout San Antonio, including in traditionally underserved areas, in order to elevate educational attainment and quality."
+-
+  name: "pfcs"
+  heading: "Schools and Education"
+  abbreviation: "P23"
+  description: "Collaborate with and provide support to underperforming independent school districts to enhance access and improve performance."
+-
+  name: "pfcs"
+  heading: "Schools and Education"
+  abbreviation: "P24"
+  description: "Increase funding and support for early childhood education programs in underperforming school districts."
+-
+  name: "pfcs"
+  heading: "Schools and Education"
+  abbreviation: "P25"
+  description: "Encourage cooperative, flexible design of school facilities to ensure maximum use and potential for adaptive reuse as continuing neighborhood resources."
+-
+  name: "pfcs"
+  heading: "Recycling, Compost and Waste Reduction"
+  abbreviation: "P26"
+  description: "Establish regulations to minimize waste generation through effective waste reduction, reuse and recycling. (See also NRES P42)"
+-
+  name: "pfcs"
+  heading: "Recycling, Compost and Waste Reduction"
+  abbreviation: "P27"
+  description: "Prioritize the purchase of recycled materials in City facilities and programs. (See also NRES P43)"
+-
+  name: "pfcs"
+  heading: "Energy"
+  abbreviation: "P28"
+  description: "Incentivize alternative forms of clean energy and expand systems for its provision."
+-
+  name: "pfcs"
+  heading: "Energy"
+  abbreviation: "P29"
+  description: "Partner with utility providers to offer a renewable energy purchase choice and to expand renewable energy rebate programs."
+-
+  name: "pfcs"
+  heading: "Energy"
+  abbreviation: "P30"
+  description: "Explore fee waiver programs to encourage renewable energy options in new development."
+-
+  name: "pfcs"
+  heading: "Energy"
+  abbreviation: "P31"
+  description: "Promote policies and regulations which maximize the energy efficiency of all City buildings and facilities. (See also NRES P29)"
+-
+  name: "pfcs"
+  heading: "Energy"
+  abbreviation: "P32"
+  description: "Create policies requiring all existing City of San Antonio-owned buildings be brought up to green building standards by 2040. (See also NRES P31)"
+-
+  name: "pfcs"
+  heading: "Energy"
+  abbreviation: "P33"
+  description: "Promote and expand weatherization programs for existing buildings. (See also NRES P33)"
+-
+  name: "pfcs"
+  heading: "Energy"
+  abbreviation: "P34"
+  description: "Regularly review ordinances regarding energy infrastructure and transmission components and revise, if necessary and possible, to ensure resident health and safety."
+-
+  name: "pfcs"
+  heading: "Energy"
+  abbreviation: "P35"
+  description: "Enhance public safety facilities and services (such as police, fire, and other emergency services) and neighborhood resilience, including safety awareness and educational programs, animal control and other issues impacting neighborhoods."
+-
+  name: "pfcs"
+  heading: "Energy"
+  abbreviation: "P36"
+  description: "Strategically locate police, fire and emergency medical services in existing and growth areas to continue to provide and enhance effective and efficient services and response times."
+-
+  name: "pfcs"
+  heading: "Energy"
+  abbreviation: "P37"
+  description: "Expand implementation of San Antonio’s Complete Streets Policy to ensure that the city’s rights-of-way are planned, designed and operated to provide safe access for all users."
+-
+  name: "pfcs"
+  heading: "Energy"
+  abbreviation: "P38"
+  description: "Develop a system of safe routes to schools and other public activity areas; create partnerships with businesses, schools, and other organizations to establish the system and to promote the program. (See also CHW P26)"
+-
+  name: "pfcs"
+  heading: "Energy"
+  abbreviation: "P39"
+  description: "Develop a system of safe routes to transit. Work with AAMPO, TxDOT and VIA to identify priorities and funding to implement the system."
+
+-
+
+  name: "nres"
+  heading: "Land Use and Development"
+  abbreviation: "P1"
+  description: "Develop ordinances that preserve the integrity of natural settings in neighborhoods, communities, open spaces and parks and develop specific procedures for enforcement."
+-
+  name: "nres"
+  heading: "Land Use and Development"
+  abbreviation: "P2"
+  description: "Develop a growth and annexation plan that reduces negative environmental impacts of new development."
+-
+  name: "nres"
+  heading: "Land Use and Development"
+  abbreviation: "P3"
+  description: "Develop programs to attract environmentally sensitive industries to San Antonio and encourage local industries to adopt conservation measures and minimal impact technologies in their operations."
+-
+  name: "nres"
+  heading: "Land Use and Development"
+  abbreviation: "P4"
+  description: "Implement policies that encourage infill development and higher-density development outside environmentally sensitive areas."
+-
+  name: "nres"
+  heading: "Land Use and Development"
+  abbreviation: "P5"
+  description: "Plan and implement policies that protect and conserve native flora and fauna and iconic regional landscapes."
+-
+  name: "nres"
+  heading: "Land Use and Development"
+  abbreviation: "P6"
+  description: "Plan and implement policies that allow for the natural movement of wildlife."
+-
+  name: "nres"
+  heading: "Water"
+  abbreviation: "P7"
+  description: "Continue to reduce per capita water consumption through conservation and other efforts."
+-
+  name: "nres"
+  heading: "Water"
+  abbreviation: "P8"
+  description: "Support continued water conservation investment to include education, incentives, and implementation of reasonable regulation, with particular emphasis on high volume users."
+-
+  name: "nres"
+  heading: "Water"
+  abbreviation: "P9"
+  description: "Support and incentivize rainwater harvesting and reuse (in accordance with Texas HB 3391 (2011))."
+-
+  name: "nres"
+  heading: "Water"
+  abbreviation: "P10"
+  description: "Support and incentivize xeriscape and other non-lawn alternatives through programs such as SAWS WaterSaver Landscape Coupon program."
+-
+  name: "nres"
+  heading: "Water"
+  abbreviation: "P11"
+  description: "Encourage land intensive development patterns to locate outside of the Edwards Aquifer recharge and contributing zones and along preservation reaches of rivers and creeks. (See also GCF P26 and CHW P36)"
+-
+  name: "nres"
+  heading: "Water"
+  abbreviation: "P12"
+  description: "Protect the Edwards Aquifer recharge and contributing zones and the preservation reaches of rivers and creeks."
+-
+  name: "nres"
+  heading: "Water"
+  abbreviation: "P13"
+  description: "Jointly work with SAWS and CPS to determine the impact of utility service area expansion by coordinating the providers' service areas with the City's Comprehensive Plan and growth policies. (See also CHW P39)"
+-
+  name: "nres"
+  heading: "Water"
+  abbreviation: "P14"
+  description: "Support and coordinate with the SARA Watershed Plan effort."
+-
+  name: "nres"
+  heading: "Water"
+  abbreviation: "P15"
+  description: "Continue to support SAWS plans and programs to diversify San Antonio’s water sources."
+-
+  name: "nres"
+  heading: "Water"
+  abbreviation: "P16"
+  description: "Develop new and utilize existing partnership programs between public agencies and a diversity of residents, community groups and organizations to monitor the city's water quality. (See also CHW P40)"
+-
+  name: "nres"
+  heading: "Water"
+  abbreviation: "P17"
+  description: "Support the efforts of and collaborate with appropriate governmental entities to monitor, protect and ensure water quality within the Edwards Aquifer. (See also CHW P41 and GCF P32)"
+-
+  name: "nres"
+  heading: "Stormwater Management"
+  abbreviation: "P18"
+  description: "Implement stormwater infrastructure management best practices that balance well-developed and well-maintained regional and site-specific stormwater infrastructure (i.e., gray and green infrastructure). (See also GCF P23 and PFCS P13)"
+-
+  name: "nres"
+  heading: "Stormwater Management"
+  abbreviation: "P19"
+  description: "Continue to manage the capacity and transmission capabilities of the storm drainage network to prevent degradation of natural resources. (See also PFCS P14)"
+-
+  name: "nres"
+  heading: "Stormwater Management"
+  abbreviation: "P20"
+  description: "Encourage preservation of 100-year floodplains as natural drainage ways without permanent construction, unnecessary straightening, bank clearing or channeling."
+-
+  name: "nres"
+  heading: "Stormwater Management"
+  abbreviation: "P21"
+  description: "Require or incentivize new development to manage stormwater using best practices and green techniques such as clustered and LID."
+-
+  name: "nres"
+  heading: "Stormwater Management"
+  abbreviation: "P22"
+  description: "Explore effective impervious surfaces standards and guidelines."
+-
+  name: "nres"
+  heading: "Stormwater Management"
+  abbreviation: "P23"
+  description: "Upgrade existing City infrastructure with green stormwater management solutions. (See also PFCS P15)"
+-
+  name: "nres"
+  heading: "Stormwater Management"
+  abbreviation: "P24"
+  description: "The City should address the impacts of stormwater run-off from public facilities and schools to protect adjacent neighborhoods."
+-
+  name: "nres"
+  heading: "Energy"
+  abbreviation: "P25"
+  description: "Support policies and incentives to improve energy efficiency as one strategy to reduce energy consumption."
+-
+  name: "nres"
+  heading: "Energy"
+  abbreviation: "P26"
+  description: "Support continued energy conservation investment to include education, incentives, and implementation of reasonable regulation, with particular emphasis on high volume users."
+-
+  name: "nres"
+  heading: "Energy"
+  abbreviation: "P27"
+  description: "Increase the amount of local renewable energy production, with 30% of energy use from renewable sources by 2025 and 40% by 2040."
+-
+  name: "nres"
+  heading: "Energy"
+  abbreviation: "P28"
+  description: "Support the creation of aggregated “solar assets” that can be deployed in the same manner as central station, fossil-fueled generation assets."
+-
+  name: "nres"
+  heading: "Energy"
+  abbreviation: "P29"
+  description: "Promote policies and regulations which maximize the energy efficiency of all City buildings and facilities. (See also PFCS P31)"
+-
+  name: "nres"
+  heading: "Energy"
+  abbreviation: "P30"
+  description: "Evaluate existing development standards related to green building and green infrastructure and create a pilot incentive program to encourage incorporation of green building standards and green infrastructure in new development."
+-
+  name: "nres"
+  heading: "Energy"
+  abbreviation: "P31"
+  description: "Create policies requiring all existing City of San Antonio-owned buildings be updated to green building standards by 2040. (See also PFCS P32)"
+-
+  name: "nres"
+  heading: "Energy"
+  abbreviation: "P32"
+  description: "Incorporate the transportation mode split of building’s daily occupants and users as a green building criterion."
+-
+  name: "nres"
+  heading: "Energy"
+  abbreviation: "P33"
+  description: "Promote and expand weatherization programs for existing buildings. (See also PFCS P33)"
+-
+  name: "nres"
+  heading: "Air Quality"
+  abbreviation: "P34"
+  description: "Implement policies to achieve air quality levels within the thresholds established by the National Ambient Air Quality Standards (NAAQS), with particular reference to automobile and truck emissions and CPS emissions. (See also CHW P30)"
+-
+  name: "nres"
+  heading: "Air Quality"
+  abbreviation: "P35"
+  description: "Continue to enhance programs and policies (including incentives for electric and hybrid vehicles) to reduce greenhouse gas emissions 25% by 2020 and 50% by 2040. (See also CHW P33)"
+-
+  name: "nres"
+  heading: "Air Quality"
+  abbreviation: "P36"
+  description: "Implement policies that help support and expand the tools and incentives encouraging alternative fuels and vehicles in AACOG’s Clean Cities program."
+-
+  name: "nres"
+  heading: "Air Quality"
+  abbreviation: "P37"
+  description: "Continue to collaborate with and implement the recommendations of the Clean Air Plan developed by the multi-jurisdictional Air Improvement Resources (AIR) Committee formed under the auspices of the AACOG."
+-
+  name: "nres"
+  heading: "Air Quality"
+  abbreviation: "P38"
+  description: "Develop new and utilize existing public/private partnership programs with public agencies and a diversity of residents, community groups and organizations to monitor the city’s air quality. (See also CHW P32)"
+-
+  name: "nres"
+  heading: "Air Quality"
+  abbreviation: "P39"
+  description: "Enhance San Antonio’s tree canopy and develop a robust street tree program. (See also CHW P31)."
+-
+  name: "nres"
+  heading: "Air Quality"
+  abbreviation: "P40"
+  description: "Expand safe pedestrian and bicycle networks and transit options/access to encourage non-automobile travel alternatives. (See also TC P7)"
+-
+  name: "nres"
+  heading: "Air Quality"
+  abbreviation: "P41"
+  description: "Recruit and incentivize more green industries and businesses that are low emitters of pollution to become a larger part of the regional economy."
+-
+  name: "nres"
+  heading: "Recycling, Composting, and Waste Reduction"
+  abbreviation: "P42"
+  description: "Establish regulations to minimize waste generation through effective waste reduction, reuse, and recycling. (See also PFCS P26)"
+-
+  name: "nres"
+  heading: "Recycling, Composting, and Waste Reduction"
+  abbreviation: "P43"
+  description: "Prioritize the purchase of recycled materials in City facilities and programs. (See also PFCS P27)"
+
+-
+
+  name: "hpch"
+  heading: "Process and Procedure"
+  abbreviation: "P1"
+  description: "Maintain and update as needed the Strategic Historic Preservation Plan (2009) which consolidates the City’s official vision and policies for historic preservation."
+-
+  name: "hpch"
+  heading: "Process and Procedure"
+  abbreviation: "P2"
+  description: "Continue to incorporate historic preservation elements in all citywide, district and neighborhood planning initiatives."
+-
+  name: "hpch"
+  heading: "Process and Procedure"
+  abbreviation: "P3"
+  description: "Continue to promote preservation as a tool for cultural, economic and environmental sustainability."
+-
+  name: "hpch"
+  heading: "Process and Procedure"
+  abbreviation: "P4"
+  description: "Work with community groups and organizations to identify and promote key historic areas of the city and create policies which protect their integrity."
+-
+  name: "hpch"
+  heading: "Process and Procedure"
+  abbreviation: "P5"
+  description: "Continue to review the Unified Development Code (UDC) to improve the effectiveness of codes related to historic preservation as well as the Code’s overall readability."
+-
+  name: "hpch"
+  heading: "Process and Procedure"
+  abbreviation: "P6"
+  description: "Continue to use the Historic Design Guidelines (2012) to facilitate OHP and HDRC reviews of public and private development initiatives. Work with historic districts to develop district-specific guidelines."
+-
+  name: "hpch"
+  heading: "Process and Procedure"
+  abbreviation: "P7"
+  description: "Provide regular training for the City's planning and development related boards and commissions, staff and the public to increase awareness of regulations and design, planning and zoning guidelines and best practices."
+-
+  name: "hpch"
+  heading: "Process and Procedure"
+  abbreviation: "P8"
+  description: "Work with Development Services Department and historic neighborhoods to ensure that underlying zoning supports the desired character of the district."
+-
+  name: "hpch"
+  heading: "Process and Procedure"
+  abbreviation: "P9"
+  description: "Protect well-established neighborhoods by strengthening Neighborhood Conservation Districts (NCD) to address the appropriateness of new and infill construction through enforceable design standards that allow neighborhoods to define unique character and features and promote compatible infill development."
+-
+  name: "hpch"
+  heading: "Incentives and Economic Development"
+  abbreviation: "P10"
+  description: "Enhance the effectiveness of existing historic preservation incentives and create additional city-wide programs that encourage reinvestment in historic resources, such as programs that support the neighborhood single-family housing stock."
+-
+  name: "hpch"
+  heading: "Incentives and Economic Development"
+  abbreviation: "P11"
+  description: "Target incentives that stimulate reinvestment in neighborhoods and encourage preservation, rehabilitation and adaptive reuse of existing community assets."
+-
+  name: "hpch"
+  heading: "Incentives and Economic Development"
+  abbreviation: "P12"
+  description: "Streamline and expand promotion of preservation programs and incentives to property owners, builders, developers and investors."
+-
+  name: "hpch"
+  heading: "Incentives and Economic Development"
+  abbreviation: "P13"
+  description: "Identify and remove disincentives and obstacles to preserving and reusing historic resources."
+-
+  name: "hpch"
+  heading: "Incentives and Economic Development"
+  abbreviation: "P14"
+  description: "Expand incentives and programs to encourage the rehabilitation or adaptive reuse of historic structures while preventing unwarranted demolition, including programs for low­-income property owners who may not otherwise be able to preserve their historic structure."
+-
+  name: "hpch"
+  heading: "Incentives and Economic Development"
+  abbreviation: "P15"
+  description: "Promote historic preservation as a strategy for maintaining diverse and vibrant neighborhoods."
+-
+  name: "hpch"
+  heading: "Incentives and Economic Development"
+  abbreviation: "P16"
+  description: "Continue to promote and expand the findings of the Economic Impact of Historic Preservation (2015) study."
+-
+  name: "hpch"
+  heading: "Incentives and Economic Development"
+  abbreviation: "P17"
+  description: "Promote the use of available incentives for rehabilitation such as the Historic Tax Credits or funds for the rehabilitation of endangered sites."
+-
+  name: "hpch"
+  heading: "Incentives and Economic Development"
+  abbreviation: "P18"
+  description: "Create new preservation initiatives that facilitate rehabilitation and reuse of historic resources including owner occupied single-family housing stock, revitalization of neighborhoods and commercial districts, and creation of new jobs and small businesses."
+-
+  name: "hpch"
+  heading: "Education and Outreach"
+  abbreviation: "P19"
+  description: "Continue to employ a comprehensive outreach effort to increase awareness of the tremendous value of San Antonio’s architectural, cultural, and archaeological resources, and the inherent benefits of historic preservation."
+-
+  name: "hpch"
+  heading: "Education and Outreach"
+  abbreviation: "P20"
+  description: "Harness public and private resources to market the numerous incentives and programs available to property owners, builders, and developers."
+-
+  name: "hpch"
+  heading: "Education and Outreach"
+  abbreviation: "P21"
+  description: "Develop innovative ways to engage and educate students and young people."
+-
+  name: "hpch"
+  heading: "Education and Outreach"
+  abbreviation: "P22"
+  description: "Utilize an “early warning” system to encourage advocacy and communication within the community to  better protect endangered sites, buildings, landscapes and view sheds."
+-
+  name: "hpch"
+  heading: "Education and Outreach"
+  abbreviation: "P23"
+  description: "Utilize technology to capture new audiences and expand the overall reach of historic preservation programs and efforts."
+-
+  name: "hpch"
+  heading: "Education and Outreach"
+  abbreviation: "P24"
+  description: "Proactively work with property owners and community groups, especially those in historically underserved areas, to designate new historic landmarks and districts that are valuable to the city."
+-
+  name: "hpch"
+  heading: "Cultural Heritage"
+  abbreviation: "P25"
+  description: "Define and communicate a broader definition of cultural heritage to the community that includes tangible and intangible resource of architectural, historic and cultural significance."
+-
+  name: "hpch"
+  heading: "Cultural Heritage"
+  abbreviation: "P26"
+  description: "Develop a formal process to recognize properties/assets of cultural significance."
+-
+  name: "hpch"
+  heading: "Cultural Heritage"
+  abbreviation: "P27"
+  description: "Establish methods for the identification, recognition and awareness of intangible cultural and social heritage."
+-
+  name: "hpch"
+  heading: "Cultural Heritage"
+  abbreviation: "P28"
+  description: "Utilize technology to expand survey areas and make survey information more accessible to the public to promote a greater understanding of significant historic and cultural resources, such as the development of a cultural map."
+-
+  name: "hpch"
+  heading: "Cultural Heritage"
+  abbreviation: "P29"
+  description: "Continue to facilitate public discourse and education relating to cultural heritage."
+-
+  name: "hpch"
+  heading: "World Heritage San Antonio Missions"
+  abbreviation: "P30"
+  description: "Continue public engagement activities to identify and document the attributes which create the Outstanding Universal Values identified in the UNESCO inscription."
+-
+  name: "hpch"
+  heading: "World Heritage San Antonio Missions"
+  abbreviation: "P31"
+  description: "Enforce and evaluate the Mission Protection Overlay Districts; explore the effectiveness of additional design review tools or changes to underlying zoning."
+-
+  name: "hpch"
+  heading: "World Heritage San Antonio Missions"
+  abbreviation: "P32"
+  description: "Utilize tools which evaluate potential impacts to the Outstanding Universal Values (as defined by UNESCO) within the designated Missions of San Antonio area and the buffer zone."
+-
+  name: "hpch"
+  heading: "World Heritage San Antonio Missions"
+  abbreviation: "P33"
+  description: "Partner with stakeholders to promote heritage tourism."
+-
+  name: "hpch"
+  heading: "World Heritage San Antonio Missions"
+  abbreviation: "P34"
+  description: "Develop strategies and incentives which protect and enhance the authenticity of the designated area."
+
+-
+
+  name: "m"
+  heading: "Land Use"
+  abbreviation: "P1"
+  description: "Discourage development in areas where the risks to potential health and safety cannot be mitigated to accepted guidelines. Consider overlay districts (independently or in cooperation with other jurisdictions) in the Military Influence Areas (MIA) to mitigate encroachment issues."
+-
+  name: "m"
+  heading: "Land Use"
+  abbreviation: "P2"
+  description: "Develop strategies that apply land use and development tools to mitigate encroachment and compatibility issues that pre-date the JLUS."
+-
+  name: "m"
+  heading: "Land Use"
+  abbreviation: "P3"
+  description: "Revisit and continue to monitor unimplemented recommendations of the JLUS and other applicable studies."
+-
+  name: "m"
+  heading: "Land Use"
+  abbreviation: "P4"
+  description: "Continue to monitor and enforce Memorandums of Understanding (MOUs) between the City and JBSA regarding the compliance of master development, neighborhood, community and other functional and regional plans located five miles or less from the perimeter boundary of military installations for compatibility with the military."
+-
+  name: "m"
+  heading: "Land Use"
+  abbreviation: "P5"
+  description: "Partner with JBSA locations to identify, prevent and reduce encroachment and sustainment challenges identified in the Installation Complex Encroachment Management Action Plan (ICEMAP)."
+-
+  name: "m"
+  heading: "Land Use"
+  abbreviation: "P6"
+  description: "Incentivize development potential in other priority development areas of the city to take pressure off of base-adjacent land."
+-
+  name: "m"
+  heading: "Land Use"
+  abbreviation: "P7"
+  description: "Coordinate with JBSA to identify sub-districts within JBSA locations where different internal and adjacent development types may be appropriate and further other City land use and connectivity goals."
+-
+  name: "m"
+  heading: "Land Use"
+  abbreviation: "P8"
+  description: "Coordinate with JBSA locations and City Police to facilitate infrastructure improvements and staffing that facilitate more flexible ingress/egress options."
+-
+  name: "m"
+  heading: "Land Use"
+  abbreviation: "P9"
+  description: "Develop land use and development strategies to address potential base closures, consolidations and realignments. Assess appropriate land uses and potential reuse of structures and infrastructure should bases close or reduce in size in the future."
+-
+  name: "m"
+  heading: "Land Use"
+  abbreviation: "P10"
+  description: "Encourage JBSA and the Department of Defense (DOD) to consider the long-term potential of military contraction or mission reduction/shift when planning and constructing facilities. Encourage the design of housing, educational, medical and other facilities to facilitate their continued use or adaption for other uses if no longer needed for military purposes in the future."
+-
+  name: "m"
+  heading: "Regulations and Ordinances"
+  abbreviation: "P11"
+  description: "Develop a voluntary sound attenuation retrofit program."
+-
+  name: "m"
+  heading: "Regulations and Ordinances"
+  abbreviation: "P12"
+  description: "Partner with JBSA locations to develop protocols for the safe movement of hazardous materials."
+-
+  name: "m"
+  heading: "Regulations and Ordinances"
+  abbreviation: "P13"
+  description: "Continue to enforce the City’s Dark Skies Ordinance around Camp Bullis to address unnecessary light pollution, uplight, and glare from new construction or the revision/replacement of existing lighting."
+-
+  name: "m"
+  heading: "Regulations and Ordinances"
+  abbreviation: "P14"
+  description: "Require the dedication of aviation easements when development is proposed on property within the safety zones as per JLUS recommendations."
+-
+  name: "m"
+  heading: "Regulations and Ordinances"
+  abbreviation: "P15"
+  description: "Continue to monitor and enforce the Military Airport Overlay Zone (MAOZ) overlay zoning district limiting the density of development and intensity of uses in identified runway Clear Zones and Military Airport Overlay Zone."
+-
+  name: "m"
+  heading: "Regulations and Ordinances"
+  abbreviation: "P16"
+  description: "Continue to enforce the requirement that all new development or substantial redevelopment located five miles or less from the perimeter boundary of military installations conform to Federal Aviation Regulations Part 77 height limits."
+-
+  name: "m"
+  heading: "Regulations and Ordinances"
+  abbreviation: "P17"
+  description: "Support and implement the Southern Edwards Plateau Habitat Conservation Plan developed under a cooperative agreement with Bexar County to mitigate within the “Threatened and Endangered Species Military Influence Area (MIA)” identified in the Camp Bullis JLUS."
+-
+  name: "m"
+  heading: "Communications and Collaboration"
+  abbreviation: "P18"
+  description: "Honor Memorandums of Understanding (MOU) that foster on-going formal consultation with and among the JBSA and area cities and counties regarding issues of mutual concern."
+-
+  name: "m"
+  heading: "Communications and Collaboration"
+  abbreviation: "P19"
+  description: "Continue to provide opportunities for collaborative participation by the Military in all phases of the San Antonio comprehensive master planning, zoning and/or master development plan review process."
+-
+  name: "m"
+  heading: "Communications and Collaboration"
+  abbreviation: "P20"
+  description: "Provide notifications to JBSA for review and comment on City land use applications for properties located within five miles of a military installation."
+-
+  name: "m"
+  heading: "Communications and Collaboration"
+  abbreviation: "P21"
+  description: "Coordinate closely with those jurisdictions, agencies, and organizations that have jurisdiction within five miles of the perimeter boundary of a military installation to encourage their policies and regulations are consistent with the City’s Comprehensive Plan. Include representatives from Bexar, Comal, and Guadalupe Counties and regional municipalities when planning a regional JLUS with the military."
+-
+  name: "m"
+  heading: "Communications and Collaboration"
+  abbreviation: "P22"
+  description: "Cooperate to provide City and Bexar County staff with on-going training opportunities to maintain their awareness of the latest technology and regulations concerning military compatibility issues."
+-
+  name: "m"
+  heading: "Communications and Collaboration"
+  abbreviation: "P23"
+  description: "Create a military compatibility communication and education program for developers and realtors."
+-
+  name: "m"
+  heading: "Communications and Collaboration"
+  abbreviation: "P24"
+  description: "Continue to support State legislation requiring real estate disclosures for all real estate transactions within the Military Influence Areas."
+-
+  name: "m"
+  heading: "Communications and Collaboration"
+  abbreviation: "P25"
+  description: "Continue to support the efforts and policies of the Military Transformation Task Force (MTTF), a joint initiative of the City, Bexar County, and the Greater San Antonio Chamber of Commerce, to work with the military to promote mission readiness and to address impacts the military has on the community."
+-
+  name: "m"
+  heading: "Communications and Collaboration"
+  abbreviation: "P26"
+  description: "Coordinate with JBSA locations on Joint Use agreements that allow non-military users/uses of certain military facilities (transition areas, specific hours or floors of designated facilities)."
+-
+  name: "m"
+  heading: "Infrastructure and Investment"
+  abbreviation: "P27"
+  description: "Review City, County and State (TXDOT) projects on an annual basis to identify capital improvement plans (CIP) and master infrastructure plans that may impact or benefit the mission at each of San Antonio’s military installations. Consider the projected need for additional infrastructure and other municipal services by JBSA in the development of new infrastructure master plans."
+-
+  name: "m"
+  heading: "Infrastructure and Investment"
+  abbreviation: "P28"
+  description: "Consider the needs of military installations when planning transportation and infrastructure projects by consulting regularly with the military to ensure military routes are depicted accurately in plan diagrams and maps."
+-
+  name: "m"
+  heading: "Education, Training, and Economic Development"
+  abbreviation: "P29"
+  description: "Support and help coordinate educational and advanced training opportunities with overlap between the military, education and civilian sectors."
+-
+  name: "m"
+  heading: "Education, Training, and Economic Development"
+  abbreviation: "P30"
+  description: "Coordinate with JBSA locations to leverage military expertise, resources and personnel to establish and support innovation clusters in San Antonio (including cyber, medical, advanced technical and engineering)."
+-
+  name: "m"
+  heading: "Education, Training, and Economic Development"
+  abbreviation: "P31"
+  description: "Develop programs to help coordinate and link local college curriculums with appropriate military missions as a strategy to help retain those missions long-term."
+-
+  name: "m"
+  heading: "Education, Training, and Economic Development"
+  abbreviation: "P32"
+  description: "Support programs and organizations that work to retain workers with specialized skills and competencies leaving the military to in order to help incubate and support targeted industries such as biosciences and healthcare, information technology and cybersecurity, advanced manufacturing and aerospace."
+-
+  name: "m"
+  heading: "Education, Training, and Economic Development"
+  abbreviation: "P33"
+  description: "Work to enhance the military’s use of local contractors and services and to increase the purchase of equipment and materials from San Antonio-based suppliers. The City should identify, attract and support businesses that serve the military and military contractors."
+-
+  name: "m"
+  heading: "Education, Training, and Economic Development"
+  abbreviation: "P34"
+  description: "Coordinate with and support the Texas Military Preparedness Commission to preserve, protect, expand, and attract new military missions, assets and installations in San Antonio."
+-
+  name: "m"
+  heading: "Quality of Life and Wellness"
+  abbreviation: "P35"
+  description: "Explore the use of public-private partnerships to assist in potential land use and personnel transitions similar to work done to advance Port San Antonio and Brooks City Base."
+-
+  name: "m"
+  heading: "Quality of Life and Wellness"
+  abbreviation: "P36"
+  description: "Cooperate with and support efforts such as the Military and Veteran Community Collaborative (MVCC) and The Community Blueprint Network to address critical issues facing veterans, returning service men and women and military families including employment, education, housing and healthcare."
+-
+  name: "m"
+  heading: "Quality of Life and Wellness"
+  abbreviation: "P37"
+  description: "Work with local nonprofits to establish workforce transition programs so that highly skilled military workers can easily transition to public sector employment in health, bio-medicine, cyber security and IT industries, if and when needed."
+-
+  name: "m"
+  heading: "Quality of Life and Wellness"
+  abbreviation: "P38"
+  description: "Work with JBSA officials and area developers in identifying strategies to meet the housing needs of service members, veterans, and their families when updating the City’s Comprehensive Plan Housing Element and other housing studies and plans."
+-
+  name: "m"
+  heading: "Quality of Life and Wellness"
+  abbreviation: "P39"
+  description: "Cooperate with and encourage JBSA base development planning initiatives (such as the Installation Development Plan expected in 2016) that support City goals and policies for growth, urban form, housing, transportation and healthy communities."

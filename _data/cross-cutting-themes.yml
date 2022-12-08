@@ -1,0 +1,25 @@
+-
+  title: Economic Vitality
+  order: 1
+  image_path: /img/themes/vitality.jpg
+  description: A thriving economy is key to long-term sustainability. Strategies identified through the planning process will be assessed for their potential impact (positive, neutral, or negative) on the local economy.
+-
+  title: Air Quality
+  order: 2
+  image_path: /img/themes/air-quality.jpg
+  description: Continuously finding opportunities to improve air quality is a priority for the City of San Antonio. Strategies identified through this planning process will be evaluated to ensure they create no negative impact or, ideally enhance the quality of San Antonio’s air.
+-
+  title: Water Resources
+  order: 3
+  image_path: /img/themes/water-resources.jpg
+  description: Water is essential to life. In San Antonio the availability and quality of this resource is expected to be a challenge for years to come. Strategies identified through this planning process will be evaluated based on their ability to protect, preserve, and improve the quality of San Antonio’s water.
+-
+  title: Equity
+  order: 4
+  image_path: /img/themes/equity.jpg
+  description: A fair and just community ensures equal opportunities for all of its members. Strategies identified through this planning process should be able to demonstrate that it will bring value to all of San Antonio’s people.
+-
+  title: Resilience
+  order: 5
+  image_path: /img/themes/resilience.jpg
+  description: Like all cities, San Antonio has a set of vulnerabilities that could weaken it. Measuring the value and identifying strategies towards reducing those vulnerabilities and enhancing resilience to all social, environmental and economic vulnerabilities is essential to ensure a sustainable future.

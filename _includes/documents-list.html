@@ -1,0 +1,109 @@
+
+{% assign documents = site.documents | sort: 'category' %}
+{% assign category = meh %}
+<ul class="nav nav-tabs row" role="tablist" id="myTabs">
+  {% for item in documents %}
+    {% if item.category != category %}
+    {% assign category = item.category | lowercase %}
+    <a data-toggle="tab" href="#{{category | slugify }}tab" class="col-md nav-item nav-link {% if forloop.first %}active{% endif %}" role="tab"><div class="tab-content"><h3>{{category}}</h3></div></a>
+    {% endif %}
+  {% endfor %}
+  <a data-toggle="tab" href="#alltab" class="nav-item nav-link" role="tab">All</a>
+</ul>
+
+{% assign category = null %}
+{% assign documents = null %}
+<div class="tab-content">
+
+
+  {% assign documents = site.documents | sort: "category" %}
+  {% for post in documents %}
+  {% if post.category != category %}
+  {% assign category = post.category | lowercase %}
+  {% assign docs = site.documents | where: "category", category %}
+  <div id="{{category | slugify }}tab" class="tab-pane fade in {% if forloop.first%}active show{% endif %}">
+    <div class="row" style="width: 90vw !important; padding: 10px 25px;">
+      {% for item in docs %}
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div id="documents" class="row">
+          <div class="doc-icons col-3">
+            <!-- doc icons -->
+            {% if item.type == 'pdf' %}
+              {% if item.document_path %}<a href="{{ item.document_path }}" target="_blank">{% endif %}
+                <img src="/img/icons/doc-icon.png"/>
+              {% if item.document_path %}</a>{% endif %}
+            {% elsif item.type == 'image' %}
+              {% if item.document_path %}<a href="{{ item.document_path }}" target="_blank">{% endif %}
+                <img src="/img/icons/chart-icon.png"/>
+              {% if item.document_path %}</a>{% endif %}
+            {% elsif item.type == 'link' %}
+              {% if item.external-doc-url %}<a href="{{ item.external-doc-url }}" target="_blank">{% endif %}
+                <img src="/img/icons/link-icon.png"/>
+              {% if item.external-doc-url %}</a>{% endif %}
+            {% elsif item.type == 'file' %}
+              {% if item.document_path %}<a href="{{ item.document_path }}" target="_blank">{% endif %}
+                <img src="/img/icons/doc-icon.png"/>
+              {% if item.document_path %}</a>{% endif %}
+            {% else %}
+            {% endif %}
+          </div>
+          <div class="col-9">
+            <!-- doc summaries and links -->
+            <h4><strong>
+            {% if item.external-doc-url %}<a href="{{item.external-doc-url}}" target="_blank">{{ item.title }}</a>
+            {% elsif item.document_path%}<a href="{{item.document_path}}" target="_blank">{{ item.title }}</a>
+            {% else%}{{ item.title }}{% endif %}</strong></h4>
+            {% if item.description %}<p>{{ item.description }}</p>{% endif %}
+            <p class="small">{% if item.document_path %}<a href="{{ item.document_path }}" target="_blank" ><i class="fa fa-download"></i>Download</a>{% endif %}{% if item.external-doc-url %}<a href="{{ item.external-doc-url}}" target="_blank"><i class="fa fa-link"></i>View in New Tab</a>{% endif %}</p>
+          </div>
+        </div><!--end inside row -->
+      </div><!--end columns row -->
+      {% endfor %}
+    </div><!--end outside row -->
+  </div>
+  {% endif %}
+  {% endfor %}
+  {% assign category = null %}
+  {% assign documents = null %}
+  {% assign documents = site.documents | sort: "title" %}
+  <div id="alltab" class="tab-pane fade in ">
+    <div class="row" style="width: 90vw !important; padding: 10px 25px;">
+      {% for item in documents %}
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div id="documents" class="row">
+          <div class="doc-icons col-3">
+            <!-- doc icons -->
+            {% if item.type == 'pdf' %}
+              {% if item.document_path %}<a href="{{ item.document_path }}" target="_blank">{% endif %}
+                <img src="/img/icons/doc-icon.png"/>
+              {% if item.document_path %}</a>{% endif %}
+            {% elsif item.type == 'image' %}
+              {% if item.document_path %}<a href="{{ item.document_path }}" target="_blank">{% endif %}
+                <img src="/img/icons/chart-icon.png"/>
+              {% if item.document_path %}</a>{% endif %}
+            {% elsif item.type == 'link' %}
+              {% if item.external-doc-url %}<a href="{{ item.external-doc-url }}">{% endif %}
+                <img src="/img/icons/link-icon.png"/>
+              {% if item.external-doc-url %}</a>{% endif %}
+            {% elsif item.type == 'file' %}
+              {% if item.document_path %}<a href="{{ item.document_path }} target="_blank"">{% endif %}
+                <img src="/img/icons/doc-icon.png"/>
+              {% if item.document_path %}</a>{% endif %}
+            {% else %}
+            {% endif %}
+          </div>
+          <div class="col-9">
+            <!-- doc summaries and links -->
+            <h4><strong>
+            {% if item.external-doc-url %}<a href="{{item.external-doc-url}}" target="_blank">{{ item.title }}</a>
+            {% elsif item.document_path%}<a href="{{item.document_path}}" target="_blank">{{ item.title }}</a>
+            {% else%}{{ item.title }}{% endif %}</strong></h4>
+            {% if item.description %}<p>{{ item.description }}</p>{% endif %}
+            <p class="small">{% if item.document_path %}<a href="{{ item.document_path }}" target="_blank"><i class="fa fa-download"></i>Download</a>{% endif %}{% if item.external-doc-url %}<a href="{{ item.external-doc-url}}" target="_blank"><i class="fa fa-link"></i>View in New Tab</a>{% endif %}</p>
+          </div>
+        </div><!--end inside row -->
+      </div><!--end columns row -->
+      {% endfor %}
+    </div><!--end outside row -->
+  </div>
+</div>

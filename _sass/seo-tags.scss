@@ -1,0 +1,14 @@
+.section-tags, .section-themes {
+  display: none;
+  &.nav.nav-tabs {
+    border: none;
+    border-bottom: none;
+  }
+}
+.item-tags, .item-themes {
+  display: none;
+  &.nav.nav-tabs {
+    border: none;
+    border-bottom: none;
+  }
+}

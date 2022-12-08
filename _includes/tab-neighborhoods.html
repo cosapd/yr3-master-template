@@ -1,0 +1,59 @@
+
+<div id="">
+  <div class="container-fluid">
+    <ul class="nav nav-tabs row" role="tablist" id="myTabs" style="max-width: 100%;">
+      <a role="tab" role="tab" class="col nav-item nav-link active" href="#intro" aria-controls="home" data-toggle='tab'>
+        <div class="tab-content">
+          <h3>Introduction</h3>
+        </div>
+      </a>
+      {% for profile in site.neighborhood-profiles %}
+      <a role="tab" role="tab" class="col nav-item nav-link" href="#neighborhood-{{ forloop.index }}" aria-controls="home" data-toggle='tab'>
+          <div class="tab-content">
+            <h3>{{ profile.title }}</h3>
+          </div>
+        </a>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="tab-content">
+    <div id="intro"  class="tab-pane fade in  active show" role="tabpanel">
+      <div class="container">
+      <!-- <a style="margin-bottom: 1.5em;" href="/img/maps/SAAP_Template_Basemap-01.png" class="btn btn-sm btn-secondary pull-left" target="_blank">View Full Size</a> -->
+      <!-- <div style="margin:1.5em 0">
+        <img class="" src="/img/maps/SAAP_Template_Basemap-01.png" alt="Template basemap">
+      </div> -->
+      <!-- <a href="/img/maps/SAAP_Template_Basemap-01.png" download class="pull-right"><i class="fa fa-download "></i>Download</a> -->
+      <div class="" style="margin-top: 2em;">
+        <h3>What are Neighborhood Profile and Priorities?</h3>
+        <p>San Antonio is a city of neighborhoods, each with its own unique history, qualities and character. Many neighborhoods throughout the City have developed Neighborhood Plans that reflect local values and priorities. These plans, adopted by the City, have guided local investments and improvements for many years and helped strengthen the relationship between residents and the City. The City is currently in the process of creating Sub-Area Plans to implement the SA Tomorrow Comprehensive Plan. These Sub-Area Plans are intended to provide a more coordinated, efficient and effective structure for neighborhood planning. The Sub-Area Plans are intended to increase equity citywide, by ensuring that all of San Antonio’s neighborhoods have a base level of policy guidance, as many neighborhoods within the City lack an existing Neighborhood Plan or a registered neighborhood organization. In this way, each Sub-Area Plan will integrate key elements of existing Neighborhood Plans for those neighborhoods that have a plan, while promoting citywide policy consistency and providing key recommendations and strategies for those neighborhoods currently lacking that direction. The Neighborhood Profile and Priorities section of the Sub-Area Plans provides special attention to prior neighborhood planning efforts and recognizes the community groups and individuals who were instrumental in their creation. They summarize specific opportunities, challenges, recommendations and priorities from each participating neighborhood, in an effort to more efficiently direct public and private investment within the City to help these neighborhoods achieve their short-term goals and long-term visions.</p>
+      </div>
+      </div>
+    </div>
+    {% for profile in site.neighborhood-profiles %}
+    <div id="neighborhood-{{ forloop.index }}"  class="tab-pane fade in" role="tabpanel">
+        <div class="container">
+          <h3 style="margin: 1em 0;">{{ profile.title }} Neighborhood Profile and Priorities</h3>
+          <p class="text-center" style="margin: 1em 0;">{{ profile.intro }}</p>
+          <a style="margin-bottom: 1.5em;" href="{{ profile.doc_url_path}}" class="btn btn-sm btn-secondary pull-left" target="_blank">View Full Document</a>
+          <div style="margin:1.5em 0;">
+            <a href="{{ profile.doc_url_path}}" target="_blank">
+              <img style="border: 1px solid #ededed;box-shadow: 3px 5px 7px rgba(0,0,0,.15);" class="" src="{{ profile.map_url_path}}" alt="Plan location map">
+            </a>
+          </div>
+          <a href="{{ profile.doc_url_path}}" download class="pull-right"><i class="fa fa-download"></i>Download</a>
+          <div class="row d-flex align-items-center">
+            <div class="col-sm-8">
+              <p>{{ profile.content }}</p>
+            </div>
+            <div class="col-sm-4">
+              <div style="margin:1.5em 0">
+                <a href="{{ profile.archive_doc_path }}" target="_blank"><img class="" src="{{ profile.archive_thumb_path }}" alt="Plan location map"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

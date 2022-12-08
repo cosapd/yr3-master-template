@@ -1,0 +1,16 @@
+{% if include.transition == 'fade' %}{% assign carousel-transition = 'carousel-fade'  %}{% endif %}
+{% if include.height %}{% assign carousel-height = include.height  %}{% endif %}
+{% if include.timing %}{% assign carousel-timing = include.timing  %}{% endif %}
+
+
+<div id="hero-carousel" data-ride="carousel" class="carousel slide carousel-fade" data-interval="{{site.carousel-speed}}">
+<!-- slides -->
+  <div class="carousel-inner text-left" role="listbox">
+    {% for item in site.hero-slides %}
+    <div class="carousel-item item {% if forloop.first == true %}active{% endif %} {% if page.style.overlay == 'dark' %}dark{% elsif page.style.overlay == 'light' %}light{% endif %}" style="{% if carousel-height %}height:{{ carousel-height }}{% endif %}" role="option">
+      <!-- slider background -->
+        <div class="slider-bgimg {% if item.background.blur %} blur{% endif %}{% if item.background.parallax %} parallax cover{% endif %}{% if item.background.pattern %} tile{% endif %} {% if item.background.overlay == 'dark' %}bgoverlayDark{% endif %}{% if item.background.overlay == 'light' %}bgoverlayLight{% endif %}" style="{% if item.background.url_path %} background-image:url('{{ item.background.url_path }}');{% endif %}{% if item.background.bg_color %}background-color: {{item.background.bg_color}};{% endif %}{% if item.background.position %}background-position:{{item.background.position}};{% endif %}" ></div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

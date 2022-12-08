@@ -1,0 +1,12 @@
+<div class="container-fluid">
+  <ul class="nav nav-tabs row" role="tablist" id="myTabs">
+    {% assign plans = site.plan-framework | sort: "order" %}
+    {% for plan in plans %}
+    <a role="presentation" class="col-md nav-item nav-link {% if page.url == plan.permalink %}active{% endif %}" {% if plan.permalink %}href="{{plan.permalink}}"{% endif %} aria-controls="home">
+      <div class="tab-content">
+        <h3>{{plan.title}}</h3>
+      </div>
+    </a>
+    {% endfor %}
+  </ul>
+</div>

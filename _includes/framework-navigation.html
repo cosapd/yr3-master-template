@@ -1,0 +1,10 @@
+<div class="building-block-nav">
+  {% assign blocks = site.plan-framework %}
+  {% for block in blocks | sort: 'order' %}
+  {% unless block.permalink == page.permalink %}
+  <div class="text-center">
+    <a class="btn btn-secondary" href="{{block.permalink}}">{{ block.title }}</a>
+  </div>
+  {% endunless %}
+  {% endfor %}
+</div>

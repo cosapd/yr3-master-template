@@ -1,0 +1,68 @@
+---
+layout: "landing"
+permalink: "/search-results/"
+title: "Search Results"
+sitemap:
+  exclude: true
+---
+{% include section.html location="search-results" %}
+<style>
+    #overlay {
+        background: #ffffff;
+        color: #666666;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        z-index: 5000;
+        top: 0;
+        left: 0;
+        float: left;
+        text-align: center;
+        padding-top: 15%;
+    }
+    #overlay img {
+      style="max-width:150px;
+      display: block;
+    }
+</style>
+<div id="overlay">
+    <img src="/img/SA_Tomorrow_All_RGB.png" alt="SA Tomorrow logo" class="img" style="max-width:200px;display: block;margin:0 auto;" />
+    <img src="/img/gif/loader.gif" style="display: block;margin:0 auto;" alt="Loading" /><br/>
+    Loading Search Results...
+</div>
+<script>
+  function gcseCallback() {
+    var searchOutput = sessionStorage.getItem('search');
+    var searchParsed = $.parseJSON(searchOutput);
+    if (document.readyState != 'complete'){
+      console.log(searchParsed)
+      google.search.cse.element.render({gname:'gsearch', div:'results', tag:'search', attributes:{linkTarget:''}});
+      var element = google.search.cse.element.getElement('gsearch');
+      element.execute(searchParsed);
+      setTimeout(function(){
+        $("#result-header-display").text(searchParsed);
+        $(".search-input").attr('placeholder', searchParsed).css('textTransform', 'capitalize');
+        $('#overlay').fadeOut(500); //fade the page loader
+      }, 1000);
+    }
+
+  };
+  window.__gcse = {
+    parsetags: 'explicit',
+    callback: gcseCallback
+  };
+  (function() {
+    var cx = '{{ site.search-cx }}';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+      '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<div class="row-80">
+  {% include large-searchbox.html %}
+</div>
+<div id="results"></div>

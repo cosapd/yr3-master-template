@@ -1,0 +1,19 @@
+<div id="element-icon-section">
+  <div class="row">
+    <div class="col-12">
+      <h4 class="text-blue">Click one of the Plan Element icons below to learn more about it.</h4>
+    </div>
+    {% assign elements = site.plan-element-icons | sort: 'order' %}
+    {% for element in elements %}
+    <div class="col-sm-4 text-center plan-element-icon-card">
+      <a href="{% if page.goals-version %}{{ element.goals-link }}{% else %}{{ element.link }}{% endif %}">
+        <div class="icon-panel">
+          <img data-src="{{ element.icon_path | downcase }}" alt="">
+        </div>
+        <p>{{ element.title }}</p>
+      </a>
+    </div>
+    {% endfor %}
+    {% assign elements = null %}
+  </div>
+</div>

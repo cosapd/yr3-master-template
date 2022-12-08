@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include head.html %}
+    {% if site.draft %}
+    {% include draft-banner.html %}
+    {% endif %}
+<body id="landing">
+  {% include flash.html %}
+  {% include header.html %}
+  <div id="content" class="{{ page.layout }}">
+    {{ content }}
+  </div>
+  {% include scroll-top-btn.html %}
+  {% include scroll-down-indicator.html %}
+</body>
+{% include footer.html %}
+{% include tracking.html %}
+<script>window.__theme = 'bs4';</script>
+</html>

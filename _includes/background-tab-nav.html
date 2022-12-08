@@ -1,0 +1,32 @@
+---
+layout: landing
+---
+<div id="backgroundTabs">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-10">
+        <br />
+        <!-- Nav tabs from group name -->
+        <ul class="nav nav-tabs row" role="tablist" id="myTabs">
+          {% assign sections_grouped = site.sections | sort: 'name' %}
+          {% for group in sections_grouped %}
+          <li role="presentation" {% if forloop.first == true %}class="active"{% else %}class=""{% endif %}><a href="#{{ group.name | remove: " "}}" aria-controls="home" role="tab" data-toggle="tab">{{ group.name | uppercase }}</a></li>
+          {%endfor%}
+          {% assign sections_grouped = nil %}
+        </ul>
+        <!-- Tab panes -->
+        {% assign sections = site.sections | sort: 'order' %}
+        <div class="tab-content">
+          {% for section in sections %}
+          <div  {% if forloop.first == true %}class="tab-pane fade in active"{% else %}class="tab-pane fade in"{% endif %}id="{{ group.name | remove: " "}}">
+            <!-- <a name="{{ group.name }}"></a> -->
+            <div class='row'>
+              <h2 class="text-left" class="{{ group.name }}">{{ group.name | uppercase }}</h2>
+            </div>
+          </div>
+          {% assign sections = nil %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

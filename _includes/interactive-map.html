@@ -1,0 +1,13 @@
+
+<div class="interactive-section">
+  <div class="interactive-legend">
+    <p class="small pull-right text-italic">Click on the hotspots for information.</p>
+  </div>
+  <div class="interactive-container">
+    {% assign hotspots = page.hotspots %}
+    {% for hotspot in hotspots %}
+      <a tabindex="0"  style="top: {{hotspot.y-pos}}%; left: {{ hotspot.x-pos }}%" class="btn hotspot spot{{forloop.index}}" role="button" data-placement="right" data-toggle="popover" data-trigger="click" title="{{hotspot.title}} <button type='button' id='close' class='close' onclick='$(&quot;.spot{{forloop.index}}&quot;).popover(&quot;hide&quot;);'>&times;</button>" {% if hotspot.content %}data-content="<p>{{ hotspot.content }}</p><br>{% if hotspot.link-text %}<a href='{{hotspot.link-url}}'>{{hotspot.link-text}}</a>{% endif %}"{% endif %}><span class="fa fa-bullseye"></span></a>
+    {% endfor %}
+    <img data-src="{{ page.map_path }}" alt="">
+  </div>
+</div>

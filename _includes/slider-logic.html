@@ -1,0 +1,22 @@
+<script type="text/javascript">
+  $("#customSlider").on('slide.bs.carousel', function(evt) {
+	   var step = $(evt.relatedTarget).index();
+	   $('#slider_captions .carousel-caption:not(#caption-'+step+')').hide();
+     $('#caption-'+step).fadeIn();
+	});
+  $("#customSlider1").on('slide.bs.carousel', function(evt) {
+	   var step = $(evt.relatedTarget).index();
+	   $('#slider_captions1 .carousel-caption1:not(#caption1-'+step+')').hide();
+     $('#caption1-'+step).fadeIn();
+	});
+  $("#customSlider2").on('slide.bs.carousel', function(evt) {
+	   var step = $(evt.relatedTarget).index();
+	   $('#slider_captions2 .carousel-caption2:not(#caption2-'+step+')').hide();
+     $('#caption2-'+step).fadeIn();
+	});
+  $("#customSlider3").on('slide.bs.carousel', function(evt) {
+	   var step = $(evt.relatedTarget).index();
+	   $('#slider_captions3 .carousel-caption3:not(#caption3-'+step+')').hide();
+     $('#caption3-'+step).fadeIn();
+	});
+</script>

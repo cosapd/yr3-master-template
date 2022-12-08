@@ -1,0 +1,10 @@
+---
+layout: landing
+---
+<div class="page-header text-center orange" style="{% if page.masthead_img %}background-image: url({{page.masthead_img}});{% endif %}">
+{% include breadcrumb.html context= page.url %}
+<h4 class="text-center text-white">Background and Vision</h4>
+<h2 class="text-center text-white">{{page.title | capitalize }}</h2>
+</div>
+{% include background-subnavigation.html context=page.subnav-entry %}
+{{content}}

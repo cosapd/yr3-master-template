@@ -1,0 +1,60 @@
+
+<div class="container row-60 print-hide">
+<form class="googleForm form" action="https://docs.google.com/forms/d/e/1FAIpQLSfN4r0-7FTl5WcKWPMN8FBOwFJIEC5J4kKQ09eIkAe-AzH2Og/formResponse">
+  <div class="formCard">
+    <h2>We'd love to hear your feedback.</h2>
+  </div>
+  <fieldset class="formType" role="radiogroup" {% if page.location contains "vision" %}style="visibility: hidden; height:0"{% endif %}>
+    <h3 class="formTitle">Type of Feedback</h3>
+    <input class="formRadio" role="radio" type="radio" name="entry.1591633300" value="General" aria-label="general"><span>General Plan Framework Comments</span><br>
+    <input class="formRadio" role="radio" type="radio" name="entry.1591633300" value="Focus Areas" aria-label="focus areas"><span>Focus Areas</span><br>
+    <input class="formRadio" role="radio" type="radio" name="entry.1591633300" value="Mobility" aria-label="mobility"><span>Mobility</span><br>
+    <input class="formRadio" role="radio" type="radio" name="entry.1591633300" value="Amenities and Infrastructure" aria-label="amenities"><span>Amenities and Infrastructure</span><br>
+    <input class="formRadio" role="radio" type="radio" name="entry.1591633300" value="Land Use" aria-label="land use"><span>Land Use</span><br>
+    <input class="formRadio" role="radio" type="radio" name="entry.1591633300" value="Housing" aria-label="housing"><span>Housing</span><br>
+    <input class="formRadio" role="radio" type="radio" name="entry.1591633300" value="Economic Development" aria-label="economic development"><span>Economic Development</span><br>
+    <input class="formRadio" role="radio" type="radio" name="entry.1591633300" value="Other"  aria-label="other" {% if page.location contains "vision" %}checked="checked"{% endif %}><span>Other</span>
+  </fieldset>
+
+  <div class="formSuggestion">
+    <h3 class="formTitle">Feedback</h3>
+    <textarea aria-required="true" size="200" name="entry.1696159737" class="string text form-control" rows="10" cols="100" placeholder="Leave your suggestions..."></textarea>
+  </div>
+  <div class="formName">
+    <h3 class="formTitle">Name*</h3>
+    <input aria-required="true" size="200" name="entry.485428648" class="string text form-control" rows="2" cols="80" placeholder="Name" required/>
+  </div>
+  <div class="formZip">
+    <h3 class="formTitle">Zipcode*</h3>
+    <input aria-required="true" size="200" name="entry.737957700" class="string text form-control" rows="2" cols="80" placeholder="Zipcode" required/>
+  </div>
+  <div class="formEmail">
+    <h3 class="formTitle">Email</h3>
+    <input aria-required="true" size="200" type="email" name="entry.879531967" class="string text form-control" rows="2" cols="80" placeholder="Email"/>
+  </div>
+  <p>* indicates a required field.</p>
+  <button class="btn btn-info" type="submit" name="submit" value="Send" style="margin: 2em 0">Submit</button>
+</form>
+</div>
+<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScMxsJ8iHaD5n_bmGAEJNiTpmeKA22G9vWuhiWhqeq0W7YpGg/viewform?embedded=true" width="640" height="1251" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
+<style media="screen">
+  .googleForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .googleForm > div {
+    margin-bottom: 1em !important;
+    margin-top: 1em !important;
+  }
+  .formTitle{
+    margin-bottom: 15px;
+  }
+  .formType{
+    text-align: left;
+  }
+  .formRadio{
+    margin: 0 10px 15px 5px;
+  }
+</style>

@@ -1,0 +1,37 @@
+<div class="container-fluid">
+  <ul class="nav nav-tabs row" role="tablist" id="glossTabs">
+    <a role="presentation" role="tab" class="col-6 nav-item nav-link active text-center" href="#glossary" aria-controls="home" data-toggle='tab'>
+      <h3>Terms</h3>
+    </a>
+    <a role="presentation" role="tab" class="col-6 nav-item nav-link text-center" href="#acronyms" aria-controls="home" data-toggle='tab'>
+      <h3>Acronyms</h3>
+    </a>
+  </ul>
+  <div class="tab-content">
+    <div id="glossary"  class="tab-pane fade in active show">
+      {% assign terms = site.data.glossary-terms %}
+      <div class="glossary-row row">
+        {% for term in terms %}
+        <div class="col-md-6">
+          <h4>{{ term.term | replace: ".", ":" }}</h4>
+          <p>{{ term.definition }}</p>
+        </div>
+        {% endfor %}
+      </div>
+      {% assign terms = null %}
+    </div>
+
+    <div id="acronyms"  class="tab-pane fade in">
+      {% assign acronyms = site.data.acronyms %}
+      <div class="glossary-row row">
+        {% for acronym in acronyms %}
+        <div class="col-md-6">
+          <h4>{{ acronym.acronym }}</h4>
+          <p>{{ acronym.description }}</p>
+        </div>
+        {% endfor %}
+      </div>
+      {% assign acronyms = null %}
+    </div>
+  </div>
+</div>

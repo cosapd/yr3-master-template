@@ -1,0 +1,15 @@
+{% assign sections = site.sections | where: "location", include.location  %}
+
+{% for section in sections %}
+
+{% if section.coming_soon %}
+  {% assign coming_soon = section.coming_soon %}
+{% endif %}
+
+{% if coming_soon == true %}
+  {% assign state = 'coming soon' %}
+{% else %}
+  {% assign state = 'active' %}
+{% endif %}
+
+{% endfor %}

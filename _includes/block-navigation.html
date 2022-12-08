@@ -1,0 +1,17 @@
+<div class="building-block-nav row">
+  <div class="col-md-3 col-6 text-center">
+    <div class="indexing-button prev">
+      <a href="/building-blocks/"><i class="fa fa-chevron-left"></i>Back</a>
+    </div>
+  </div>
+  {% assign blocks = site.building-blocks %}
+  {% for block in blocks | sort: 'title' %}
+  {% unless block.permalink == page.permalink %}
+  <div class="col-md-3 col-6 text-center">
+    <div class="indexing-button">
+      <a href="{{block.permalink}}">{{ block.title }}</a>
+    </div>
+  </div>
+  {% endunless %}
+  {% endfor %}
+</div>

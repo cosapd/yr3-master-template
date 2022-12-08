@@ -1,0 +1,1865 @@
+-
+ plan-element-abbreviation: "gcf"
+ plan-element-number: "a1"
+ abbreviation: "GCF A1"
+ description: "Incentivize the development of energy effecient buildings (streamlined permitting processes, fee waivers, etc.)"
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: true
+-
+ plan-element-abbreviation: "gcf"
+ plan-element-number: "a2"
+ abbreviation: "GCF A2"
+ description: "Expand and incentivize participation in the Build San Antonio Green program."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: true
+-
+ plan-element-abbreviation: "gcf"
+ plan-element-number: "a3"
+ abbreviation: "GCF A3"
+ description: "Modify the Unified Development Code (UDC) to reduce barriers to mixed-use development."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "gcf"
+ plan-element-number: "a4"
+ abbreviation: "GCF A4"
+ description: "Modify the UDC to reduce barriers to higher density development in regional centers."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "gcf"
+ plan-element-number: "a5"
+ abbreviation: "GCF A5"
+ description: "Modify the UDC to reduce barriers to higher density development within a 1/2-mile of high capacity transit corridors."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "gcf"
+ plan-element-number: "a6"
+ abbreviation: "GCF A6"
+ description: "Develop incentives to encourage mixed-use development within 1/2-mile of stations in regional and urban centers and along high capacity transit corridors."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "gcf"
+ plan-element-number: "a7"
+ abbreviation: "GCF A7"
+ description: "Create programs and incentives to encourage reclamation of brownfield sites."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "gcf"
+ plan-element-number: "a8"
+ abbreviation: "GCF A8"
+ description: "Evaluate City park dedication policies to ensure that the fees collected cover the costs of actual park construction at San Antonio's prevailing levels of service."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "gcf"
+ plan-element-number: "a9"
+ abbreviation: "GCF A9"
+ description: "Collaborate with neighborhood leaders to identify and facilitate the conversion of vacant and underutilized lots into public green spaces (community gardens, pocket parks, etc.)."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: true
+-
+ plan-element-abbreviation: "gcf"
+ plan-element-number: "a10"
+ abbreviation: "GCF A10"
+ description: "Identify school zones (areas within a 1/2-mile) where sidewalks, crossings, and intersections are incomplete or unsafe. Prioritize projects that address these deficiencies."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "gcf"
+ plan-element-number: "a11"
+ abbreviation: "GCF A11"
+ description: "Develop transit supportive land use designations and zoning and apply it to VIAs priority high capacity transit stations and stops, both existing and proposed."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "gcf"
+ plan-element-number: "a12"
+ abbreviation: "GCF A12"
+ description: "Establish annual satisfaction survey of regional center residents and employees."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "gcf"
+ plan-element-number: "a13"
+ abbreviation: "GCF A13"
+ description: "Explore ways to incentivize the development of housing units in Regional Centers."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "gcf"
+ plan-element-number: "a14"
+ abbreviation: "GCF A14"
+ description: "Identify and fund in key trail connectivity projects."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: false
+  resilience: false
+  water-resources: false
+
+-
+
+ plan-element-abbreviation: "tc"
+ plan-element-number: "a1"
+ abbreviation: "TC A1"
+ description: "The City will re-engage the public about light rail transit."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "tc"
+ plan-element-number: "a2"
+ abbreviation: "TC A2"
+ description: "Create a program for protected bike lanes."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "tc"
+ plan-element-number: "a3"
+ abbreviation: "TC A3"
+ description: "Expand bicycle access routes to new areas."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "tc"
+ plan-element-number: "a4"
+ abbreviation: "TC A4"
+ description: "Analyze and prioritize key locations for complete streets investments."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "tc"
+ plan-element-number: "a5"
+ abbreviation: "TC A5"
+ description: "Improve pedestrian and bike route connectivity."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "tc"
+ plan-element-number: "a6"
+ abbreviation: "TC A6"
+ description: "Collaborate with VIA to align investments in multimodal transportation infrastructure and new transit stations and routes."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "tc"
+ plan-element-number: "a7"
+ abbreviation: "TC A7"
+ description: "Identify, evaluate and implement a connected system of HOV lanes."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: false
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "tc"
+ plan-element-number: "a8"
+ abbreviation: "TC A8"
+ description: "Implement policies or designs that promote traffic calming measures, a range of safe bicycle facilities and multi-use trails."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "tc"
+ plan-element-number: "a9"
+ abbreviation: "TC A9"
+ description: "Promote and educate riders on the day pass program."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: false
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "tc"
+ plan-element-number: "a10"
+ abbreviation: "TC A10"
+ description: "Collaborate with responsible parties to implement reloadable fare payment cards that integrate parking, transit, BCycle, CarShare, and allow electronic payment."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: false
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "tc"
+ plan-element-number: "a11"
+ abbreviation: "TC A11"
+ description: "Increase transit and multimodal options to medical and healthcare facilities, military installations, and educational institutions."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "tc"
+ plan-element-number: "a12"
+ abbreviation: "TC A12"
+ description: "Implement a program which rewards employer-based programs that support  reduced overall VMT by employees who live within 5 miles of their work."
+ attributes:
+  air-quality: true
+  economic-vitality: true
+  equity: false
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "tc"
+ plan-element-number: "a13"
+ abbreviation: "TC A13"
+ description: "Increase percentage of households that live within 1/4 to 1/2-mile of a bike lane/trail, complete sidewalk network, or transit."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "tc"
+ plan-element-number: "a14"
+ abbreviation: "TC A14"
+ description: "Increase investment in multimodal transportation options."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "tc"
+ plan-element-number: "a15"
+ abbreviation: "TC A15"
+ description: "Invest in a regional multimodal trip planning application for mobile users to promote alternative methods of transportation."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: false
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "tc"
+ plan-element-number: "a16"
+ abbreviation: "TC A16"
+ description: "Develop a San Antonio traffic and mobility application for mobile use."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: false
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "tc"
+ plan-element-number: "a17"
+ abbreviation: "TC A17"
+ description: "Explore and implement a real time travel information center for freight on freeways and restrict freight delivery in dense activity centers during peak periods of the day."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: false
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "tc"
+ plan-element-number: "a18"
+ abbreviation: "TC A18"
+ description: "Study and implement smart parking in downtown and other regional centers with real time availability signage."
+ attributes:
+  air-quality: true
+  economic-vitality: true
+  equity: false
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "tc"
+ plan-element-number: "a19"
+ abbreviation: "TC A19"
+ description: "Create a better strategy for managing transportation options by providing dedicated lanes for transit priority and parking during large scale special events."
+ attributes:
+  air-quality: true
+  economic-vitality: true
+  equity: false
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "tc"
+ plan-element-number: "a20"
+ abbreviation: "TC A20"
+ description: "Create school siting requirements and enforce standards for streets and connectivity within 1 miles of schools."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "tc"
+ plan-element-number: "a21"
+ abbreviation: "TC A21"
+ description: "Implement ITS improvements and transit priority for frequent bus routes."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "tc"
+ plan-element-number: "a22"
+ abbreviation: "TC A22"
+ description: "Advance one federally supported transit project into development phase by 2020."
+ attributes:
+  air-quality: true
+  economic-vitality: true
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "tc"
+ plan-element-number: "a23"
+ abbreviation: "TC A23"
+ description: "Find additional local funding to support VIA services for customers who cannot ride the bus because of a disability."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+
+-
+
+ plan-element-abbreviation: "h"
+ plan-element-number: "a1"
+ abbreviation: "H A1"
+ description: "Develop the use of incentive programs such as ICRIP and others to incent the development of affordable housing."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "h"
+ plan-element-number: "a2"
+ abbreviation: "H A2"
+ description: "Develop creative approaches to increasing flexibility for the allocation of housing resources to increase leverage of resources through partnerships."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "h"
+ plan-element-number: "a3"
+ abbreviation: "H A3"
+ description: "Develop revisions to the Unified Development Code (UDC) to increase the ability to develop a variety of housing types."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "h"
+ plan-element-number: "a4"
+ abbreviation: "H A4"
+ description: "Implement public financing tools, such as tax increment, that can be used to incentivize and/or fund the development of affordable housing."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "h"
+ plan-element-number: "a5"
+ abbreviation: "H A5"
+ description: "Create a senior age-in-place strategy."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "h"
+ plan-element-number: "a6"
+ abbreviation: "H A6"
+ description: "Develop a program to encourage and reduce barriers for universal design in housing rehabilitation."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "h"
+ plan-element-number: "a7"
+ abbreviation: "H A7"
+ description: "Continue targeted use of housing resources."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "h"
+ plan-element-number: "a8"
+ abbreviation: "H A8"
+ description: "Create an incentive program for the development of housing units affordable to households earning below 80% of AMI."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "h"
+ plan-element-number: "a9"
+ abbreviation: "H A9"
+ description: "Create an incentive program for the development of housing units affordable to households earning under 120% of AMI."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "h"
+ plan-element-number: "a10"
+ abbreviation: "H A10"
+ description: "Create a program to provide incentives to employers who create employer-assisted housing programs."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "h"
+ plan-element-number: "a11"
+ abbreviation: "H A11"
+ description: "Designate the City Housing Counseling Program and the Fair Housing Council of Greater San Antonio as primary resources for residents."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "h"
+ plan-element-number: "a12"
+ abbreviation: "H A12"
+ description: "Develop a relocation assistance program."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "h"
+ plan-element-number: "a13"
+ abbreviation: "H A13"
+ description: "Plan and host an annual housing summit."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "h"
+ plan-element-number: "a14"
+ abbreviation: "H A14"
+ description: "Conduct an internal systematic assessment of City of San Antonio ordinances and policies to better understand their impact on displacement and neighborhood change."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "h"
+ plan-element-number: "a15"
+ abbreviation: "H A15"
+ description: "Develop inclusionary housing policies for residential development."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "h"
+ plan-element-number: "a16"
+ abbreviation: "H A16"
+ description: "Develop a plan and timeline for the issuance of a housing bond."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "h"
+ plan-element-number: "a17"
+ abbreviation: "H A17"
+ description: "Pursue ongoing sources of funds to be utilized by the San Antonio Housing Trust and nonprofit housing providers."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "h"
+ plan-element-number: "a18"
+ abbreviation: "H A18"
+ description: "Create a community land trust."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "h"
+ plan-element-number: "a19"
+ abbreviation: "H A19"
+ description: "Explore the creation of a neighborhood empowerment zone and other tools to provide targeted property tax relief for long-time residents."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "h"
+ plan-element-number: "a20"
+ abbreviation: "H A20"
+ description: "Develop a specific measure of displacement, based on objective criteria, to inform public discussion and planning efforts."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "h"
+ plan-element-number: "a21"
+ abbreviation: "H A21"
+ description: "Develop a specific measure of income segregation and/or mixed income neighborhoods based on objective criteria, to inform public discussion and planning efforts."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "h"
+ plan-element-number: "a22"
+ abbreviation: "H A22"
+ description: "Develop a better measure of walkable neighborhoods to inform public discussion and planning efforts."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "h"
+ plan-element-number: "a23"
+ abbreviation: "H A23"
+ description: "Develop a Healthy Housing Index incorporating data regarding substandard housing issues that affect public health outcomes (i.e. asthma, lead toxicity, etc.)."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "h"
+ plan-element-number: "a24"
+ abbreviation: "H A24"
+ description: "Incorporate Assessment of Fair Housing (AFH) strategies that achieve HUD’s Affirmatively Furthering Fair Housing (AAFH) Rule into appropriate Comprehensive Planning Program efforts (Level 2, Level 3 and Level 4 plans)."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+
+-
+
+ plan-element-abbreviation: "jec"
+ plan-element-number: "a1"
+ abbreviation: "JEC A1"
+ description: "Develop a collaborative economic development strategy with other regional cities along the 1-35 corridor to market and promote the region and collaborate to attract business and investment."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "jec"
+ plan-element-number: "a2"
+ abbreviation: "JEC A2"
+ description: "Investigate and implement a tuition reimbursement program focused on targeted industries and/or non-traditional students seeking higher education."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "jec"
+ plan-element-number: "a3"
+ abbreviation: "JEC A3"
+ description: "Offer educators and students a minimum of 20,000 experiential learning opportunities from the SA Works menu of options by 2020."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "jec"
+ plan-element-number: "a4"
+ abbreviation: "JEC A4"
+ description: "Collaborate with school districts and target industry employers to host STEM related programs, events, and activities."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "jec"
+ plan-element-number: "a5"
+ abbreviation: "JEC A5"
+ description: "Support and increase resources for Café Commerce."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "jec"
+ plan-element-number: "a6"
+ abbreviation: "JEC A6"
+ description: "Expand cafécollege’s operations and reach in the community."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "jec"
+ plan-element-number: "a7"
+ abbreviation: "JEC A7"
+ description: "Support strategies and incentives to encourage San Antonio businesses and institutions to pursue new patents."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "jec"
+ plan-element-number: "a8"
+ abbreviation: "JEC A8"
+ description: "Explore the creation of innovation districts within the UTSA, Medical Center, Downtown, and other Regional Centers."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "jec"
+ plan-element-number: "a9"
+ abbreviation: "JEC A9"
+ description: "Develop strategies to reduce the gap between skilled workers compared to available jobs for target industries."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "jec"
+ plan-element-number: "a10"
+ abbreviation: "JEC A10"
+ description: "Provide incentives for government and public agencies to contract minority and emerging small business and veteran owned businesses."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "jec"
+ plan-element-number: "a11"
+ abbreviation: "JEC A11"
+ description: "Work with civic leaders and entrepreneurs to support small business creation and ownership."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "jec"
+ plan-element-number: "a12"
+ abbreviation: "JEC A12"
+ description: "Develop upfront support and capital investment program to aid in the creation of small businesses within urban centers and neighborhoods."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "jec"
+ plan-element-number: "a13"
+ abbreviation: "JEC A13"
+ description: "Encourage San Antonio business to pursue B-Corp certification and increase awareness about B-Corps."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "jec"
+ plan-element-number: "a14"
+ abbreviation: "JEC A14"
+ description: "Develop a plan to identify and create ready-made employment space lacking for target industries. Align infrastructure and environment of regional centers with targeted industries."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "jec"
+ plan-element-number: "a15"
+ abbreviation: "JEC A15"
+ description: "Align economic development efforts for attracting and growing jobs within target industries to locate jobs in regional centers."
+ attributes:
+  air-quality: true
+  economic-vitality: true
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "jec"
+ plan-element-number: "a16"
+ abbreviation: "JEC A16"
+ description: "Expand support for the growth of trade efforts led by inSA."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "jec"
+ plan-element-number: "a17"
+ abbreviation: "JEC A17"
+ description: "Strengthen support for the implementation of San Antonio's trade and investment Strategy."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "jec"
+ plan-element-number: "a18"
+ abbreviation: "JEC A18"
+ description: "Align implementation strategies with Forefront SA strategies."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "jec"
+ plan-element-number: "a19"
+ abbreviation: "JEC A19"
+ description: "Develop an Eco-Tourism plan for San Antonio."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "jec"
+ plan-element-number: "a20"
+ abbreviation: "JEC A20"
+ description: "Develop a Health & Economic Analysis in order to identify the long term economic impact of health outcomes in San Antonio (i.e. lost worker productivity, corporate recruitment and retention, etc.)."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "jec"
+ plan-element-number: "a21"
+ abbreviation: "JEC A21"
+ description: "During the initial implementation phase following plan approval, JEC element roles and responsibilities should be aligned with Forefront SA report."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: false
+  water-resources: false
+
+-
+
+ plan-element-abbreviation: "chw"
+ plan-element-number: "a1"
+ abbreviation: "CHW A1"
+ description: "Increase access to healthy and affordable food for all residents within 1/2-mile radius."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "chw"
+ plan-element-number: "a2"
+ abbreviation: "CHW A2"
+ description: "Implement Complete Neighborhoods as measured by good access to schools, parks, grocery stores, sidewalks and transit."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "chw"
+ plan-element-number: "a3"
+ abbreviation: "CHW A3"
+ description: "Increase park access standards throughout the city."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "chw"
+ plan-element-number: "a4"
+ abbreviation: "CHW A4"
+ description: "Work with independent school districts to enhance the SPARK program and make tracks, courts, and fields open to the public."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "chw"
+ plan-element-number: "a5"
+ abbreviation: "CHW A5"
+ description: "Enhance programs that educate all residents on the benefits of an active and healthy lifestyle."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "chw"
+ plan-element-number: "a6"
+ abbreviation: "CHW A6"
+ description: "Enhance programs that offer group fitness classes at parks and shared spaces in all parts of the city."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "chw"
+ plan-element-number: "a7"
+ abbreviation: "CHW A7"
+ description: "Review and propose the best areas to install new fitness equipment, benches, dog facilities, other amenities and stations on trail systems."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "chw"
+ plan-element-number: "a8"
+ abbreviation: "CHW A8"
+ description: "Strengthen physical activity education and build active lifestyles into San Antonio's long-range goals."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "chw"
+ plan-element-number: "a9"
+ abbreviation: "CHW A9"
+ description: "Prioritization of and investment in new sidewalk infrastructure in pedestrian-oriented areas."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "chw"
+ plan-element-number: "a10"
+ abbreviation: "CHW A10"
+ description: "Develop a program to analyze and implement reduced speed limits in pedestrian-oriented areas."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "chw"
+ plan-element-number: "a11"
+ abbreviation: "CHW A11"
+ description: "Enhance outreach programs that educate residents on the Affordable Care Act."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "chw"
+ plan-element-number: "a12"
+ abbreviation: "CHW A12"
+ description: "Work with schools and city and county officials to strengthen teen health and wellness strategies."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "chw"
+ plan-element-number: "a13"
+ abbreviation: "CHW A13"
+ description: "Review and increase number of City and county staff dedicated to health education and literacy."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "chw"
+ plan-element-number: "a14"
+ abbreviation: "CHW A14"
+ description: "Enhance afterschool and mentorship programs that help students be more successful in school."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "chw"
+ plan-element-number: "a15"
+ abbreviation: "CHW A15"
+ description: "Create a simple step-by-step plan that makes street play and community garden permits easier to obtain."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "chw"
+ plan-element-number: "a16"
+ abbreviation: "CHW A16"
+ description: "Work with VIA to implement easy to use ticketing systems and discounted pass programs."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "chw"
+ plan-element-number: "a17"
+ abbreviation: "CHW A17"
+ description: "Work with communities to improve household satisfaction by lowering crime rates and reducing emergency response times."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+
+-
+
+ plan-element-abbreviation: "pfcs"
+ plan-element-number: "a1"
+ abbreviation: "PFCS A1"
+ description: "Requires new or renovated City facilities to incorporate Low Impact Development (LID)."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: true
+  water-resources: true
+-
+ plan-element-abbreviation: "pfcs"
+ plan-element-number: "a2"
+ abbreviation: "PFCS A2"
+ description: "Prioritize investments that provide adequate lighting and safety measures such as adapting signals and curb ramps to meet ADA standards when developing pedestrian-oriented areas."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "pfcs"
+ plan-element-number: "a3"
+ abbreviation: "PFCS A3"
+ description: "Ensure that emergency response vehicles are appropriately scaled for the type of roadway they are utilizing (i.e. compliant with complete streets and other traffic calming measures)."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "pfcs"
+ plan-element-number: "a4"
+ abbreviation: "PFCS A4"
+ description: "Inform residents about the education and training programs offered by the San Antonio's Fire, Emergency Medical Services and Police Departments."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "pfcs"
+ plan-element-number: "a5"
+ abbreviation: "PFCS A5"
+ description: "Develop a program to support neighborhood associations to work with residents to educate them on personal safety measures, particularly in areas with higher crime rates."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "pfcs"
+ plan-element-number: "a6"
+ abbreviation: "PFCS A6"
+ description: "Promote programs to educate San Antonio’s residents on domestic violence. Make resources for battered residents easily accessible."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "pfcs"
+ plan-element-number: "a7"
+ abbreviation: "PFCS A7"
+ description: "Convene a committee of representatives from the independent school districts to monitor and report on enrollment in school-sponsored after-school and extracurricular programs."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "pfcs"
+ plan-element-number: "a8"
+ abbreviation: "PFCS A8"
+ description: "Work with the independent school districts to promote and encourage school-sponsored after-school and extracurricular programs."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "pfcs"
+ plan-element-number: "a9"
+ abbreviation: "PFCS A9"
+ description: "Enhance library lending programs that facilitate on-line access for students."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "pfcs"
+ plan-element-number: "a10"
+ abbreviation: "PFCS A10"
+ description: "Analyze and prioritize key locations for alternative fuel and electric car charging stations."
+ attributes:
+  air-quality: true
+  economic-vitality: true
+  equity: false
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "pfcs"
+ plan-element-number: "a11"
+ abbreviation: "PFCS A11"
+ description: "Incentivize electric vehicles and charging stations."
+ attributes:
+  air-quality: true
+  economic-vitality: true
+  equity: false
+  resilience: false
+  water-resources: false
+
+-
+
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a1"
+ abbreviation: "NRES A1"
+ description: "Develop programs and incentives to increase the percent of new developments using the Conservation Subdivision requirements in the UDC."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: true
+-
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a2"
+ abbreviation: "NRES A2"
+ description: "Continue support of Edwards Aquifer Protection Program (EAPP)."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: true
+-
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a3"
+ abbreviation: "NRES A3"
+ description: "Promote urban microclimates in urban heat island risk areas through mass tree planting and increased square feet of green roof coverage."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: true
+-
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a4"
+ abbreviation: "NRES A4"
+ description: "Enhance incentives to increase the amount of Low Impact Development (LID) in San Antonio."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: true
+-
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a5"
+ abbreviation: "NRES A5"
+ description: "Incorporate LID and green street projects into City infrastructure."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: true
+-
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a6"
+ abbreviation: "NRES A6"
+ description: "Create a clearing house to monitor and track stormwater best management practices."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: true
+-
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a7"
+ abbreviation: "NRES A7"
+ description: "Explore incentives and programs to improve the quality of reclaim systems that capture non-potable supplies."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: true
+-
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a8"
+ abbreviation: "NRES A8"
+ description: "Work to achieve water use rates as recommended by the SAWS Water Management Plan Update (2020)."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: true
+-
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a9"
+ abbreviation: "NRES A9"
+ description: "Develop programs and incentives to increase the percent of land preserved through conservation easements."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: true
+-
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a10"
+ abbreviation: "NRES A10"
+ description: "Coordinate with the Sustainability Plan to launch an urban heat island mitigation program (refer to Sustainability Plan GB8)."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a11"
+ abbreviation: "NRES A11"
+ description: "Educate and promote sustainable principles in new residential and commercial landscapes to make them both beautiful and drought resilient."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: true
+-
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a12"
+ abbreviation: "NRES A12"
+ description: "Increase number of certified local Water Saver Landscapers."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: true
+-
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a13"
+ abbreviation: "NRES A13"
+ description: "Promote water efficiency programs for commercial customers."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: true
+-
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a14"
+ abbreviation: "NRES A14"
+ description: "Coordinate a comprehensive GIS analysis and tracking program for wildlife areas, protected environments, key agriculture lands, etc."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a15"
+ abbreviation: "NRES A15"
+ description: "Develop and participate in local and regional plans for protection of monarchs and other endangered species."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a16"
+ abbreviation: "NRES A16"
+ description: "Enhance programs and incentives that increase San Antonio's tree canopy coverage."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a17"
+ abbreviation: "NRES A17"
+ description: "Support the establishment of a Property Assessed Clean Energy (PACE) program in Bexar County."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a18"
+ abbreviation: "NRES A18"
+ description: "Expand SA2030 District beyond downtown."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a19"
+ abbreviation: "NRES A19"
+ description: "Develop a program to encourage and recognize waste reduction practices by commercial enterprises."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a20"
+ abbreviation: "NRES A20"
+ description: "City should calculate recycling and composting collections."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a21"
+ abbreviation: "NRES A21"
+ description: "Develop a program to increase awareness of the benefits of recycling and composting."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a22"
+ abbreviation: "NRES A22"
+ description: "Implement city wide composting."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a23"
+ abbreviation: "NRES A23"
+ description: "Educate residents on the associated costs and benefits of responsible energy use."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a24"
+ abbreviation: "NRES A24"
+ description: "Review and analyze regulations regarding pipelines and oil and gas wells."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a25"
+ abbreviation: "NRES A25"
+ description: "Develop the 2017-2027 Parks and Recreation System Strategic Plan and update the plan as needed."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a26"
+ abbreviation: "NRES A26"
+ description: "Continue to acquire and preserve open space."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "nres"
+ plan-element-number: "a27"
+ abbreviation: "NRES A27"
+ description: "Continue to develop parks and trails in an environmentally sensitive manner, preserving floodplain land, habitat and other natural resources to the greatest extent possible."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: true
+
+-
+
+ plan-element-abbreviation: "hpch"
+ plan-element-number: "a1"
+ abbreviation: "HPCH A1"
+ description: "Prioritize recognition and registration of historic landmarks and cultural assets."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "hpch"
+ plan-element-number: "a2"
+ abbreviation: "HPCH A2"
+ description: "Support policies related to San Antonio's character and sense of identity."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "hpch"
+ plan-element-number: "a3"
+ abbreviation: "HPCH A3"
+ description: "Create a group forum where neighborhoods in the Mission Area can meet with city officials to determine and set the goals of the community."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "hpch"
+ plan-element-number: "a4"
+ abbreviation: "HPCH A4"
+ description: "Evaluate pilot programs that focus on spurring revitalization of historic buildings and landmarks."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "hpch"
+ plan-element-number: "a5"
+ abbreviation: "HPCH A5"
+ description: "Create regulations and education programs that support affordable technological retrofits for historic buildings and sites."
+ attributes:
+  air-quality: true
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: true
+-
+ plan-element-abbreviation: "hpch"
+ plan-element-number: "a6"
+ abbreviation: "HPCH A6"
+ description: "Explore the creation of a public notification process for demolition applications in Neighborhood Conservation Districts (NCD)."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "hpch"
+ plan-element-number: "a7"
+ abbreviation: "HPCH A7"
+ description: "Allocate appropriate and enhanced  staff and resources to  the review and approval process for new development in Neighborhood Conservation Districts (NCD) to ensure contextually-appropriate development."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "hpch"
+ plan-element-number: "a8"
+ abbreviation: "HPCH A8"
+ description: "Explore options for allocating hotel and motel tax revenues for infrastructure and community improvements in Historic Districts and around other historic and cultural assets."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "hpch"
+ plan-element-number: "a9"
+ abbreviation: "HPCH A9"
+ description: "Design and promote events and workshops about San Antonio's history and culture."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "hpch"
+ plan-element-number: "a10"
+ abbreviation: "HPCH A10"
+ description: "Explore the creation of mixed-use zoning districts that would allow for the provision of neighborhood commercial uses adjacent to residential and historic areas, where appropriate."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "hpch"
+ plan-element-number: "a11"
+ abbreviation: "HPCH A11"
+ description: "Create a low- or no-fee process for rezoning commercially designated houses to residential in Historic Districts."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "hpch"
+ plan-element-number: "a12"
+ abbreviation: "HPCH A12"
+ description: "Study and implement a new county tax reduction for owner-occupied units in Historic Districts."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "hpch"
+ plan-element-number: "a13"
+ abbreviation: "HPCH A13"
+ description: "Educate the public on federal tax credits available for historic and cultural rehabilitation projects."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "hpch"
+ plan-element-number: "a14"
+ abbreviation: "HPCH A14"
+ description: "Educate the public on state tax credits available for historic preservation projects."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "hpch"
+ plan-element-number: "a15"
+ abbreviation: "HPCH A15"
+ description: "Identify areas (transition zones) in Historic Districts where high density development is appropriate or not."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "hpch"
+ plan-element-number: "a16"
+ abbreviation: "HPCH A16"
+ description: "Investigate outside sources of investment to support ongoing historic preservation and rehabilitation of the World Heritage site."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "hpch"
+ plan-element-number: "a17"
+ abbreviation: "HPCH A17"
+ description: "Develop a wayfinding program for the Old Spanish Trail (1920s)."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: true
+  water-resources: false
+
+-
+
+ plan-element-abbreviation: "m"
+ plan-element-number: "a1"
+ abbreviation: "M A1"
+ description: "Collaborate with military and developers to explore compatible development surrounding military installations."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "m"
+ plan-element-number: "a2"
+ abbreviation: "M A2"
+ description: "Utilize technology to consolidate information regarding compatible development near military installations to attract and inform potential developers, realtors, home owners."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: true
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "m"
+ plan-element-number: "a3"
+ abbreviation: "M A3"
+ description: "Incentivize compatible development near military installations."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "m"
+ plan-element-number: "a4"
+ abbreviation: "M A4"
+ description: "Explore a Transfer of Development Rights (TDR) program near military installations."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "m"
+ plan-element-number: "a5"
+ abbreviation: "M A5"
+ description: "Work with the military to create affordable housing, and address transitioning military, veterans and spousal employment."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "m"
+ plan-element-number: "a6"
+ abbreviation: "M A6"
+ description: "Expand representation of military personnel on city and county committees."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "m"
+ plan-element-number: "a7"
+ abbreviation: "M A7"
+ description: "Study how local health community can help address shortfalls in Veteran Affairs (VA) care."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "m"
+ plan-element-number: "a8"
+ abbreviation: "M A8"
+ description: "The city should actively work with the military to maintain and add missions to JBSA to maintain/increase job growth and employment opportunities."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "m"
+ plan-element-number: "a9"
+ abbreviation: "M A9"
+ description: "Provide incentives to attract new, innovative businesses that spin off of military (i.e. Cyber Security and Health Research)."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "m"
+ plan-element-number: "a10"
+ abbreviation: "M A10"
+ description: "Implement Ambient Light Study."
+ attributes:
+  air-quality: false
+  economic-vitality: false
+  equity: true
+  resilience: false
+  water-resources: false
+-
+ plan-element-abbreviation: "m"
+ plan-element-number: "a11"
+ abbreviation: "M A11"
+ description: "Lobby for legislation to develop programs that assist local municipalities in supporting military value."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "m"
+ plan-element-number: "a12"
+ abbreviation: "M A12"
+ description: "Expand partnerships between JBSA and local municipalities."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "m"
+ plan-element-number: "a13"
+ abbreviation: "M A13"
+ description: "Identify regional and statewide efforts to promote military presence in San Antonio."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: true
+  water-resources: false
+-
+ plan-element-abbreviation: "m"
+ plan-element-number: "a14"
+ abbreviation: "M A14"
+ description: "Work with the military to implement JLUS recommendations."
+ attributes:
+  air-quality: false
+  economic-vitality: true
+  equity: false
+  resilience: true
+  water-resources: false
+-

@@ -1,0 +1,14 @@
+<div class="row" {% if page.location == 'background-vision-framework'%}id="vision-theme-display"{% else %}id="homepage-theme-display"{% endif %}>
+  {% assign themes = site.data.cross-cutting-themes %}
+  {% for theme in themes %}
+    <div class="homepage-theme col-12 col-sm">
+      <a href="#searchquery" class="cross-theme-nav" value="{{ theme.title }}" action="/search-results/">
+      <div class="img-container" style="background: url('{{theme.image_path}}') no-repeat center center; background-size: cover;">
+      </div>
+      <h4 class="text-center">{{theme.title}}</h4>
+      <p class="text-left">{{theme.description}}</p>
+    </a>
+    </div>
+  {% endfor %}
+  {% assign themes = null %}
+</div>

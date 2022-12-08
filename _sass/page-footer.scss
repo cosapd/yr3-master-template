@@ -1,0 +1,140 @@
+
+
+/*******************************************************/
+/*** Footer ***/
+/*******************************************************/
+
+#footer {
+	padding: 15px 0 0 0;
+	text-align: center;
+	border-top: 1px solid #777;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	padding-top: 3.5em;
+	.row{
+		margin: 0;
+	}
+	.seperator-bar{
+		height: 26px;
+		width: 100%;
+		background-color: maroon;
+	}
+	#subfooter-container{
+		background-color: #332626;
+		width: 100%;
+		padding: 1em;
+		padding-bottom: 3em;
+	}
+	.subfooter {
+		font-size: 80%;
+		margin: 0;
+		color: #999;
+		a {color: #fff;}
+	}
+	h5{color:#888;}
+}
+.footer-logo{
+	max-width: 250px;
+	margin: 0 auto;
+}
+.footer-info{
+	margin-bottom: 1em;
+	p {
+		max-width: 300px;
+		font-size: 10pt;
+		margin: 0 0 5px 0;
+	}
+	ul{
+		list-style: none;
+		padding:0 !important;
+		margin: 0;
+	}
+	ul > li {
+		font-size: 10pt;
+		margin: 0 0 5px 0;
+    color: $footer-link-color;
+	}
+  .city-info{
+    margin-bottom: 2em;
+  }
+}
+#footer-social{
+	min-width: 200px;
+	max-width: 250px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 15px auto;
+	a{
+		border: none;
+		padding: 0;
+	}
+	span{
+		font-size: 16pt;
+	}
+	a:hover{
+		background-color: white;
+		span{
+
+		}
+	}
+}
+#subplan-legal, #subplan-links{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 8pt;
+	margin-bottom: 1em;
+}
+#subplan-logos{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px 0;
+	max-height: 50px;
+	padding: 0;
+	@media (max-width: 767px){
+		margin: 10px 10px;
+	}
+	img{
+		padding: 0 10px;
+		max-height: 40px;
+	}
+}
+#legal-nav{
+	display: inline-block;
+	margin: 0 10px 0 0;
+	line-height: 1em;
+	vertical-align: middle;
+	.subfooter-legal{
+		color: white !important;
+		font-size: 12px;
+		line-height: 16px;
+		margin-bottom: 15px;
+	}
+	ul.legal-links{
+		font-size: 12px;
+		line-height: 20px;
+		border: none;
+		color: white !important;
+		li {border:none; padding: 0 8px; display: inline; text-align: center; float: none;}
+	}
+	ul{
+		list-style:none;
+		margin:0;
+	}
+	li{
+		border-left:1px solid #ccc;
+		float:left;
+		padding:5px 5px;
+		margin:0;
+	}
+	li.first{
+		border-left:none;
+	}
+  div > ul.footer-print-links{
+    columns: 2;
+  }
+}

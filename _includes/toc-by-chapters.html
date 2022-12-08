@@ -1,0 +1,46 @@
+{% assign pages_by_section = site.pages | group_by: 'section' | sort: 'name' %}
+
+<div class="row row-90 toc">
+
+  {% for group in pages_by_section %}
+  {% assign sectioninfo = site.data.plan-sections | where:"order", group.name | first %}
+  <a name="{{ group.name }}"></a>
+
+  {% if group.name != '' %}
+  <div class="col-12 text-left">
+    <h3 id="{{ group.name }}">Section {{ group.name }}{% if sectioninfo %}: {{ sectioninfo.name }}{% endif %}</h3>
+  </div>
+  {% else %}{% endif %}
+    {% assign grouped_items = group.items | sort: 'chapter' %}
+    {% for item in grouped_items %}
+
+    {% unless item.sitemap.exclude %}
+
+    {% if item.chapter %}
+
+  <div class="col-12 text-left">
+    <a href="{% if item.permalink %}{{ item.permalink }}{% else %}{{ item.url }}{% endif %}">
+      <h4 class="chapter">{% if item.chapter %}<span class="number">Chapter {{ item.chapter }} </span>{% endif %}
+
+
+        {% if item.title %}
+        <span>{{ item.title | capitalize }}</span>
+        {% else %}
+        {% capture pageName %}{{ item.url | remove: "index.html" | replace: "-", " " | replace_first: "/", " " | replace: "/", " - " | append: "$" | remove: " - $" | remove: "$" }}{% endcapture%}
+        <span>{{ pageName | capitalize }}</span>
+        {% endif %}
+
+      </h4>
+    </a>
+  </div>
+
+    {% else %}{% endif %}
+    {% endunless %}
+    {%endfor%}
+  <p>
+    &nbsp;
+  </p>
+  {%endfor%}
+
+  {% assign pages_by_section = nil %}
+</div>

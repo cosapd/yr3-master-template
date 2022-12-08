@@ -1,0 +1,30 @@
+{% assign policies = site.data.policies %}
+
+  <div class="panel-group policy-accordian accordian">
+    <h3>{{page.element}} Policies</h3>
+    {% for policy in policies %}
+    {% if policy.name == page.abbreviation %}
+    {% if heading != policy.heading %}
+      {% assign heading = policy.heading %}
+      <div class="panel panel-default policy-panel">
+        <a class="collapsed" data-toggle="collapse" data-parent=".accordion" href="#{{policy.heading | remove: "," | slugify }}">
+          <div class="panel-heading">
+          {{ policy.heading }}<i class="fa fa-caret-down fa-2" aria-hidden="true"></i>
+          </div>
+        </a>
+        <div id="{{policy.heading | remove: "," | slugify }}" class="panel-collapse collapse">
+          <div class="panel-body">
+            <ul class="policy-list">
+              {% for policy in policies %}
+              {% if policy.heading == heading and policy.name == page.abbreviation %}
+              <li class='policy-list-item'><p><b>{{ policy.name | upcase }} {{ policy.abbreviation }}: </b>{{ policy.description }}</p></li>
+              {% endif %}
+              {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+  </div>

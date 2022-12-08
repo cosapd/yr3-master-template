@@ -1,0 +1,9 @@
+{% assign indicators = site.data.indicators %}
+<ul class="indicator-goal-list">
+  {% for indicator in indicators  %}
+    {% if indicator.name == page.abbreviation %}
+    <li><strong>{{ indicator.abbreviation }}: </strong>{{ indicator.description }}</li>
+    {% endif %}
+  {% endfor %}
+</ul>
+{% assign indicators = null %}

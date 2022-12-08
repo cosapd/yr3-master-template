@@ -1,0 +1,394 @@
+ -
+  plan-element-abbreviation: "gcf"
+  goal-number: "1"
+  title: "GCF Goal 1"
+  description: "Higher-density uses are focused within the city’s 13 regional centers and along its arterial and transit corridors."
+  lander-link: '/growth-and-city-form/'
+ -
+  plan-element-abbreviation: "gcf"
+  goal-number: "2"
+  title: "GCF Goal 2"
+  description: "Priority growth areas attract jobs and residents."
+  lander-link: '/growth-and-city-form/'
+ -
+  plan-element-abbreviation: "gcf"
+  goal-number: "3"
+  title: "GCF Goal 3"
+  description: "Strategic annexation benefits existing and future city residents and does not burden the City fiscally."
+  lander-link: '/growth-and-city-form/'
+ -
+  plan-element-abbreviation: "gcf"
+  goal-number: "4"
+  title: "GCF Goal 4"
+  description: "Sustainable infill and mixed-use development provide walkable and bikeable destinations for all residents."
+  lander-link: '/growth-and-city-form/'
+ -
+  plan-element-abbreviation: "gcf"
+  goal-number: "5"
+  title: "GCF Goal 5"
+  description: "Growth and city form support improved livability in existing and future neighborhoods."
+  lander-link: '/growth-and-city-form/'
+ -
+  plan-element-abbreviation: "gcf"
+  goal-number: "6"
+  title: "GCF Goal 6"
+  description: "Growth and city form support community health and wellness."
+  lander-link: '/growth-and-city-form/'
+ -
+  plan-element-abbreviation: "gcf"
+  goal-number: "7"
+  title: "GCF Goal 7"
+  description: "Development practices that minimize, mitigate or avoid negative impacts on the city’s natural resources, water supply, water quality, surface waterways and air quality."
+  lander-link: '/growth-and-city-form/'
+ -
+  plan-element-abbreviation: "gcf"
+  goal-number: "8"
+  title: "GCF Goal 8"
+  description: "Students throughout San Antonio have enhanced educational access and perform at a high level. (See also PFCS Goal 4)"
+  lander-link: '/growth-and-city-form/'
+
+ -
+
+  plan-element-abbreviation: "tc"
+  goal-number: "1"
+  title: "TC Goal 1"
+  description: "San Antonio has a world class multimodal transportation system, providing safe and comfortable connectivity to residential, commercial, education, cultural, healthcare, and recreation opportunities."
+  lander-link: '/transportation-connectivity/'
+ -
+  plan-element-abbreviation: "tc"
+  goal-number: "2"
+  title: "TC Goal 2"
+  description: "San Antonio’s transportation system supports the city’s competiveness in the regional, national, and international economy."
+  lander-link: '/transportation-connectivity/'
+ -
+  plan-element-abbreviation: "tc"
+  goal-number: "3"
+  title: "TC Goal 3"
+  description: "San Antonio’s transportation and connectivity networks support a high quality of life and strong, healthy communities."
+  lander-link: '/transportation-connectivity/'
+ -
+  plan-element-abbreviation: "tc"
+  goal-number: "4"
+  title: "TC Goal 4"
+  description: "San Antonio builds, manages and maintains its transportation and connectivity system cost-effectively in order to meet current and future needs and expectations."
+  lander-link: '/transportation-connectivity/'
+ -
+  plan-element-abbreviation: "tc"
+  goal-number: "5"
+  title: "TC Goal 5"
+  description: "San Antonio provides a range of convenient, safe and comfortable active transportation options for all users and abilities and many regularly use multimodal options such as walking, biking and transit. (See also CHW Goal 4)"
+  lander-link: '/transportation-connectivity/'
+ -
+  plan-element-abbreviation: "tc"
+  goal-number: "6"
+  title: "TC Goal 6"
+  description: "San Antonio utilizes technology and other innovative services and solutions to ensure predictable and reliable travel throughout the city."
+  lander-link: '/transportation-connectivity/'
+ -
+  plan-element-abbreviation: "tc"
+  goal-number: "7"
+  title: "TC Goal 7"
+  description: "San Antonio’s roadway system has managed congestion and is efficient for residents and businesses."
+  lander-link: '/transportation-connectivity/'
+ -
+  plan-element-abbreviation: "tc"
+  goal-number: "8"
+  title: "TC Goal 8"
+  description: "San Antonio is a world leader in moving people and goods safely, efficiently and sustainably."
+  lander-link: '/transportation-connectivity/'
+
+ -
+
+  plan-element-abbreviation: "h"
+  goal-number: "1"
+  title: "H Goal 1"
+  description: "Housing for lower-income residents is available throughout the community with the greatest proportion in priority growth areas with high levels of connectivity and amenities."
+  lander-link: '/housing/'
+ -
+  plan-element-abbreviation: "h"
+  goal-number: "2"
+  title: "H Goal 2"
+  description: "A variety of housing types (single-family detached, single-family attached, multifamily, as well as ownership and rental opportunities) is available at a variety of price and rent levels."
+  lander-link: '/housing/'
+ -
+  plan-element-abbreviation: "h"
+  goal-number: "3"
+  title: "H Goal 3"
+  description: "Housing choices are available in walkable and bikeable neighborhoods located near transit, employment, retail, medical and recreational amenities."
+  lander-link: '/housing/'
+ -
+  plan-element-abbreviation: "h"
+  goal-number: "4"
+  title: "H Goal 4"
+  description: "Improved infrastructure, services and amenities increase market demand and attract residents to priority growth areas."
+  lander-link: '/housing/'
+ -
+  plan-element-abbreviation: "h"
+  goal-number: "5"
+  title: "H Goal 5"
+  description: "High-density housing choices are available within the city’s 13 regional centers and along its arterial and transit corridors."
+  lander-link: '/housing/'
+ -
+  plan-element-abbreviation: "h"
+  goal-number: "6"
+  title: "H Goal 6"
+  description: "Infill development and revitalized neighborhoods provide a range of housing choices near the city center."
+  lander-link: '/housing/'
+
+ -
+
+  plan-element-abbreviation: "jec"
+  goal-number: "1"
+  title: "JEC Goal 1"
+  description: "Employment is focused in the city’s 13 Regional Centers, in site-specific locations in Urban Centers and along mobility corridors, providing easy connectivity for San Antonio’s residents and businesses."
+  lander-link: '/economic-competitiveness/'
+ -
+  plan-element-abbreviation: "jec"
+  goal-number: "2"
+  title: "JEC Goal 2"
+  description: "Traditional and targeted growth industries support San Antonio’s diversified economy and provide a wide range of job opportunities."
+  lander-link: '/economic-competitiveness/'
+ -
+  plan-element-abbreviation: "jec"
+  goal-number: "3"
+  title: "JEC Goal 3"
+  description: "San Antonio’s skilled and educated workforce supports the city’s traditional and emerging growth industries."
+  lander-link: '/economic-competitiveness/'
+ -
+  plan-element-abbreviation: "jec"
+  goal-number: "4"
+  title: "JEC Goal 4"
+  description: "San Antonio’s economic environment fosters innovation and attracts new and innovative businesses, investment and industries."
+  lander-link: '/economic-competitiveness/'
+ -
+  plan-element-abbreviation: "jec"
+  goal-number: "5"
+  title: "JEC Goal 5"
+  description: "San Antonio plays an important role in the regional, national, and international economy."
+  lander-link: '/economic-competitiveness/'
+
+ -
+
+  plan-element-abbreviation: "chw"
+  goal-number: "1"
+  title: "CHW Goal 1"
+  description: "Healthy food, health services, health literacy and proven education programs are easily accessible to all residents, regardless of location, income, age, race, ethnic background or ability level."
+  lander-link: '/health-and-wellness/'
+ -
+  plan-element-abbreviation: "chw"
+  goal-number: "2"
+  title: "CHW Goal 2"
+  description: "San Antonio residents are physically active and have safe and convenient access to recreation opportunities."
+  lander-link: '/health-and-wellness/'
+ -
+  plan-element-abbreviation: "chw"
+  goal-number: "3"
+  title: "CHW Goal 3"
+  description: "All San Antonio residents and businesses have access to sufficient clean, sustainable and affordable water during foreseeable conditions."
+  lander-link: '/health-and-wellness/'
+ -
+  plan-element-abbreviation: "chw"
+  goal-number: "4"
+  title: "CHW Goal 4"
+  description: "San Antonio provides a range of convenient, safe and comfortable active transportation options for all users and abilities and many regularly use multimodal options such as walking, biking and transit. (See also TC Goal 5)"
+  lander-link: '/health-and-wellness/'
+ -
+  plan-element-abbreviation: "chw"
+  goal-number: "5"
+  title: "CHW Goal 5"
+  description: "San Antonio is a Vision Zero City that is committed to eliminating traffic fatalities and serious injuries."
+  lander-link: '/health-and-wellness/'
+ -
+  plan-element-abbreviation: "chw"
+  goal-number: "6"
+  title: "CHW Goal 6"
+  description: "All San Antonio residents enjoy a high level of safety, physical and mental health and well- being."
+  lander-link: '/health-and-wellness/'
+ -
+  plan-element-abbreviation: "chw"
+  goal-number: "7"
+  title: "CHW Goal 7"
+  description: "San Antonio’s air quality is better than state and national standards. (See also NRES Goal 7)"
+  lander-link: '/health-and-wellness/'
+
+ -
+
+  plan-element-abbreviation: "pfcs"
+  goal-number: "1"
+  title: "PFCS Goal 1"
+  description: "San Antonio has a 21st century infrastructure that supports the existing and future growth of the city."
+  lander-link: '/community-safety/'
+ -
+  plan-element-abbreviation: "pfcs"
+  goal-number: "2"
+  title: "PFCS Goal 2"
+  description: "The City has an environment of continuous quality improvement that ensures its facilities and services adequately support the existing and future growth of San Antonio."
+  lander-link: '/community-safety/'
+ -
+  plan-element-abbreviation: "pfcs"
+  goal-number: "3"
+  title: "PFCS Goal 3"
+  description: "All San Antonio residents have the opportunity to live in safe and resilient neighborhoods."
+  lander-link: '/community-safety/'
+ -
+  plan-element-abbreviation: "pfcs"
+  goal-number: "4"
+  title: "PFCS Goal 4"
+  description: "Students in San Antonio have access to quality education and perform at a high level. (See also GCF Goal 8)"
+  lander-link: '/community-safety/'
+ -
+  plan-element-abbreviation: "pfcs"
+  goal-number: "5"
+  title: "PFCS Goal 5"
+  description: "San Antonio is a leader in energy conservation and providing clean, renewable energy for residents and businesses. (See also NRES Goal 5)"
+  lander-link: '/community-safety/'
+ -
+  plan-element-abbreviation: "pfcs"
+  goal-number: "6"
+  title: "PFCS Goal 6"
+  description: "San Antonio is a model for innovative recycling and solid waste diversion programs that deliver ongoing community benefits. (See also NRES Goal 8)"
+  lander-link: '/community-safety/'
+ -
+  plan-element-abbreviation: "pfcs"
+  goal-number: "7"
+  title: "PFCS Goal 7"
+  description: "All San Antonio residents have equitable quality of and access to a variety of park, trail and open space amenities."
+  lander-link: '/community-safety/'
+
+ -
+
+  plan-element-abbreviation: "nres"
+  goal-number: "1"
+  title: "NRES Goal 1"
+  description: "San Antonio protects the natural environment and ensures sustainable land use and development."
+  lander-link: '/natural-resources/'
+ -
+  plan-element-abbreviation: "nres"
+  goal-number: "2"
+  title: "NRES Goal 2"
+  description: "San Antonio balances environmental goals with business and community needs."
+  lander-link: '/natural-resources/'
+ -
+  plan-element-abbreviation: "nres"
+  goal-number: "3"
+  title: "NRES Goal 3"
+  description: "San Antonio maintains a sustainable balance between the conservation, use, and development of the city’s energy and natural resources."
+  lander-link: '/natural-resources/'
+ -
+  plan-element-abbreviation: "nres"
+  goal-number: "4"
+  title: "NRES Goal 4"
+  description: "San Antonio has an adequate, diversified, high quality water supply and is a national leader in water conservation."
+  lander-link: '/natural-resources/'
+ -
+  plan-element-abbreviation: "nres"
+  goal-number: "5"
+  title: "NRES Goal 5"
+  description: "San Antonio is a leader in energy conservation and providing clean, renewable energy for residents and businesses. (See also PFCS Goal 5)"
+  lander-link: '/natural-resources/'
+ -
+  plan-element-abbreviation: "nres"
+  goal-number: "6"
+  title: "NRES Goal 6"
+  description: "San Antonio is a national leader in stormwater management best practices and low impact development (LID) design."
+  lander-link: '/natural-resources/'
+ -
+  plan-element-abbreviation: "nres"
+  goal-number: "7"
+  title: "NRES Goal 7"
+  description: "San Antonio’s air quality is better than state and national standards. (See also CHW Goal 7)"
+  lander-link: '/natural-resources/'
+ -
+  plan-element-abbreviation: "nres"
+  goal-number: "8"
+  title: "NRES Goal 8"
+  description: "San Antonio is a model for innovative recycling and solid waste diversion programs that deliver ongoing benefits to the community. (See also PFCS Goal 6)"
+  lander-link: '/natural-resources/'
+
+ -
+
+  plan-element-abbreviation: "hpch"
+  goal-number: "1"
+  title: "HPCH Goal 1"
+  description: "San Antonio’s zoning and design review processes and procedures promote clear and effective historic and cultural preservation decisions."
+  lander-link: '/historic-preservation/'
+ -
+  plan-element-abbreviation: "hpch"
+  goal-number: "2"
+  title: "HPCH Goal 2"
+  description: "Historic preservation policies, initiatives and incentives are regularly reviewed to enhance performance and effectiveness and are incorporated into elements of all City plans."
+  lander-link: '/historic-preservation/'
+ -
+  plan-element-abbreviation: "hpch"
+  goal-number: "3"
+  title: "HPCH Goal 3"
+  description: "San Antonio is a national leader in recognizing and protecting the tangible and intangible attributes of its diverse cultural heritage."
+  lander-link: '/historic-preservation/'
+ -
+  plan-element-abbreviation: "hpch"
+  goal-number: "4"
+  title: "HPCH Goal 4"
+  description: "Historic and cultural preservation is effectively used as a tool for economic development in San Antonio."
+  lander-link: '/historic-preservation/'
+ -
+  plan-element-abbreviation: "hpch"
+  goal-number: "5"
+  title: "HPCH Goal 5"
+  description: "Innovative technology and robust education and outreach programs actively engage the public in the appreciation and preservation of historic and cultural assets."
+  lander-link: '/historic-preservation/'
+ -
+  plan-element-abbreviation: "hpch"
+  goal-number: "6"
+  title: "HPCH Goal 6"
+  description: "San Antonio strategically incentivizes reinvestment in and reuse of landmark buildings and districts to protect those historic resources in accordance with established zoning and design guidelines."
+  lander-link: '/historic-preservation/'
+ -
+  plan-element-abbreviation: "hpch"
+  goal-number: "7"
+  title: "HPCH Goal 7"
+  description: "The City uses innovative tools and approaches to protect the World Heritage designated San Antonio Missions."
+  lander-link: '/historic-preservation/'
+ -
+  plan-element-abbreviation: "hpch"
+  goal-number: "8"
+  title: "HPCH Goal 8"
+  description: "San Antonio should develop design guidelines for each historic district that reinforces their unique character."
+  lander-link: '/historic-preservation/'
+
+ -
+
+  plan-element-abbreviation: "m"
+  goal-number: "1"
+  title: "M Goal 1"
+  description: "Incompatible land uses in the vicinity of Joint Base San Antonio (JBSA) locations are minimized in order to safeguard operational mission requirements."
+  lander-link: '/military/'
+ -
+  plan-element-abbreviation: "m"
+  goal-number: "2"
+  title: "M Goal 2"
+  description: "City policies and investments position San Antonio to retain its military installations and attract expanded missions due to realignments and base closures in other areas."
+  lander-link: '/military/'
+ -
+  plan-element-abbreviation: "m"
+  goal-number: "3"
+  title: "M Goal 3"
+  description: "Communication and coordination between San Antonio, adjacent jurisdictions, and the military engender a strong regional approach to compatibility issues."
+  lander-link: '/military/'
+ -
+  plan-element-abbreviation: "m"
+  goal-number: "4"
+  title: "M Goal 4"
+  description: "San Antonio supports quality of life and wellness initiatives for, and the integration of, military service members, veterans and their families."
+  lander-link: '/military/'
+ -
+  plan-element-abbreviation: "m"
+  goal-number: "5"
+  title: "M Goal 5"
+  description: "The City’s investments and partnerships leverage and maximize the economic impacts of the military on San Antonio."
+  lander-link: '/military/'
+ -
+  plan-element-abbreviation: "m"
+  goal-number: "6"
+  title: "M Goal 6"
+  description: "San Antonio invests and coordinates with the military to minimize potential future impacts that could be created as a result of sequestration or base closure or realignment initiatives."
+  lander-link: '/military/'

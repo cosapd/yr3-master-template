@@ -1,0 +1,17 @@
+---
+layout: landing
+---
+
+<div class="page-header alt text-center orange">
+  {% include breadcrumb.html context= page.url %}
+  <h4>Interactive</h4>
+  <h2 class="text-page text-center text-white">{{ page.title }}</h2>
+</div>
+<section class="edge--bottom text-center">
+{% include interactive-map.html %}
+</section>
+
+<div style="position: relative; margin-top: 50px;">
+  <h3 class="text-center">For more information about {{page.title}}, click <a href="/{{page.title | lowercase | slugify }}/">here</a>.</h3>
+  <h4 class="text-center">To view this map in high resolution, <a href="{{page.map_path}}" target="_blank">click here</a>.</h4>
+</div>

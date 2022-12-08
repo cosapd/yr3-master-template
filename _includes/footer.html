@@ -1,0 +1,142 @@
+<footer id="footer" class="">
+  <div class="row">
+    <div class="footer-logo col-md-3 pull-left">
+      <img data-src="/img/SA_Tomorrow_All_RGB.png" alt="">
+    </div>
+    <div class="col-md-9 footer-info">
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 text-left city-info">
+          {% if site.contact.org-name %}
+            <p>{{site.contact.org-name}}</p>
+          {% endif %}
+          {% if site.contact.dept-name %}
+            <p>{{site.contact.dept-name}}</p>
+          {% endif %}
+          {% if site.contact.address1 %}
+            <p>Physical: {{site.contact.address1}}</p>
+            <p>{{site.contact.city}}{% if site.contact.state %}, {{site.contact.state}}{% endif %}{% if site.contact.zip %}  {{site.contact.zip}}{% endif %}</p>
+          {% endif %}
+          {% if site.contact.tollfree %}
+            <p>Toll-free: <a href="tel:+{{site.contact.tollfree}}">{{site.contact.tollfree}}</a></p>
+          {% endif %}
+          {% if site.contact.fax %}
+            <p>Fax: {{site.contact.fax}}</p>
+          {% endif %}
+          <p>Email: <a class='footer-email' href="mailto:{{site.contact.email}}">{{site.contact.email}}</a></p>
+        </div>
+        <div class="col-lg-3 col-sm-6 text-left phones">
+          {% if site.contact.address-mailing %}
+            <p>Mailing: {{site.contact.address-mailing}}</p>
+            <p>{{site.contact.city}}{% if site.contact.state %}, {{site.contact.state}}{% endif %}{% if site.contact.zip-mailing %}  {{site.contact.zip-mailing}}{% endif %}</p>
+          {% endif %}
+          {% if site.contact.phone %}
+            <p>Office Phone: <a href="tel:+{{site.contact.phone}}"><strong>{{site.contact.phone}}</strong></a></p>
+          {% endif %}
+          {% if site.contact.tollfree %}
+            <p>Toll-Free: <a href="tel:+{{site.contact.phone}}" class="pull-right"><strong>{{site.contact.tollfree}}</strong></a></p>
+          {% endif %}
+          {% if site.contact.fax %}
+            <p>Fax: <span class="pull-right"><strong>{{site.contact.fax}}</strong></span></p>
+          {% endif %}
+        </div>
+        <div class="col-lg-6">
+          <div class="row">
+            <ul class="col-sm-6 text-left footer-print-links">
+              <li><a href="http://www.sacompplan.com/" target="_blank">SA Tomorrow Comprehensive Plan</a></li>
+              <li><a href="http://www.satomorrow.com/" target="_blank">SA Tomorrow Site</a></li>
+              <li><a href="https://www.SA2020.org/" target="_blank">SA2020</a></li>
+              <li>&nbsp;</li>
+            </ul>
+            {% assign docs = site.footer-docs %}
+            {% assign size = docs | size %}
+            {% if size > 0 %}<ul class="col-sm-6 text-left footer-print-links">{% endif %}
+            {% for doc in docs %}
+              <li><a href="{{doc.upload_path}}" target="_blank">{{doc.title}}</a></li>
+            {% endfor %}
+            {% if size > 0 %}</ul>{% endif %}
+            {% assign docs=null %}
+            {% assign size=null %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div id="subplan-legal" class="col-md-4">
+      <script language="JavaScript">
+      </script>
+      <center>Copyright © 2000-<script language="JavaScript">document.write(new Date().getFullYear());
+      </script> City of San Antonio &nbsp;|&nbsp; Site design by <a href="https://bowtie.co" target="_blank">Bowtie.co</a></center>
+    </div>
+    <div id="subplan-logos" class="col-md-4">
+      <a href="http://www.migcom.com/" target="_blank"><img src="/img/MIG-color-logo.jpg" alt=""></a>
+      <a href="https://www.sanantonio.gov/planning"><img src="/img/PLNG_Color.jpg" alt=""></a>
+      <a href="http://www.sanantonio.gov/"><img src="/img/icons/COSA_wText.jpg" alt=""></a>
+    </div>
+    <div id="footer-social" class="col-md-4">
+      {% if site.social.facebook %}
+        <a class="btn btn-social-icon btn-facebook" href="{{site.social.facebook}}" target="_blank">
+          <span class="fa fa-facebook-square"></span>
+        </a>
+      {% endif %}
+      {% if site.social.twitter %}
+        <a class="btn btn-social-icon btn-twitter" href="{{site.social.twitter}}" target="_blank">
+          <span class="fa fa-twitter"></span>
+        </a>
+      {% endif %}
+      {% if site.social.instagram %}
+        <a class="btn btn-social-icon btn-instagram" href="{{site.social.instagram}}" target="_blank">
+          <span class="fa fa-instagram"></span>
+        </a>
+      {% endif %}
+      {% if site.social.youtube %}
+        <a class="btn btn-social-icon btn-youtube" href="{{site.social.youtube}}" target="_blank">
+          <span class="fa fa-youtube-play"></span>
+        </a>
+      {% endif %}
+      {% if site.social.nextdoor %}
+        <a target="_blank" href="https://nextdoor.com/city/feed/13981107/?i=yvbkkbugqdevcajbujjv"><img style="max-width: 20px;" src="https://d19rpgkrjeba2z.cloudfront.net/060603b9bd56b4fd/static/images/city/badges/nextdoor-icon-50.png" alt="Connect with us on Nextdoor"/></a>
+      {% endif %}
+    </div>
+  </div>
+  <div class="seperator-bar"></div>
+  <div id="subfooter-container" class="container">
+    <div id="subfooter">
+      {% include footer-nav.html %}
+    </div>
+    {% include scroll-top-btn.html %}
+  </div>
+</footer>
+<script type="text/javascript" src="/vendor/SAtomorrow.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/theme.js" defer></script>
+<script type="text/javascript" src="https://bowtie.io/assets/bowtie.js" defer></script>
+<script type="text/javascript" src="/js/flash.js" defer></script>
+<script type="text/javascript" src="/js/popover.js" defer></script>
+<script type="text/javascript" src="/js/mailchimp.js" defer></script>
+{% include annotation.html %}
+{% include search-logic.html %}
+{% include slider-logic.html %}
+<script type="text/javascript">
+var giftofspeed = document.createElement('link');
+giftofspeed.rel = 'stylesheet';
+giftofspeed.href = '/css/animate.css';
+giftofspeed.type = 'text/css';
+var godefer = document.getElementsByTagName('link')[0];
+godefer.parentNode.insertBefore(giftofspeed, godefer);
+</script>
+<!-- <script>
+     $(document).ready(function() {
+       if (navigator.userAgent.match(/msie|trident/i)) {
+         $('.carousel-hide').hide();
+       }
+     });
+</script> -->
+<!-- Begin Constant Contact Active Forms -->
+<script> var _ctct_m = "3f260a8ccdacaf3f9fd1e823a1f1f919"; </script>
+<script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
+<!-- End Constant Contact Active Forms -->
+{% if site.draft %}
+{% include banner-helper.html %}
+{% endif %}

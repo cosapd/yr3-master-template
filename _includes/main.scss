@@ -1,0 +1,93 @@
+// return frontmatter if inlining fails
+// ---
+// # this front matter renders the file as css
+// ---
+
+@charset 'UTF-8';
+
+// Our variables
+$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+$on-palm:          600px;
+$on-laptop:        768px;
+
+// internet explorer fixes and fallbacks
+$enable-flex: true;
+@media all and (-ms-high-contrast:none), (-ms-high-contrast:active) {
+  .carousel-fade {
+    .carousel-item {
+      display: block;
+      position: absolute;
+      opacity: 0;
+      transition-property: opacity;
+      transition: opacity .75s ease-in-out !important;
+      &.active {
+        opacity: 1;
+      }
+    }
+    #slider_captions{
+      display: none;
+    }
+  }
+ }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+$heading-font: 'TradeGothicLT-Bold'; /** h1, h2, h3, h4, h5 **/
+$heading-font-weight: normal;
+$heading-font-color: #454545;
+$subheading-font: 'TradeGothicLT-Bold'; /** h3, h4, h5 **/
+$subheading-font-weight: normal;
+$subheading-font-color: #333;
+h1,h2,h3,h4,h5 {
+  font-weight: $heading-font-weight;
+  font-family: $heading-font, "Helvetica", sans-serif !important;
+  color: $heading-font-color !important;
+}
+
+h3, h4 {
+  align-content: center;
+  text-transform: none !important;
+  font-family: $subheading-font !important;
+  color: $subheading-font-color !important;
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "bowtie",
+        "theme",
+        "slider",
+        "page-header",
+        "page-footer",
+        "gcse",
+        "bs-tabs",
+        "principle-grid",
+        "documents",
+        "interactive-maps",
+        "seo-tags",
+        "policy-accordian",
+        "modals",
+        "animate",
+        "team",
+        "timeline",
+        "events"
+;

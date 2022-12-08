@@ -1,0 +1,100 @@
+---
+layout: landing
+---
+
+{% if page.subnav-entry %}
+{% capture entry %}{{ page.subnav-entry | split: "/" | last }}{% endcapture %}
+{% endif %}
+
+
+<div class="page-header text-center" style="{% if page.masthead_img %}background-image: url({{page.masthead_img}});{% endif %}">
+{% include breadcrumb.html context= page.url %}
+<h4 class="text-center text-white">{{page.element}}</h4>
+<h2 class="text-center text-white">{{page.title | capitalize }}</h2>
+</div>
+<div id="element-container">
+  <div id="subnav-container">
+    {% include plan-element-subnavigation.html context=page.subnav-entry %}
+  </div>
+  <div id="content-container">
+    {% if page.title == 'introduction' %}
+    <h1>{{ page.element | capitalize }} Introduction</h1>
+    {% else %}
+    <h1>{{ page.title | capitalize }}</h1>
+    {% endif %}
+    {% include goal-cards.html %}
+    {{content}}
+    {% if page.img-captions.image-1_path %}
+    <div class="image-sidebar padded {% unless page.img-captions.image-3_path %}third{%endunless%} right">
+        {% if page.img-captions.image-3_path %}
+        <div class="image half left">
+          <img src="{{page.img-captions.image-1_path}}" alt="">
+        </div>
+        <div class="image half right">
+          <img src="{{page.img-captions.image-2_path}}" alt="">
+        </div>
+        <div class="image-caption">
+          <p class="image-caption">{{ page.img-captions.caption-1 }}</p>
+        </div>
+        <div class="image">
+          <img src="{{page.img-captions.image-3_path}}" alt="">
+        </div>
+        <div class="image-caption">
+          <p class="image-caption">{{ page.img-captions.caption-2 }}</p>
+        </div>
+        {% elsif page.img-captions.image-2_path %}
+        <div class="padded">
+          <img src="{{page.img-captions.image-1_path}}" alt="">
+        </div>
+        <div class="image-caption">
+          <p class="image-caption">{{ page.img-captions.caption-1 }}</p>
+        </div>
+        <div class="padded">
+          <img src="{{ page.img-captions.image-2_path }}" alt="">
+        </div>
+          {% if page.img-captions.caption-2 %}
+          <div class="image-caption">
+            <p class="image-caption">{{ page.img-captions.caption-2 }}</p>
+          </div>
+          {% endif %}
+        {% else %}
+        <div class="image">
+          <img src="{{page.img-captions.image-1_path}}" alt="">
+        </div>
+        <div class="image-caption">
+          <p class="image-caption">{{ page.img-captions.caption-1 }}</p>
+        </div>
+        {% endif %}
+    </div>
+    {% endif %}
+
+    {% if page.sidebar-content.title %}
+      <div class="image-sidebar right padded {{ page.sidebar-content.color }} {% if page.sidebar-images.image-3_path %}full{% elsif page.sidebar-images.image-2_path %}two-thirds{% else %}third{% endif %}">
+        <h3>{{ page.sidebar-content.title }}</h3>
+        <p>{{ page.sidebar-content.content }}</p>
+          {% if page.sidebar-images.image-3_path %}
+          <div class="image half left">
+            <img src="{{ page.sidebar-images.image-1_path }}" alt="">
+          </div>
+          <div class="image half right">
+            <img src="{{ page.sidebar-images.image-2_path }}" alt="">
+          </div>
+          <div class="image half left">
+            <img src="{{ page.sidebar-images.image-3_path }}" alt="">
+          </div>
+          {% elsif page.sidebar-images.image-2_path %}
+          <div class="image">
+            <img src="{{ page.sidebar-images.image-1_path }}" alt="">
+          </div>
+          <div class="image">
+            <img src="{{ page.sidebar-images.image-2_path }}" alt="">
+          </div>
+          {% else %}
+          <div class="image">
+            <img src="{{ page.sidebar-images.image-1_path }}" alt="">
+          </div>
+          {% endif %}
+      </div>
+    {% endif %}
+  </div>
+</div>

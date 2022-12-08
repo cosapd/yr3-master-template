@@ -1,0 +1,101 @@
+{% capture embedOutput %}
+
+<!-- Both -->
+{% if include.width %}
+  {% assign embedWidth = include.width %}
+{% endif %}
+
+{% if include.height %}
+  {% assign embedHeight = include.height %}
+{% endif %}
+
+<!-- Youtube -->
+{% if include.rel %}
+  {% assign embedRel = include.rel %}
+{% endif %}
+
+{% if include.controls %}
+  {% assign embedControls = include.controls %}
+{% endif %}
+
+<!-- Vimeo -->
+{% if include.color %}
+  {% assign embedColor = include.color %}
+{% endif %}
+
+{% if include.autoplay %}
+  {% assign embedAutoplay = include.autoplay %}
+{% endif %}
+
+<!-- Vimeo -->
+{% if include.color %}
+  {% capture embedSource %}https://player.vimeo.com/video/{{ include.vimeo }}?color={{ embedColor }}{% endcapture %}
+{% elsif include.autoplay %}
+  {% capture embedSource %}https://player.vimeo.com/video/{{ include.vimeo }}?autoplay={{ embedAutoplay }}{% endcapture %}
+{% elsif include.vimeo %}
+  {% capture embedSource %}https://player.vimeo.com/video/{{ include.vimeo }}{% endcapture %}
+{% endif %}
+
+{% if include and include.vimeo %}
+  {% capture embedSource %}https://player.vimeo.com/video/{{ include.vimeo }}?color={{ embedColor }}&autoplay={{ embedAutoplay }}{% endcapture %}
+{% endif %}
+
+<!-- Youtube -->
+{% if include.rel %}
+  {% capture embedSource %}https://www.youtube.com/embed/{{ include.youtube }}?rel={{ embedRel }}{% endcapture %}
+{% elsif include.controls %}
+  {% capture embedSource %}https://www.youtube.com/embed/{{ include.youtube }}?controls={{ embedControls }}{% endcapture %}
+{% elsif include.youtube %}
+  {% capture embedSource %}https://www.youtube.com/embed/{{ include.youtube }}{% endcapture %}
+{% endif %}
+
+{% if include and include.youtube %}
+  {% capture embedSource %}https://www.youtube.com/embed/{{ include.youtube }}?rel={{ embedRel }}&controls={{ embedControls }}{% endcapture %}
+{% endif %}
+
+{% if include.responsive %}
+  <div class="embed-responsive embed-responsive-{{ include.responsive }}">
+    <iframe class="embed-responsive-item" src="{{ embedSource }}?rel=0&showinfo=0" showinfo="0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+{% else %}
+  <iframe src="{{ embedSource }}?rel=0&showinfo=0" width="{{ embedWidth }}" height="{{ embedHeight }}"  showinfo="0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe>
+{% endif %}
+
+<!-- Both -->
+{% if include.overlay and include.id %}
+
+  <div class="{{ include.id }}">
+    <div class="{{ include.overlay }}">
+      <iframe class ="video-modal" src="{{ embedSource }}"  frameborder="0" showinfo="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <div class="close-overlay">
+        <h2 id="X">X</h2>
+      </div>
+    </div>
+  </div>
+
+  <button type="button" class="btn btn-default btn-sm btn-{{ include.id }}">
+    <span class="glyphicon glyphicon-new-window"></span>
+  </button>
+
+{% endif %}
+
+<script>
+
+  $('.{{ include.id }}').hide();
+
+  $('.btn-{{ include.id }}').click(function() {
+    $('.{{ include.id }}').show();
+    console.log("hi");
+  });
+
+  $('.close-overlay').click(function() {
+    $('.{{ include.id }}').hide();
+    console.log("hi");
+  });
+
+</script>
+
+
+
+{% endcapture %}
+{{ embedOutput }}

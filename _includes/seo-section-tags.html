@@ -1,0 +1,21 @@
+{% if section.tags %}
+{% assign tags = section.tags %}
+{% elsif page.tags %}
+{% assign tags = page.tags %}
+{% endif %}
+{% if tags %}
+<p class="section-tags nav nav-tabs">
+  {{ tags | array_to_sentence_string }}
+</p>
+{% endif %}
+
+{% if section.theme %}
+{% assign themes = section.theme %}
+{% elsif page.theme %}
+{% assign themes = page.theme %}
+{% endif %}
+{% if themes %}
+<p class="section-themes nav nav-tabs">
+  {{ themes | array_to_sentence_string }}
+</p>
+{% endif %}

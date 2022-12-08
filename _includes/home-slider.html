@@ -1,0 +1,55 @@
+
+{% if include.transition == 'fade' %}{% assign carousel-transition = 'carousel-fade'  %}{% endif %}
+{% if include.height %}{% assign carousel-height = include.height  %}{% endif %}
+{% if include.timing %}{% assign carousel-timing = include.timing  %}{% endif %}
+{% assign items = ''| split: '' %}
+{% for slide in site.home-slides %}
+{% unless slide.type contains 'copy' %}
+{% assign items = items | push: slide %}
+{% endunless %}
+{% endfor %}
+{% assign texts = ''| split: '' %}
+{% for slide in site.home-slides %}
+{% if slide.type contains 'copy' %}
+{% assign texts = texts | push: slide %}
+{% endif %}
+{% endfor %}
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-lg-6">
+      {{ texts.first.content }}
+    </div>
+  <div class="col-12 col-lg-6 carousel-hide">
+    <div id="customSlider" data-ride="carousel" class="carousel slide" data-pause="true" data-interval="{{site.carousel-speed}}">
+      <!-- slider indicator -->
+      <ol class="carousel-indicators">
+        {% for item in items %}
+          <li data-target="#customSlider" data-slide-to="{{ forloop.index0 }}" {% if forloop.first == true %}class="active"{% endif %}></li>
+        {% endfor %}
+      </ol>
+    <!-- slides -->
+        <div class="carousel-inner" role="listbox">
+          {% for item in items %}
+          <div class="carousel-item {% if forloop.first == true %}active{% endif %}" role="option">
+              <img class="h-100" {% if forloop.first %}src="{{item.background.url_path}}"{% else %}data-src="{{item.background.url_path}}"{% endif %}  alt="" style="margin: 0 auto; max-width:100%;">
+          </div>
+          {% endfor %}
+        </div>
+        <!-- Controls -->
+        <a class="carousel-control-prev" href="#customSlider" role="button" aria-label="previous" data-slide="prev">
+          <span class="fa fa-angle-left"></span>
+        </a>
+        <a class="carousel-control-next" href="#customSlider" role="button" aria-label="next" data-slide="next">
+          <span class="fa fa-angle-right"></span>
+        </a>
+    </div>
+    <div id="slider_captions">
+    {% for item in items%}
+      <div id="caption-{{forloop.index0}}" class="carousel-caption text-center">
+        <p class="body image-caption small">{{item.copy_body}}</p>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</div>
+</div>

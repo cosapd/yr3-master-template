@@ -1,0 +1,42 @@
+{% include section.html location="background-vision" %}
+<div id="vision-section">
+  <div class="container-fluid">
+    <ul class="nav nav-tabs row" role="tablist" id="myTabs">
+      <a role="presentation" role="tab" class="vision-tab col-4 nav-item nav-link active" href="#intro-tab" aria-controls="home" data-toggle='tab'>
+        <div class="tab-content intro">
+          <div class="image-box" style="background: url('/img/100_2237.JPG') no-repeat center center; background-size: cover;">
+          </div>
+          <h3>Introduction</h3>
+          <p>San Antonio is planning boldly. We’re tackling the tough issues and making the hard choices because “business as usual” isn’t good enough. We’re planning now to ensure that the great City of San Antonio captures the type of growth and economic development that is compatible with our community’s vision of the future and provides benefits to all our current and future residents.</p>
+        </div>
+      </a>
+      <a role="presentation" role="tab" class="vision-tab col-4 nav-item nav-link" href="#assets-tab" aria-controls="home" data-toggle='tab'>
+        <div class="tab-content intro">
+          <div class="image-box" style="background: url('/img/Mission-Reach.jpg') no-repeat center center; background-size: cover;">
+          </div>
+          <h3>Assets, Issues, and Opportunities</h3>
+          <p>The City of San Antonio has many assets that make it a desirable place to live and a place that is estimated to capture a significant number of new residents and employees over the coming decades. These assets serve as the basis for future opportunities.</p>
+        </div>
+      </a>
+      <a role="presentation" role="tab" class="vision-tab col-4 nav-item nav-link" href="#framework-tab" aria-controls="home" data-toggle='tab'>
+        <div class="tab-content intro">
+          <div class="image-box" style="background: url('/img/texas-riverwalk-feature.jpg') no-repeat center center; background-size: cover;">
+          </div>
+          <h3>Vision Framework</h3>
+          <p>Collectively, the Vision Framework provides the direction for all subsequent chapters and sections of this document. The Plan Framework, the Plan Element goals and policies, as well as the specific implementation strategies are intended to position the City of San Antonio, its partners and the larger community to realize the future envisioned throughout this chapter.</p>
+        </div>
+      </a>
+    </ul>
+  </div>
+  <div class="tab-content">
+    <div id="intro-tab"  class="tab-pane fade in active show">
+      {% include section.html location="background-vision-intro" %}
+    </div>
+    <div id="assets-tab"  class="tab-pane fade in">
+      {% include section.html location="background-vision-assets" %}
+    </div>
+    <div id="framework-tab" class="tab-pane fade in">
+      {% include section.html location="background-vision-framework" %}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,44 @@
+
+
+{% assign materials = site.event-materials %}
+<h2 class="text-center">Materials From Past Events</h2>
+  <div class="row" style="width: 90vw !important; padding: 10px 25px; text-align: left;">
+    {% for item in materials %}
+    {% if item.active %}
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div id="documents" class="row">
+        <div class="doc-icons col-3">
+          <!-- doc icons -->
+          {% if item.type == 'pdf' %}
+            {% if item.document_path %}<a href="{{ item.document_path }}">{% endif %}
+              <img src="/img/icons/doc-icon.png"/ alt="pdf icon">
+            {% if item.document_path %}</a>{% endif %}
+          {% elsif item.type == 'image' %}
+            {% if item.document_path %}<a href="{{ item.document_path }}">{% endif %}
+              <img src="/img/icons/chart-icon.png" alt="chart icon"/>
+            {% if item.document_path %}</a>{% endif %}
+          {% elsif item.type == 'link' %}
+            {% if item.external-doc-url %}<a href="{{ item.external-doc-url }}">{% endif %}
+              <img src="/img/icons/link-icon.png" alt="document icon"/>
+            {% if item.external-doc-url %}</a>{% endif %}
+          {% elsif item.type == 'file' %}
+            {% if item.document_path %}<a href="{{ item.document_path }}">{% endif %}
+              <img src="/img/icons/doc-icon.png" alt="pdf icon"/>
+            {% if item.document_path %}</a>{% endif %}
+          {% else %}
+          {% endif %}
+        </div>
+        <div class="col-9">
+          <!-- doc summaries and links -->
+          <h4><strong>
+          {% if item.external-doc-url %}<a href="{{item.external-doc-url}}" target="_blank">{{ item.title }}</a>
+          {% elsif item.document_path%}<a href="{{item.document_path}}" target="_blank">{{ item.title }}</a>
+          {% else%}{{ item.title }}{% endif %}</strong></h4>
+          {% if item.description %}<p class="text-left">{{ item.description }}</p>{% endif %}
+          <p class="small">{% if item.document_path %}<a href="{{ item.document_path }}" download><i class="fa fa-download"></i>Download</a>{% endif %}{% if item.external-doc-url %}<a href="{{ item.external-doc-url}}" target="_blank"><i class="fa fa-link"></i>View in New Tab</a>{% endif %}</p>
+        </div>
+      </div><!--end inside row -->
+    </div><!--end columns row -->
+    {% endif %}
+    {% endfor %}
+  </div><!--end outside row -->

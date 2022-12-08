@@ -1,0 +1,13 @@
+---
+layout: landing
+---
+{% if page.subnav-entry %}
+{% capture entry %}{{ page.subnav-entry | split: "/" | last }}{% endcapture %}
+{% endif %}
+<div class="page-header text-center orange">
+{% include breadcrumb.html context= page.url %}
+<h4 class="text-center text-white">Implementation</h4>
+<h2 class="text-center text-white">{{page.title}}</h2>
+</div>
+{{content}}
+{% include strategy-subnavigation.html context=page.subnav-entry %}

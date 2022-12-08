@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  {% if site.draft %}
+{% include draft-banner.html %}
+{% endif %}
+  <body>
+    {% include flash.html %}
+    {% include header.html %}
+    <div id="content">
+      <div class="container-fluid wrapper">
+        {{ content }}
+      </div>
+    </div>
+    {% include footer.html %}
+    {% include tracking.html %}
+  </body>
+
+</html>

@@ -1,0 +1,19 @@
+<script type="text/javascript" src="/js/formatgooglecalendar.js"></script>
+<script type="text/javascript">
+  formatGoogleCalendar.init({
+    calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/{{site.google_cal_id}}/events?key={{site.google_cal_key}}',
+    past: false,
+    upcoming: true,
+    sameDayTimes: true,
+    dayNames: false,
+    pastTopN: -1,
+    upcomingTopN: 3,
+    recurringEvents: true,
+    itemsTagName: 'div',
+    upcomingSelector: '#events-list',
+    pastSelector: '#events-past',
+    upcomingHeading: '',
+    pastHeading: '<h2>Past events</h2>',
+    format: ['*date*', '*summary*',  '*description*', ' in ', '*location*']
+  });
+</script>

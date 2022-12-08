@@ -1,0 +1,33 @@
+---
+layout: landing
+---
+<div class="page-header alt text-center orange">
+  {% include breadcrumb.html context= page.url %}
+  {% if page.type == 'activity' %}
+  <h4>{{ page.type | capitalize }} Center</h4>
+  {% elsif page.type == 'logistics' %}
+  <h4>{{ page.type | capitalize }} and Service Centers</h4>
+  {% elsif page.type == 'special' %}
+  <h4>{{ page.type | capitalize }} Purpose Centers</h4>
+  {% endif %}
+  <h2 class="text-page text-center text-white">{{ page.title }}</h2>
+</div>
+
+
+<section>
+  <p class="text-center"><em>The following section provides the results of the regional center analysis and measures how a center performs relative to the future vision for its category.</em></p>
+  <div class="row">
+    <div class="col-md-8 text-center">
+    <img src="{{ page.feature-map_path }}" alt="{{ page.img-alt }}">
+    </div>
+    <div class="col-md-4 text-left">
+      <p>{{ page.content }}</p>
+      <div class="image text-center padded">
+        <img src="{{ page.caption-image.image_path }}" alt="">
+        <p class="image-caption">{{ page.caption-image.caption }}</p>
+      </div>
+    </div>
+</div>
+{% include regional-center-modal.html %}
+{% include index-navigation-buttons.html %}
+</section>

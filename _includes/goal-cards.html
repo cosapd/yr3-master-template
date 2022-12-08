@@ -1,0 +1,12 @@
+<div class="row">
+  {% assign goals = site.data.goals %}
+  {% for goal in goals %}
+    {% if goal.plan-element-abbreviation == page.abbreviation and page.goals contains goal.goal-number %}
+     <a class="goal-card" href="{{page.subnav-entry}}goals-policies/">
+      <div class="goal-card-link">
+        {{ goal.title }}
+      </div>
+    </a>
+    {% endif %}
+  {% endfor %}
+</div>

@@ -1,0 +1,46 @@
+{% for banner in site.banners %}
+{% if banner.display %}
+  {% assign active_banner = banner %}
+{% endif %}
+{% endfor %}
+
+{% if active_banner %}
+<div class="draft-banner">
+  <!-- temp for survey  -->
+  <div>{{active_banner.content}}</div>
+  {% if active_banner.draft_plan_link %}
+  <a class="draft-link" href="{{active_banner.draft_plan_link}}" target="_blank">{{active_banner.draft_plan_link_text}}</a>
+  {% endif %}
+  <!-- <p>The Plan can also be viewed by clicking on the "Draft Plan" pull-down menu at the top of the page.</p> -->
+</div>
+<style type="text/css">
+  .draft-banner{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 0;
+    z-index: 2000;
+    font-size: 12px;
+    width: 100%;
+    background-color: #c7420f;
+    min-height: 60px;
+    padding: 16px 8px;
+    letter-spacing: .01em;
+  }
+  .draft-banner > p, .draft-banner > *, .draft-banner > * > *{
+    color: white !important;
+    margin-bottom: 0;
+    text-align: center;
+    max-width: 880px;
+  }
+  a.draft-link, a.draft-link:hover, a.draft-link:visited, a.draft-link:active {
+    display: block !important;
+    margin: 2px 0;;
+    color: #fff !important;
+    text-align: center;
+    font-size: 14px;
+  }
+</style>
+{% endif %}

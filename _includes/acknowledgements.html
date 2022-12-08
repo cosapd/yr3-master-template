@@ -1,0 +1,19 @@
+{% assign people = site.data.acknowledgements %}
+{% assign group = "" %}
+<div class="row-80 row">
+{% for person in people %}
+{% if group != person.group %}
+{% assign group = person.group %}
+  <div class="col-12 text-left">
+    <h3 class="text-blue">{{ person.group }}</h3>
+  </div>
+{% endif %}
+<div class="col-6">
+{% if person.sub-group %}
+  <h4 style="margin-top: 10px;">{{ person.sub-group }}</h4>
+{% endif %}
+  <p>{{ person.name }}</p>
+</div>
+{% endfor %}
+
+</div>

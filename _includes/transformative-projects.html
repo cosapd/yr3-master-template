@@ -1,0 +1,40 @@
+<div class="">
+    {% if page.document_path %}
+    <p>
+      &nbsp;
+    </p>
+    <div class="">
+      <h3>View and Download {{ page.title }} PDF</h3>
+    </div>
+    <div id="documents" class="row">
+      <div class="doc-icons ml-2" style="padding-right: 30px;">
+        {% if page.document_path != blank %}
+        <a href="{{ page.document_path }}" target="_blank">
+        {% endif %}
+        <img src="/img/icons/doc-icon.png"/>
+        {% if page.document_path != blank %}
+        </a>
+        {% endif %}
+      </div>
+      
+      <div>
+      <h4>
+      <strong>
+        {% if page.document_title != blank %}<a href="{{page.document_path}}" target="_blank">{{ page.document_title }}</a>{% endif %}
+      </strong>
+      </h4>
+        <p class="small">
+          
+            <a href="{{ page.document_path }}" target="_blank" >
+              <i class="fa fa-download"></i>Download</a>
+          
+          {% if page.espanol_document_path %}
+            <a href="{{ page.espanol_document_path }}" target="_blank" >
+              <i class="fa fa-download"></i>Descargar</a>
+          {% endif %}
+        </p>
+        
+    </div>
+    </div>
+    {% endif %}
+    </div>

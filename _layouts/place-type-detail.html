@@ -1,0 +1,66 @@
+---
+layout: landing
+---
+
+<div class="page-header text-center" style="{% if page.masthead_img %}background-image: url({{page.masthead_img}});{% endif %}">
+  {% include breadcrumb.html context= page.url %}
+  <h4 class="text-center text-white">
+    {% if page.type =='tp'%}Trails, Parks and Open Space
+    {% elsif page.type =='mm' %}Multimodal, Mixed-Use
+    {% else page.type =='ar' %}Adaptive Reuse
+    {% endif %}</h4>
+    <h2 class="text-center text-white">{{page.head.title | capitalize }}</h2>
+  </div>
+  {% if page.map_path %}
+  {% include interactive-map.html %}
+  {% endif %}
+  <section class="alt">
+    <div class="row row-80">
+      <div class="col-12 text-left">
+        <h4 class="text-left text-orange">Introduction</h4>
+        <p>{{ page.head.introduction }}</p>
+      </div>
+      <div class="col-md-6 left text-left">
+        <h4 class="text-left text-blue">Major Determinant</h4>
+        <p>{{ page.major-determinant }}</p>
+        {% if page.relation %}
+        <h4 class="text-left text-blue">Relation to VIA Supportive Development Typologies</h4>
+        <p>{{ page.relation }}</p>
+        {% endif %}
+        <h4 class="text-left text-blue">Predominant Land Uses</h4>
+        <p>{{ page.predominant-land-uses.summary }}</p>
+      </div>
+      <div class="image half right">
+        <img src="{{ page.predominant-land-uses.infographic_img_path }}" alt="">
+      </div>
+    </div>
+  </section>
+  <section class="dark edge--both--reverse">
+    <div class="row">
+      <div class="col-sm-8 text-center">
+        <img style="width: 100%; overflow: hidden;"src="{{ page.performance-standards.map_img_path }}" alt="">
+      </div>
+      <div class="col-sm-4">
+        <div id="performance-standards-card" class="text-left">
+          <h5>Performance Standards</h5>
+          <p><strong>Height: </strong>{{ page.performance-standards.height }}</p>
+          <p><strong>Massing and Density: </strong>{{ page.performance-standards.mass }}</p>
+          <p><strong>Street Level Activation: </strong>{{ page.performance-standards.activation }}</p>
+          <p><strong>Connectivity: </strong>{{ page.performance-standards.connectivity }}</p>
+          <p><strong>Public Space: </strong>{{ page.performance-standards.space }}</p>
+          <p><strong>Parking: </strong>{{ page.performance-standards.parking }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="">
+    <h3 class="text-blue">Potential Locations</h3>
+    <div class="row text-left ">
+      <div class="col-12 text-center">
+        <a href="{{page.potential-locations.map_path}}" target="_blank"><img src="{{ page.potential-locations.map_path }}" alt="" style="width:100%; overflow: hidden; margin-bottom: 1em;"></a>
+      </div>
+      <p class="row-60">{{ page.potential-locations.content }}</p>
+
+    </div>
+    {% include index-navigation-buttons.html %}
+  </section>

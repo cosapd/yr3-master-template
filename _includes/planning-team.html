@@ -1,0 +1,38 @@
+<div class="">
+  {% unless page.exclude_title %}
+  <h2 class="text-center">Planning Team</h2>
+  {% endunless %}
+
+  <div class="row">
+    {% assign team = site.planning-team | sort: 'lastname' %}
+    {% for member in team %}
+      <div class="col-sm-4 team-member">
+        {% if member.avatar_path %}<img class="img-circle img profilepic" src="{% if member.avatar_path %}{{member.avatar_path}}{% else %}{{member.gravatar}}{% endif %}">{% endif %}
+        <h3 class="text-left text-blue">{{ member.firstname }} {{member.lastname}}</h3>
+        <p class="text-left">{{ member.org }}</p>
+        {% if member.contact.phone %}
+        <p class="text-left">{{ member.contact.phone }}</p>
+        {% endif %}
+        {% if member.contact.email %}
+        <p class="text-left">{{ member.contact.email }}</p>
+        {% endif %}
+      </div>
+    {% endfor %}
+    {% assign team = null %}
+  </div>
+
+<div class="grey-box">
+  <div class="row d-flex align-items-center">
+    {% assign team = site.team | sort: 'order' %}
+    {% for member in team %}
+    <div class="col-sm-6 {% if forloop.index==3 %}offset-sm-3{% endif %} text-center team-highlight">
+      <h2 class="text-orange text-center">{{member.displayName}}</h2>
+      <h3 class="text-center">{{member.jobTitle}}</h3>
+    </div>
+
+    {% endfor %}
+    {% assign team = null %}
+  </div>
+</div>
+
+</div>

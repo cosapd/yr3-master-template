@@ -1,0 +1,44 @@
+{% assign exercises = page.recommendations %}
+ <div class="panel-group policy-accordian accordian">
+   {% for exercise in exercises %}
+     <div class="panel panel-default policy-panel" style="width: 100%;">
+       <a class="collapsed" data-toggle="collapse" data-parent=".accordion" href="#voice{{exercise.title | remove: "," | slugify }}">
+         <div class="panel-title">
+         {{ exercise.title }}<i class="fa fa-caret-down fa-2" aria-hidden="true"></i>
+         </div>
+       </a>
+       <div id="voice{{exercise.title | remove: "," | slugify }}" class="panel-collapse collapse">
+         <div class="panel-body container">
+           <div class="row">
+             <div class="col-md-12" >
+             {{ exercise.intro }}
+             </div>
+             {% if exercise.secondary_img_path %}
+             <div class="row" style='margin:.5em'>
+               <div class="col-md-6 text-center">
+                 <a href="{{exercise.img_path}}" target="_blank"><img src="{{ exercise.img_path }}" alt="image of a cumminty exercise"></a>
+                 {% if exercise.img_caption %}
+                 <p><em>{{ exercise.img_caption }}</em></p>
+                 {% endif %}
+               </div>
+               <div class="col-md-6 text-center">
+                 <a href="{{exercise.secondary_img_path}}" target="_blank"><img src="{{ exercise.secondary_img_path }}" alt="image of a cumminty exercise"></a>
+                 {% if exercise.secondary_img_caption %}
+                 <p><em>{{secondary_img_caption }}</em></p>
+                 {% endif %}
+               </div>
+             </div>
+             {% elsif exercise.img_path %}
+             <div class="col-md-12 text-center"  style='margin-top:1em'>
+               <a href="{{exercise.img_path}}" target="_blank"><img src="{{ exercise.img_path }}" alt="image of a cumminty exercise"></a>
+               {% if exercise.img_caption %}
+               <p><em>{{ exercise.img_caption }}</em></p>
+               {% endif %}
+             </div>
+             {% endif %}
+           </div>
+         </div>
+     </div>
+   </div>
+   {% endfor %}
+ </div>
