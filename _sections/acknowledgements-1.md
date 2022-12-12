@@ -14,6 +14,7 @@ theme:
 tags:
   - SA Tomorrow
   - San Antonio Tomorrow
-
+published: true
+coming_soon: false
 ---
 {% include breadcrumb.html context= page.url %}

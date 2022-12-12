@@ -7,5 +7,7 @@ style:
   id: "stakeholders"
   class: "contained alt edge--top"
   font_color:
+published: true
+coming_soon: false
 ---
 {% include stakeholders.html %}

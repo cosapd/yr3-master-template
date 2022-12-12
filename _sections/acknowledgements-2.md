@@ -17,5 +17,8 @@ tags:
   - San Antonio Tomorrow
   - This tag
 
+published: true
+coming_soon: false
 ---
+
 {% include acknowledgements.html %}

@@ -7,6 +7,8 @@ style:
   id: "exercise-display"
   class: "contained"
   font_color:
+published: true
+coming_soon: false
 ---
 <p>The success of the SA Tomorrow Sub-Area Plans depends on broad participation from area stakeholders. To ensure this success, City staff worked with a wide range of community members throughout the planning process. These included neighborhood associations, business and property owners, residents, employers, educational and cultural institutions, public and nonprofit organizations, and other City departments to create a realistic and implementable plan for the Template Regional Center. </p>
 <!-- <div class='image right half'><img data-src='/img/04_04_about_how_your_voice_matters_vision_and_goals/ex_1___2017.06.28_Template_wall_graphic.jpg'></div> -->

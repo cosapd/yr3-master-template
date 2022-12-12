@@ -15,9 +15,9 @@ style:
   id: 'subscribe-form'
   class: 'contained print-hide'
 theme:
-
 tags:
-
+published: true
+coming_soon: false
 ---
 
 <p class="text-left">

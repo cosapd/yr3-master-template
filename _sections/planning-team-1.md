@@ -9,5 +9,7 @@ style:
   font_color:
 theme:
 tags:
+published: true
+coming_soon: false
 ---
 {% include breadcrumb.html context= page.url %}

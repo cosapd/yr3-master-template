@@ -7,8 +7,10 @@ style:
   id: ''
   class: contained
   font_color: null
-
+published: true
+coming_soon: false
 ---
+
 <p>&nbsp;</p>
 <!-- <div class="row">
 <div class="col-md-12" style="margin-bottom: 2em;">

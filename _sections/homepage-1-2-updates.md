@@ -8,8 +8,9 @@ style:
   font_color: null
   class: 'dark edge--bottom--reverse contained '
 published: true
-
+coming_soon: false
 ---
+
 <h4 style="text-align: left;"><span style="font-size: 14pt;">JOIN US FOR AN OPEN HOUSE!</span></h4>
 <p>&nbsp;</p>
 <p style="text-align: left;"><span style="font-size: 14pt;"><strong>Wednesday, September 21, 2022 </strong></span></p>

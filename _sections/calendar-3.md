@@ -16,8 +16,10 @@ esp_engagement_journal_path: esp-example.pdf
 esp_engagement_journal_thumb_path: /img/eca_thumb.png
 engagement_journal_title: Engagement Journal Title
 esp_engagement_journal_title: Esp Engagement Journal Title
-
+published: true
+coming_soon: false
 ---
+
 <div class="row"><br><br>
   <div class="col-12">
     <h3 class="text-orange">Engagement Journal</h3>

@@ -50,6 +50,8 @@ recommendations:
     img_path: /img/04_05_about_how_your_voice_matters_plan_framework/economic_development.jpg
     img_caption:
     strategies:
+published: true
+coming_soon: false
 ---
 <p>The Plan Framework map includes key physical improvements and strategic concepts that will influence development in the Template Regional Center. These include priority focus areas and mixed-use corridors; pedestrian, bicycle, and street improvements; and parks and open space recommendations.</p>
 <p>The Template Regional Center Plan Framework was developed through a combination of technical analysis and community input. The Framework illustrates and outlines the overall long-term vision for the Template Regional Center, including areas where new development will be focused, key mobility improvements, opportunities for more parks and open space, and other “big moves” that will shape the future of the area.</p>

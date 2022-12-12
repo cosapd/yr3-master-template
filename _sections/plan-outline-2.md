@@ -9,6 +9,8 @@ style:
   font_color:
 theme:
 tags:
+published: true
+coming_soon: false
 ---
 
 {% include outline-details.html %}

@@ -7,6 +7,7 @@ link_text: Link to event page
 link_url:
 file_path:
 display: false
+published: true
 ---
 
 

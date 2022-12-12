@@ -7,5 +7,8 @@ style:
   id: "slider"
   class: "contained"
   font_color:
+published: true
+coming_soon: false
 ---
+
 {% include home-slider.html %}

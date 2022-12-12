@@ -9,5 +9,8 @@ style:
   font_color:
 theme:
 tags:
+published: true
+coming_soon: false
 ---
+
 {% include vision-goals-tab-nav.html %}

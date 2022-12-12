@@ -7,6 +7,8 @@ style:
   id: ""
   class: "contained"
   font_color:
+published: true
+coming_soon: false
 ---
 
 <div class="row d-flex align-items-center">

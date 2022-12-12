@@ -10,6 +10,8 @@ style:
   font_color: null
 theme: null
 tags: null
-
+published: true
+coming_soon: false
 ---
+
 <p>{% include breadcrumb.html context= page.url %}</p>

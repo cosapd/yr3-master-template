@@ -16,7 +16,10 @@ theme:
 tags:
   - SA Tomorrow
   - San Antonio Tomorrow
+published: true
+coming_soon: false
 ---
+
 
 <div class= "container">
   <div class="row justify-content-center">

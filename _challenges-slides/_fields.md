@@ -6,5 +6,6 @@ copy_body:
 background:
   url_path:
   bg_color:
+published: true
 ---
  

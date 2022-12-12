@@ -9,7 +9,10 @@ style:
   class: 'dark edge--bottom--reverse contained '
 published: true
 
+published: true
+coming_soon: false
 ---
+
 <h3>Public Involvement News and Updates</h3>
 <p>&nbsp;</p>
 <h4>JOIN US FOR AN OPEN HOUSE!</h4>

@@ -10,8 +10,10 @@ style:
 theme: null
 tags: null
 exclude_title: true
-
+published: true
+coming_soon: false
 ---
+
 <div class="container-fluid">
 <h2 class="text-center">GOALS FOR THE EASTSIDE COMMUNITY AREA</h2>
 <h3 class="text-blue">Community Stability and Inclusion</h3>

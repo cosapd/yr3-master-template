@@ -9,7 +9,10 @@ style:
   font_color:
 theme:
 tags:
+published: true
+coming_soon: false
 ---
+
 <div style="margin-bottom: 3em;">
 {% include event-collection-display.html %}
 </div>

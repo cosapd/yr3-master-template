@@ -12,6 +12,8 @@ tab-images:
   eca_thumbnail_path: '/img/eca_thumb.png'
   plan_location_path: '/img/SAAP_Eastside-01-01sm.jpg'
   study_area_path: '/img/Eastside_Study-Area-02sm.jpg'
+published: true
+coming_soon: false
 ---
 
 <p>Explore the tabs below to learn more about the assets, challenges and opportunities in the {{ site.subarea-name }} Area and to view our study area map.</p>

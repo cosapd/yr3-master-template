@@ -8,7 +8,8 @@ title: 'Transformative Projects'
 document_path: /img/about/Eastside_FLU-01.png
 espanol_document_path: /img/about/Eastside_FLU-01.png
 document_title: Transformative Projects Document Title
-
+published: true
+coming_soon: false
 ---
 <div class="">
 <h3>Introduction</h3>

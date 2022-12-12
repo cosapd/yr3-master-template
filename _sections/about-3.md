@@ -7,6 +7,8 @@ style:
   id:
   class: "dark edge--top--reverse contained"
   font_color:
+published: true
+coming_soon: false
 ---
 <div class="image half left" style="margin-right:1em;">
   <img src="/img/Green-Neighborhood-CloseUp.jpg" alt="">

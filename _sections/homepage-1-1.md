@@ -15,7 +15,10 @@ theme:
 tags:
   - SA Tomorrow
   - San Antonio Tomorrow
+published: true
+coming_soon: false
 ---
+
 {% include hero-slider.html %}
 <div class="row-80">
 

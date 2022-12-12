@@ -15,10 +15,11 @@ style:
   id: 'subscribe-form'
   class: ' edge--top contained print-hide'
 theme:
-
 tags:
-
+published: true
+coming_soon: false
 ---
+
 <div class="container">
 <h2 class="text-center">Comparta su opinión.</h2>
 

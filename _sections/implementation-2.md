@@ -1094,6 +1094,7 @@ recommendations:
           regulations: false
           partnerships: true
           investments: true
-
+published: true
+coming_soon: false
 ---
 {% include implementation-drawers.html %}

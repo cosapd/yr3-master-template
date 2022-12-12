@@ -16,6 +16,8 @@ theme:
 tags:
   - SA Tomorrow
   - San Antonio Tomorrow
+published: true
+coming_soon: false
 ---
 
 {% include toc-by-chapters.html %}

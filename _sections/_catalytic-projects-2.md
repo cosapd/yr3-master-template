@@ -26,6 +26,8 @@ recommendations:
     image:
     image-2:
     strategies:
+published: true
+coming_soon: false
 ---
 <div style="width: 100%">
 <h3>Catalytic Projects Recommendations</h3>

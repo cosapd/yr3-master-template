@@ -18,6 +18,8 @@ theme:
   - null
 tags:
   - null
+published: true
+coming_soon: false
 ---
 <div class="container">
 <h2 class="text-center">Tell us what you think.</h2>

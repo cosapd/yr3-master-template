@@ -9,7 +9,10 @@ style:
   font_color:
 theme:
 tags:
+published: true
+coming_soon: false
 ---
+
 <div class="container">
   <div class="row">
     <h3 class="text-orange">To understand your ideas and preferences for the future of the {{site.title}}, we are using a variety of tools in the coming year:</h3>

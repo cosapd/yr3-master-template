@@ -17,9 +17,9 @@ style:
 theme:
 
 tags:
-
+published: true
+coming_soon: false
 ---
-
 
 <div class="text-center container">
 <h1 class="text-center">Subscribe for Updates</h1>
