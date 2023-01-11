@@ -2,7 +2,7 @@
 location: "en-espanol"
 head:
   title: "En español"
-  subtitle: "El Plan del Área Comunitaria South es un plan a largo plazo para el futuro. ¡Gracias por tomarse el tiempo de leer sobre cómo se desarrollará el plan y cómo puede participar!"
+  subtitle: null
 style:
   header: true
   id:

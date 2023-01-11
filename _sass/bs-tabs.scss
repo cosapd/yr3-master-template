@@ -56,3 +56,26 @@
   }
 
 }
+
+.link-list-tabs {
+  margin: 0;
+  .nav-tabs .nav-link {
+    border: none;
+    p {margin-bottom: 0;}
+  }
+}
+.link-list-tabs.tab-content {
+  .tab-pane {
+    background: #fff;
+    padding: 5px 10px;
+  }
+} 
+.link-card {
+  .card {
+    padding: 10px 20px;
+    background: #F2F2F0;
+  }
+}
+#esptab {
+  background: #fff;
+}

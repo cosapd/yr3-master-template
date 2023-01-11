@@ -1,11 +1,13 @@
-<div class="col-12 col-md-6" style="margin-bottom: 20px">
+<div class="link-card col-12 col-md-6" style="margin-top: 5px; margin-bottom: 10px">
   <div class="card card-list-item">
     <div class="row">
       <div class="col-12 d-flex {% if item.optional_date %}justify-content-between{% else %}justify-content-end{% endif %}">
-        {% if item.optional_date %}
-        <p style="margin-bottom: 0px">{{ item.optional_date }}</p>
-        {% endif %}
-        <p>{{item.category}}</p>
+        <small>
+          {% if item.optional_date %}
+          <p style="margin-bottom: 0px">{{ item.optional_date }}</p>
+          {% endif %}</small>
+          <small> <p><em>{{item.category}}</em></p>
+        </small>
       </div>
       
       {% if item.title %}
@@ -15,17 +17,20 @@
       {% endif %}
       {% if item.type == 'document' %}
       <div class="doc-icons col-3">
-        <!-- doc icons -->
-          {% if item.document_path %}<a href="{{ item.document_path }}">{% endif %}
-            <img style="max-width: 80px; margin: 0 auto;" src="/img/icons/doc-icon.png"/>
-          {% if item.document_path %}</a>{% endif %}
-      </div>
+          <!-- doc icons -->
+            {% if item.document_path %}<a href="{{ item.document_path }}">{% endif %}
+              <img style="max-width: 80px; margin: 0 auto;" src="/img/icons/doc-icon.png"/>
+            {% if item.document_path %}</a>{% endif %}
+        </div>
       {% endif %}
-      <div class="{% if item.type == 'document' %}col-9 text-left{% else %}text-center col-12{% endif %}">
+
+      <div class="{% if item.type == 'document' %}col-9 text-left{% else %}text-center col-12{% endif %} mb-3">
         <!-- doc summaries and links -->
-        {% if item.text_content %}<p class="text-left" style="text-align: left !important;">{{ item.text_content }}</p>{% endif %}
-        {% if item.document_title %}
-        <h4 style="margin-bottom: 0px">{{ item.document_title }}</h4>
+        {% if item.text_content %}<p class="text-left" style="padding: 0 10px; text-align: left !important;">{{ item.text_content }}</p>{% endif %}
+        {% if item.document_path %}
+          {% if item.document_title %}
+          <h4 style="margin-bottom: 0px">{{ item.document_title }}</h4>
+          {% endif %} 
         {% endif %}
         {% if item.link_url %}
           <a href="{{item.link_url}}" target="_blank">
@@ -42,6 +47,7 @@
         {% endif %}
 
       </div>
+      
     </div><!--end inside row -->
   </div>
 </div><!--end columns row -->
